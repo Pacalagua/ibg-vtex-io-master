@@ -1,0 +1,9 @@
+.input-newsletter{
+    display: flex;
+    padding: 0;
+}
+
+:global(.vtex-dropdown__container) {
+    font-family: 'NN Forever Grotesk STD';
+    font-size: 14px;
+}

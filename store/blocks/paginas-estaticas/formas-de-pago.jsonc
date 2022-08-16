@@ -1,0 +1,232 @@
+{
+    "store.custom#formas-de-pago": {
+        "blocks": [
+            "rich-text#title-formas-de-pago",
+            "rich-text#medios-de-pago-titulo",
+            "rich-text#medios-de-pago-texto",
+            "rich-text#practipago-img",
+            "rich-text#pagos-tarjeta-titulo",
+            "rich-text#pagos-tarjeta-texto",
+            "flex-layout.row#imagenes-pago-tarjetas",
+            "rich-text#tarjetas-texto",
+            "rich-text#tarjeta-deboito-titulo",
+            "rich-text#tarjetas-debito-flecha",
+            "rich-text#tarjetas-debito-img",
+            "rich-text#tarjeta-deboito-texto",
+            "rich-text#pagos-efectivo-titulo",
+            "flex-layout.row#imagenes-pago-efectivo",
+            "rich-text#pagos-en-efectivo-texto"
+        ]
+    },
+    "rich-text#title-formas-de-pago": {
+        "props": {
+            "text": "## Formas de pago",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#medios-de-pago-titulo": {
+        "props": {
+            "text": "**NUESTROS MEDIOS DE PAGO PARA OBLIGACIONES DE PAGOS PERIÓDICOS:**",
+            "blockClass": "title-gray"
+        }
+    },
+    "rich-text#medios-de-pago-texto": {
+        "props": {
+            "text": "Estimado cliente, pensando en su bienestar y velando por que su obligación no genere mora, tiene a su disposición varios medios de pago que puede hacer en efecty desde cualquier parte del país.",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#practipago-img": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "![Practi Pago](assets/images/Imagen1.jpg)",
+            "blockClass": "imagen-practi-pago"
+        }
+    },
+    "rich-text#pagos-tarjeta-titulo": {
+        "props": {
+            "text": "**NUESTROS MEDIOS DE PAGO ONLINE PARA COMPRAS DE PAGO ÚNICO:**",
+            "blockClass": "title-gray"
+        }
+    },
+    "rich-text#pagos-tarjeta-texto": {
+        "props": {
+            "text": "PAGOS CON TARJETAS DE CRÉDITO:",
+            "blockClass": "title-blue"
+        }
+    },
+    "flex-layout.row#imagenes-pago-tarjetas": {
+        "props": {
+            "blockClass": "imgs-estatica-tarjetas"
+            /* "marginTop": 3 */
+        },
+        "children": [
+            "image#mastercard",
+            "image#visa",
+            "image#american-express",
+            "image#diners-club"
+        ]
+    },
+    "image#mastercard": {
+        "props": {
+            "src": "assets/images/Imagen2.jpg"
+        }
+    },
+    "image#visa": {
+        "props": {
+            "src": "assets/images/Imagen3.jpg"
+        }
+    },
+    "image#american-express": {
+        "props": {
+            "src": "assets/images/Imagen4.jpg"
+        }
+    },
+    "image#diners-club": {
+        "props": {
+            "src": "assets/images/Imagen5.jpg"
+        }
+    },
+    /* "list-context.image-list#tarjetas-img": {
+        "children": [
+            "slider-layout#tarjetas-img-images"
+        ],
+        "props": {
+            "blockClass": "imagen-tyc",
+            "images": [
+                {
+                    "image": "assets/images/Imagen2.jpg",
+                    "description": "MasterCard"
+                },
+                {
+                    "image": "assets/images/Imagen3.jpg",
+                    "description": "Visa"
+                },
+                {
+                    "image": "assets/images/Imagen4.jpg",
+                    "description": "American Express"
+                },
+                {
+                    "image": "assets/images/Imagen5.jpg",
+                    "description": "Diners Club"
+                }
+            ]
+        }
+    },
+    "slider-layout#tarjetas-img-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 4,
+                "phone": 2
+            },
+            "infinite": true
+        }
+    }, */
+    "rich-text#tarjetas-texto": {
+        "props": {
+            "text": "Aceptamos tu tarjeta de crédito para que puedas realizar tus compras, Mastercard, Visa, American Express y Diners International emitidas en Colombia o en el extranjero. Si las tarjetas son extranjeras estas están sujetas a las políticas de cada entidad financiera para el pago en cuotas y modalidad en que estos son diferidas.",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#tarjeta-deboito-titulo": {
+        "props": {
+            "text": "PAGOS PSE, TARJETAS DÉBITO:",
+            "blockClass": "title-blue"
+        }
+    },
+    "rich-text#tarjetas-debito-flecha": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "![Practi Pago](assets/images/Imagen7.jpg)",
+            "blockClass": "imagen-tyc"
+        }
+    },
+    "rich-text#tarjetas-debito-img": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "![Practi Pago](assets/images/Imagen6.jpg)",
+            "blockClass": "imagen-tyc"
+        }
+    },
+    "rich-text#tarjeta-deboito-texto": {
+        "props": {
+            "text": "Para que realices tus compras, aceptamos todo tipo de tarjeta débito siempre y cuando esta pertenezca al grupo PSE. Recuerda que para poder efectuar tu compra con una tarjeta débito, debes tener la segunda clave de la misma. Si no tienes esta segunda clave, debes comunicarte con la entidad financiera correspondiente para obtenerla.",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#pagos-efectivo-titulo": {
+        "props": {
+            "text": "PAGOS EN EFECTIVO Y CONSIGNACIÓN BANCARIA:",
+            "blockClass": "title-blue"
+        }
+    },
+    "flex-layout.row#imagenes-pago-efectivo": {
+        "props": {
+            "blockClass": "imgs-estatica"
+            /* "marginTop": 3 */
+        },
+        "children": [
+            "image#efecty",
+            "image#separador",
+            "image#davivienda"
+        ]
+    },
+    "image#efecty": {
+        "props": {
+            "src": "assets/images/Imagen8.jpg"
+        }
+    },
+    "image#separador": {
+        "props": {
+            "src": "assets/images/Imagen10.jpg"
+        }
+    },
+    "image#davivienda": {
+        "props": {
+            "src": "assets/images/Imagen9.jpg"
+        }
+    },
+    /* "list-context.image-list#pagos-en-efectivo": {
+        "children": [
+            "slider-layout#pagos-en-efectivo-imgs"
+        ],
+        "props": {
+            "width": "100%",
+            "images": [
+                {
+                    "image": "assets/images/Imagen8.jpg",
+                    "description": "Efecty"
+                },
+                {
+                    "image": "assets/images/Imagen10.jpg",
+                    "description": "separador"
+                },
+                {
+                    "image": "assets/images/Imagen9.jpg",
+                    "description": "DAVIVIENDA"
+                }
+            ]
+        }
+    },
+    "slider-layout#pagos-en-efectivo-imgs": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 3
+            },
+            "infinite": true,
+            "blockClass": "medios-de-pago"
+        }
+    }, */
+    "rich-text#pagos-en-efectivo-texto": {
+        "props": {
+            "text": "Si no tienes tarjeta Débito o crédito puedes realizar el pago de tu orden en una sucursal Efecty. Encuentra tu punto efecty más cercano.",
+            "blockClass": "text-info"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.productHighlightWrapper--collection {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  width: 200px;
+}
+
+.productHighlightText {
+  /* font-size: 0!important; */
+  font-family: 'NN Forever Grotesk STD';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: #e57200;
+  top: 20px;
+  position: relative;
+  border-radius: 20px;
+  padding: 5px 10px;
+  left: -2%;
+}
+@media (max-width: 680px){
+  .productHighlightText {
+    font-family: 'NN Forever Grotesk STD';
+    left: -5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    background: #e57200;
+    top: 2.5em;
+    position: relative;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+}

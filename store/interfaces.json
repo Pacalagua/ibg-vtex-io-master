@@ -1,0 +1,29 @@
+{
+  "WrapperShelf": {
+    "component": "WrapperShelf",
+    "composition": "children"
+  },
+  "SharePDP": {
+    "component": "SharePDP",
+    "composition": "children"
+  },
+  "BancoBogotaPDP": {
+    "component": "BancoBogotaPDP",
+    "allowed": "*"
+  },
+  
+  "AddiCol": {
+    "component": "AddiCol",
+    "composition": "children"
+  },
+  "TercerPrecio":{
+    "component":"TercerPrecio",
+    "allowed":"*"
+  },
+  "DiscountCategory":{
+    "component":"DiscountCategory",
+    "allowed":"*",
+    "composition": "children",
+    "render": "client"
+  }
+}

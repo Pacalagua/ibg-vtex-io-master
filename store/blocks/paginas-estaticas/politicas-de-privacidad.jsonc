@@ -1,0 +1,20 @@
+{
+    "store.custom#politicas-de-privacidad": {
+        "blocks": [
+            "rich-text#title-politicas-de-privacidad",
+            "rich-text#politicas-de-privacidad"
+        ]
+    },
+    "rich-text#title-politicas-de-privacidad": {
+        "props": {
+            "text": "## Políticas de privacidad",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#politicas-de-privacidad": {
+        "props": {
+            "text":"**POLÍTICA DE PRIVACIDAD**\n\nEn IBG sabemos que sus datos personales son importantes por lo que, lo invitamos a que conozca los siguientes términos de privacidad y seguridad:\n\nComo parte del proceso de compra con IBG tienda en línea y **&quot;solicitud de préstamo con nuestro aliado Promodescuentos S.A.S.&quot;** , es requerida la entrega de sus datos personales para ser incorporada en la base de datos de la empresa con el fin de (i) Contactarlo y continuar con el trámite de solicitud de venta iniciado; (ii) Consultar en cualquier tiempo, en las centrales de riesgo, toda la información relevante para conocer su desempeño como deudor y capacidad de pago; (iii) Enviar información sobre actividades desarrolladas por la entidad sus filiales o subsidiarias; (iv) Enviar información que se considere de interés a través de diversos medios; (v) Realizar actividades de mercadeo y publicidad de servicios propios de la entidad o sus filiales o subsidiarias; (vi) Compartirla con terceros que colaboran con la entidad y que para el cumplimiento de sus funciones deben acceder en alguna medida a la información; (vii) Realizar gestiones de conocimiento al cliente y verificación o actualización de información a través de cualquier medio; (viii) Dar cumplimiento a las obligaciones legales de información a los entes administrativos.\n\nDe acuerdo con la legislación colombiana vigente, los titulares de los datos personales, sus representantes legales o sus causahabientes tienen derecho a conocer, actualizar y rectificar sus datos personales frente a los Responsables del Tratamiento o Encargados del Tratamiento, así como a acceder en forma gratuita a los datos personales que hayan sido objeto de Tratamiento una vez al mes o cada vez que existan modificaciones sustanciales a la política de privacidad que motiven nuevas consultas.\n\nPara el ejercicio de estos derechos IBG le informa que podrá contactarse por medio del correo electrónico: asesorweb@ibg.com.co, comunicándose al teléfono 018000960960, o por medio escrito dirigido a la Calle 20 N°14-56 en la ciudad de Armenia, Colombia.\n\n**POLÍTICA DE PRIVACIDAD GENERAL**\n\nTus datos se mantendrán bajo estricta confidencialidad.\n\nEsta política de privacidad (la &quot;Política&quot;) aplica para los usuarios del sitio web www.ibg.com.co (el &quot;Sitio&quot;). Lea atentamente esta Política ya que al hacer uso del Sitio usted está aceptando sus términos.",
+            "blockClass": "tyc"
+        }
+    }
+}

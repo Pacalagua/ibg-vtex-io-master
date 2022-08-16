@@ -1,0 +1,61 @@
+/* .vtex-slider-layout-0-x-sliderTrack--shelf */
+
+:global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
+  font-family: 'NN Forever Grotesk STD';
+  background-color: #FFFFFF;
+    border-color: #122d80;
+    border: 1px solid #122d80;
+    text-transform: uppercase;
+    color: #122d80;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+}
+
+:global(.vtex-product-summary-2-x-element) :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 15px 5px !important;
+}
+
+:global(.vtex-product-summary-2-x-element) :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-family: 'NN Forever Grotesk STD';
+  font-size: 13px;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+:global(.vtex-product-summary-2-x-element) :global(.vtex-button):hover {
+  font-family: 'NN Forever Grotesk STD';
+  background-color: #122d80;
+  border: 1px solid #122d80;
+  color: #FFFFFF;
+  font-size: 12px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+
+}
+
+:global(.vtex-product-summary-2-x-element) :global(.vtex-button):active {
+  font-family: 'NN Forever Grotesk STD';
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+  color: #FFFFFF;
+  font-size: 13px;
+}
+
+:global(.vtex-search-result-3-x-gallery) .buttonText {
+  font-family: 'NN Forever Grotesk STD';
+  font-size: 11px !important;
+}
+
+
+/* @media screen and (max-width:1300px) {
+  :global(.vtex-product-summary-2-x-element) .buttonText {
+    font-size: 11px !important;
+  }
+} */
+@media (max-width: 768px) {
+  :global(.vtex-product-summary-2-x-element) :global(.vtex-button) {
+    width: 100%;
+  }
+}

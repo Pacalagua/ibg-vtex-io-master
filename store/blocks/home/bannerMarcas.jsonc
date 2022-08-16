@@ -1,0 +1,78 @@
+{
+  "list-context.image-list#bannersMarcas": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/nevera.png",
+          "alt": "NEVERAS",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"NEVERAS" */
+          }
+        },
+        {
+          "image": "assets/images/televisor.png",
+          "alt": "TV",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"TELEVISORES" */
+          }
+        },
+        {
+          "image": "assets/images/sofa.png",
+          "alt": "SOFAS",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"SOFÁS" */
+          }
+        },
+        {
+          "image": "assets/images/comedor.png",
+          "alt": "COMEDORES",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"COMEDORES" */
+          }
+        },
+        {
+          "image": "assets/images/celular.png",
+          "alt": "CELULARES",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"CELULARES" */
+          }
+        },
+        {
+          "image": "assets/images/nevera.png",
+          "alt": "NEVERAS",
+          "link": {
+            "url": "/"
+            /* "attributeTitle":"NEVERAS" */
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#marcas-img"
+    ]
+  },
+  "slider-layout#marcas-img": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "store.custom#fondo-de-empleados": {
+        "blocks": [
+            "rich-text#title-fondo-de-empleados",
+            "rich-text#fondo-de-empleados"
+        ]
+    },
+    "rich-text#title-fondo-de-empleados": {
+        "props": {
+            "text": "## Fondo de empleados",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#fondo-de-empleados": {
+        "props": {
+            "text":"**Fondo de empleados**\n\nEl fondo de empleados IBG, es una empresa privada sin ánimo de lucro, perteneciente al sector de la economía solidaria, fundada el 17 de octubre de 2000, cuya misión y visión van encaminadas a mejorar la calidad de vida de sus asociados y su familia, promoviendo el compañerismo, la autogestión; fomentando el ahorro y prestando diversos servicios con calidad, igualmente posee un portafolio de servicios como:\n\n- Ahorro para el futuro, como principal servicio que ofrece el fondo. Para lo cual puede elegir una cuota de ahorro mensual entre el 3% y el 10% del salario (descuento por nómina), con revalorización anual del aporte.\n\n- Crédito de consumo a bajas tasas de interés.\n\n- Derecho a participar en la elección de sus diferentes organismos administrativos y de control.\n\n- Derecho a solicitar auxilios económicos (auxilio por defunción, tratamiento especializado, calamidad doméstica, incapacidad, educación).\n\n- Seguro de vida hasta por $8.000.000 totalmente gratis.\n\n- Convenios con diferentes entidades.\n\nhttps://fondoibg.com/",
+            "blockClass": "tyc"
+        }
+    }
+}

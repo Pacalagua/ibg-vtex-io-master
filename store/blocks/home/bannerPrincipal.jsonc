@@ -1,0 +1,38 @@
+{
+  "list-context.image-list#bannerPrincipal": {
+    "children": ["slider-layout#bannerPrincipal-images"],
+    "props": {
+      "height": 720,
+      "images": [{
+          "image": "assets/images/banner-desktop-home-0804.png",
+          "mobileImage": "assets/images/banner-mobile-home-0804.png"
+        },
+        {
+          "image": "assets/images/banner-desktop-home-0804.png",
+          "mobileImage": "assets/images/banner-mobile-home-0804.png"
+        }
+        // ,
+        // {
+        //   "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+        //   "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        // }
+      ]
+    }
+  },
+  "slider-layout#bannerPrincipal-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2800,
+        "stopOnHover": true
+      },
+      "infinite": true,
+      // "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-home"
+    }
+  }
+}

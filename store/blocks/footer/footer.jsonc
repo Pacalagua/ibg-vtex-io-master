@@ -1,0 +1,675 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#newsletter",
+      "flex-layout.row#footer-0-desktop",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#newsletter-mobile": {
+    "children": [
+      "flex-layout.col#subscribe-text",
+      "flex-layout.col#newsletter",
+      "flex-layout.col#social-media"
+    ],
+    "props": {
+      "blockClass": "container-newsletter-mobile"
+    }
+  },
+  "flex-layout.row#info-mobile": {
+    "props": {
+      "blockClass": "info-mobile"
+    },
+    "children": [
+      "flex-layout.col#info"
+    ]
+  },
+  "flex-layout.col#info": {
+    "children": [
+      "disclosure-layout-group#info"
+    ],
+    "props": {
+      "blockClass": "info"
+    }
+  },
+  "disclosure-layout-group#info": {
+    "children": [
+      "disclosure-layout#contact",
+      "disclosure-layout#notificacion",
+      "disclosure-layout#legal",
+      "disclosure-layout#ubica-tienda",
+      "disclosure-layout#medios-pago"
+    ]
+  },
+  "disclosure-layout#notificacion": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#notificacion",
+      "disclosure-content#notificacion"
+    ]
+  },
+  "disclosure-trigger#notificacion": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-contact-notificacion",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#notificacion": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "flex-layout.row#info-text-notificaciones"
+    ]
+  },
+  "rich-text#title-contact-notificacion": {
+    "props": {
+      "text": "Contacto notificaciones"
+    }
+  },
+  //
+  "disclosure-layout#contact": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#contact",
+      "disclosure-content#contact"
+    ]
+  },
+  "disclosure-trigger#contact": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-contact",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#contact": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "flex-layout.row#info-text"
+    ]
+  },
+  "rich-text#title-contact": {
+    "props": {
+      "text": "Contacto ventas"
+    }
+  },
+  "disclosure-layout#legal": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#legal",
+      "disclosure-content#legal"
+    ]
+  },
+  "disclosure-trigger#legal": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-legal",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#legal": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "flex-layout.row#legal"
+    ]
+  },
+  "rich-text#title-legal": {
+    "props": {
+      "text": "¿Quiénes somos?"
+    }
+  },
+  "disclosure-layout#ubica-tienda": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#ubica-tienda",
+      "disclosure-content#ubica-tienda"
+    ]
+  },
+  "disclosure-trigger#ubica-tienda": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-ubica-tienda",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#ubica-tienda": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "menu-item#politicas-de-garantia",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#politicas-de-privacidad",
+      "menu-item#servicio-tecnico",
+      "menu-item#preguntas-frecuentes",
+      "menu-item#tyc-promos",
+      "menu-item#formas-de-pago",
+      "menu-item#pqrs",
+      "menu-item#sic"
+    ]
+  },
+  "rich-text#title-ubica-tienda": {
+    "props": {
+      "text": "Servicios al cliente"
+    }
+  },
+  "disclosure-layout#medios-pago": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#medios-pago",
+      "disclosure-content#medios-pago"
+    ]
+  },
+  "disclosure-trigger#medios-pago": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-medios-pago",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#medios-pago": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "image#medios-pag"
+    ]
+  },
+  "image#medios-pag": {
+    "props": {
+      "src": "assets/images/footer/footer-ibg-mobile2.svg",
+      "blockClass": "answer-img"
+      // "maxHeight": 24
+    }
+  },
+  "rich-text#title-medios-pago": {
+    "props": {
+      "text": "Medios de pago"
+    }
+  },
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#subscribe-text",
+      "flex-layout.col#newsletter",
+      "flex-layout.col#social-media"
+    ],
+    "props": {
+      "blockClass": "container-newsletter"
+    }
+  },
+  "flex-layout.col#newsletter": {
+    "children": [
+      "newsletter-form#contact"
+    ],
+    "props": {
+      "blockClass": "container-col-newsletter"
+    }
+  },
+  "newsletter-form#contact": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Ingresa tu correo"
+      // "inputLabel": "Suscríbete para recibir promociones y descuentos especiales todos los días."
+      // "classes": "input-newsletter"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Suscribirme"
+    }
+  },
+  "flex-layout.col#subscribe-text": {
+    "props": {
+      "blockClass": "subscribe-text-col"
+    },
+    "children": [
+      "rich-text#subscribe"
+    ]
+  },
+  "flex-layout.col#social-media": {
+    "props": {
+      "blockClass": "social-media",
+      "width": "100%"
+    },
+    "children": [
+      "rich-text#social-title",
+      "flex-layout.col#redes"
+    ]
+  },
+  "rich-text#social-title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "#### SÍGUENOS",
+      // "font": "t-heading-4",
+      "blockClass": "contact-title"
+    }
+  },
+  "flex-layout.col#redes": {
+    "props": {
+      "blockClass": "wrapper__redes"
+    },
+    "children": [
+      "image#imageFacebook",
+      "image#imageInstagram",
+      "image#imageWhatsapp",
+      "image#imageYoutube"
+    ]
+  },
+  "image#imageFacebook": {
+    "props": {
+      "src": "assets/images/icons/fb.png",
+      "link": {
+        "url": "https://www.facebook.com/HogaresIBG",
+        "newTab": true
+      },
+      "blockClass": "redes-sociales-fb",
+      "target": "_blank"
+    }
+  },
+  "image#imageInstagram": {
+    "props": {
+      "src": "assets/images/icons/ig.png",
+      "link": {
+        "url": "https://www.instagram.com/hogaresibg/",
+        "newTab": true
+      },
+      "blockClass": "redes-sociales-in",
+      "target": "_blank"
+    }
+  },
+  "image#imageYoutube": {
+    "props": {
+      "src": "assets/images/icons/Yt.png",
+      "link": {
+        "url": "https://www.youtube.com/user/HogaresIBG",
+        "newTab": true
+      },
+      "blockClass": "redes-sociales-yt",
+      "target": "_blank"
+    }
+  },
+  "image#imageWhatsapp": {
+    "props": {
+      "src": "assets/images/icons/wa.png",
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=573173729437",
+        "newTab": true
+      },
+      "blockClass": "redes-sociales-wp",
+      "target": "_blank"
+    }
+  },
+  "rich-text#subscribe": {
+    "props": {
+      "blockClass": "text-subscribe",
+      "text": "**Suscríbete** para recibir promociones y descuentos especiales todos los días."
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "Al suscribirme acepto términos y condiciones."
+    }
+  },
+  "flex-layout.row#footer-0-desktop": {
+    "children": [
+      "flex-layout.col#menu-col1",
+      "flex-layout.col#menu-col2",
+      "flex-layout.col#menu-col3",
+      "flex-layout.col#menu-col4"
+    ],
+    "props": {
+      "blockClass": "container-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.row#footer-0-desktop-mobile": {
+    "children": [
+      "flex-layout.col#menu-col3",
+      // "flex-layout.col#menu-col2",
+      "flex-layout.row#menu-col1-mobile"
+    ],
+    "props": {
+      "blockClass": "container-footer",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#menu-col1": {
+    "children": [
+      "image#logoFooter"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "blockClass": "logoFooter"
+    }
+  },
+  "flex-layout.row#menu-col1-mobile": {
+    "children": [
+      "image#logoFooter-mobile"
+    ],
+    "props": {
+      "textAlignment": "center",
+      "blockClass": "logoFooter-mobile"
+    }
+  },
+  "image#logoFooter": {
+    "props": {
+      "src": "assets/images/logo-footer.svg",
+      "link": "/",
+      "blockClass": "logoFooter-mobile"
+    }
+  },
+  "image#logoFooter-mobile": {
+    "props": {
+      "src": "assets/images/logo-footer.svg",
+      "link": "/"
+    }
+  },
+  "flex-layout.col#menu-col2": {
+    "children": [
+      "vtex.menu@2.x:menu#Contacto"
+    ],
+    "props": {
+      "blockClass": "menu-col-foosid"
+    }
+  },
+  "flex-layout.col#menu-col3": {
+    "children": [
+      "vtex.menu@2.x:menu#Servicio"
+    ]
+  },
+  "flex-layout.col#menu-col4": {
+    "children": [
+      "vtex.menu@2.x:menu#ubicacion-tiendas"
+    ]
+  },
+  // "flex-layout.col#menu-col5": {
+  //   "children": [
+  //     "vtex.menu@2.x:menu#contacto-notificacion"
+  //   ]
+  // },
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "flex-layout.col#foote-medios1",
+      "flex-layout.col#foote-medios2",
+      // "flex-layout.col#foote-medios3",
+      "flex-layout.col#foote-medios4",
+      "flex-layout.col#foote-medios5",
+      "flex-layout.col#foote-medios6",
+      "flex-layout.col#foote-medios7",
+      "flex-layout.col#foote-medios8"
+    ],
+    "props": {
+      "blockClass": "mediosDePago",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#foote-medios1": {
+    "children": [
+      "rich-text#mediosPago"
+    ],
+    "props": {
+      "width": "15%"
+    }
+  },
+  "rich-text#mediosPago": {
+    "props": {
+      "text": "Medios de pago",
+      "blockClass": "title-medios-footer"
+    }
+  },
+  "flex-layout.col#foote-medios2": {
+    "children": [
+      "image#imagePagos"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "imagePagos"
+    }
+  },
+  "image#imagePagos": {
+    "props": {
+      "src": "assets/images/footer/footer-ibg-escritorio2.svg",
+      "link": {
+        "url": "https://co.addi.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.col#foote-medios3": {
+    "props": {
+      "blockClass": "imagenSegEncr"
+    },
+    "children": [
+      "image#imageSeguridad"
+    ]
+  },
+  "image#imageSeguridad": {
+    "props": {
+      "src": "assets/images/footer/psi_svg.svg",
+      "link": "#"
+    }
+  },
+  "flex-layout.col#foote-medios4": {
+    "props": {
+      "blockClass": "imagenSegEncr",
+      "width": "50%"
+    },
+    "children": [
+      "image#letsEncrypt"
+    ]
+  },
+  "image#letsEncrypt": {
+    "props": {
+      "src": "assets/images/footer/psi_svg.svg",
+      "link": "#"
+    }
+  },
+  "flex-layout.col#foote-medios5": {
+    "children": [
+      "rich-text#tecnologia"
+    ],
+    "props": {
+      "blockClass": "tecnologia"
+    }
+  },
+  "flex-layout.col#foote-medios6": {
+    "props": {
+      "blockClass": "imgTecnologia"
+    },
+    "children": [
+      "image#imgTecnologia"
+    ]
+  },
+  "flex-layout.col#foote-medios7": {
+    "children": [
+      "rich-text#derechos"
+    ],
+    "props": {
+      "blockClass": "tecnologia"
+    }
+  },
+  "flex-layout.col#foote-medios8": {
+    "children": [
+      "image#imgDerechos"
+    ]
+  },
+  "rich-text#tecnologia": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tecnología",
+      "blockClass": "tecnologia-text"
+    }
+  },
+  "rich-text#derechos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Desarrollado por:",
+      "blockClass": "derechos-text"
+    }
+  },
+  "image#imgDerechos": {
+    "props": {
+      "src": "assets/images/titamedia.svg",
+      "width": "109px",
+      "link": {
+        "url": "https://titamedia.com/",
+        "openNewTab": true
+      }
+    }
+  },
+  "image#imgTecnologia": {
+    "props": {
+      "src": "assets/images/vtex.svg",
+      "width": "50px",
+      "link": {
+        "url": "https://vtex.com/co-es/",
+        "openNewTab": true
+      }
+    }
+  },
+  "flex-layout.row#footer-vtex-mobile": {
+    "props": {
+      "blockClass": "TitaFooter",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#footer-tita-mobile-content"
+    ]
+  },
+  "flex-layout.row#footer-tita-mobile-content": {
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "blockClass": "content--footer-mobile"
+    },
+    "children": [
+      "rich-text#tecnologia-tita-footer-mobile",
+      "rich-text#tecnologia-vtex-footer-mobile"
+    ]
+  },
+  "rich-text#tecnologia-vtex": {
+    "props": {
+      "text": "Tecnología",
+      "blockClass": "tecnologia-vtex-mobile"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "rich-text#desarrollado"
+    ],
+    "props": {
+      "blockClass": "container-bottom",
+      "paddingTop": 6,
+      "paddingBottom": 3,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#desarrollado": {
+    "props": {
+      "text": "© 2021  IBG. Todos los derechos reservados.",
+      "blockClass": "copyRFooter"
+    }
+  },
+  "rich-text#tecnologia-tita-footer-mobile": {
+    "props": {
+      "text": "Tecnología: \n[![vtex](assets/images/vtex.svg)](https://vtex.com/co-es/?target=_blank)",
+      "blockClass": "tecnologia-vtex-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "rich-text#tecnologia-vtex-footer-mobile": {
+    "props": {
+      "text": "Desarrollado por: [![vtex](assets/images/titamedia.svg)](https://titamedia.com/?target=_blank)",
+      "blockClass": "tecnologia-vtex-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.col#foote-medios5",
+      "flex-layout.row#newsletter-mobile",
+      "flex-layout.row#info-mobile",
+      "flex-layout.row#menu-col1-mobile",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#footer-vtex-mobile"
+    ]
+  },
+  "rich-text#newsletterForm": {
+    "props": {
+      "text": "**Suscríbete** para recibir promociones y descuentos especiales todos los días.",
+      "blockClass": "textNewsletterForm"
+    }
+  }
+  // "newsletter-form": {
+  //     "children": [
+  //         // "rich-text#subscribe",
+  //         "rich-text#subscribe",
+  //         "newsletter-input-email",
+  //         "newsletter-submit",
+  //         "newsletter-checkbox-confirmation"
+  //     ]
+  // },
+  // "newsletter-submit": {
+  //     "props": {
+  //         "submitButtonLabel": "Suscríbirme"
+  //     }
+  // },
+  // "newsletter-input-email": {
+  //     "props": {
+  //         "placeholderText": "Ingresa tu correo"
+  //         // "inputLabel": "**Suscríbete** para recibir información de las marcas y promociones especiales."
+  //     }
+  // },
+}

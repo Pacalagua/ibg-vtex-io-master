@@ -1,0 +1,20 @@
+{
+    "store.custom#mision-y-vision": {
+        "blocks": [
+            "rich-text#title-mision-y-vision",
+            "rich-text#mision-y-vision"
+        ]
+    },
+    "rich-text#title-mision-y-vision": {
+        "props": {
+            "text": "## Misión, Visión",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#mision-y-vision": {
+        "props": {
+            "text":"**Misión.**\n\nMejorar la calidad de vida de las familias colombianas, mediante la producción y comercialización de la más variada línea de productos para el hogar, especializados en marca propia, generando valor a los asociados comerciales, laborales y accionistas.\n\n**Visión.**\n\nPara el año 2020, pretendemos ser líderes a nivel nacional en la producción y comercialización de muebles para el hogar, tecnología de consumo y electrodomésticos, generando valor a los asociados comerciales, laborales y accionistas.",
+            "blockClass": "tyc"
+        }
+    }
+}

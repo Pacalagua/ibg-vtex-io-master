@@ -1,0 +1,68 @@
+{
+    "store.custom#politica-de-calidad": {
+        "blocks": [
+            "rich-text#titulo-politica-de-calidad",
+            "rich-text#definicion-politica-de-calidad",
+            "flex-layout.row#cert-proceso-produccion",
+            "rich-text#contexto-madera-legal",
+            "flex-layout.row#img-madera-legal"
+        ]
+    },
+    "rich-text#titulo-politica-de-calidad": {
+        "props": {
+            "blockClass": "title_tyc",
+            "text": "Política de Calidad"
+        }
+    },
+    "rich-text#definicion-politica-de-calidad": {
+        "props": {
+            "blockClass": "tyc",
+            "text": "Promover la mejora continua a través de un proceso sistemático en la producción y comercialización de muebles para el hogar y electrodomésticos, mediante procesos eficientes, en condiciones de trabajo seguras para un talento humano idóneo y capacitado, con diversas alternativas de pago, que contribuyan a alcanzar la satisfacción del cliente."
+        }
+    },
+    "flex-layout.row#cert-proceso-produccion": {
+        "props": {
+            "blockClass": "etica"
+        },
+        "children": [
+            "rich-text#cert-proceso-produccion",
+            "image#logo-iconteq-iqnet"
+        ]
+    },
+    "rich-text#cert-proceso-produccion": {
+        "props": {
+            "blockClass": "texto-c",
+            "text": "El proceso de producción de muebles de **Iván Botero Gómez S.A.** se encuentra certificado bajo la **NTC ISO 9001 de 2015** \"Sistema de Gestión de Calidad\""
+        }
+    },
+    "image#logo-iconteq-iqnet": {
+        "props": {
+            "src": "assets/images/logo-icontec-iqnet.svg"
+        }
+    },
+    "rich-text#contexto-madera-legal": {
+        "props": {
+            "blockClass": "tyc",
+            "text": "#### **Madera con Calidad**\n\n Usamos materias primas de la más alta calidad que cuentan con certificaciones internacionales y provienen de proveedores certificados. Elaboramos nuestros productos con maderas de procedencia legal extraídas de bosques reforestados."
+        }
+    },
+    "flex-layout.row#img-madera-legal": {
+        "props": {
+            "blockClass": "etica"
+        },
+        "children": [
+            "image#foto-proceso-produccion",
+            "image#logo-madera-responsable"
+        ]
+    },
+    "image#foto-proceso-produccion": {
+        "props": {
+            "src": "assets/images/foto-proceso-produccion.svg"
+        }
+    },
+    "image#logo-madera-responsable": {
+        "props": {
+            "src": "assets/images/logo-madera-responsable.svg"
+        }
+    }
+}

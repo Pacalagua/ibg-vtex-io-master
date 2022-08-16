@@ -1,0 +1,369 @@
+.submenuWrapper--isOpen {
+  /* background: #ffffff; */
+  /* padding: 5px 0; */
+  left: 10px;
+}
+.styledLinkContainer--top-hader-menu-entregas,
+.styledLinkContainer--top-hader-menu-tiendas {
+  padding: 7px 0;
+}
+
+.styledLinkContent--top-hader-menu-entregas {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.styledLinkContent--top-hader-menu-tiendas {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* .menuContainerNav--main-menu {
+  min-width: 125em;
+  justify-content: space-evenly;
+} */
+
+.menuContainer--main-menu .styledLinkContainer {
+  position: relative;
+  padding: 10px 0;
+  margin: 0 3em;
+}
+
+.menuContainerNav--main-menu .styledLink {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000;
+  /* text-transform: lowercase; */
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  transition: all 0.35s ease;
+}
+/* .vtex-menu-2-x-styledLinkContent::first-letter{
+  
+  color: red !important;
+} */
+
+/* .menuContainerNav--main-menu .styledLinkContent::after {
+  height: 4px;
+  position: absolute;
+  content: "";
+  transition: all .35s ease;
+  background-color: #122d80;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+} */
+
+/* Hover menú departamento por cambio de clases*/
+.menuContainerNav--main-menu .menuItem--isOpen:hover {
+  /* transition: all 0.01s ease; */
+  cursor: pointer;
+}
+
+.menuContainerNav--main-menu .menuItem--isOpen:hover .styledLinkContent {
+  color: #122d80;
+  transition: 0.1s all ease-out;
+}
+/* .menuContainerNav--main-menu .menuItem--isOpen .styledLink .styledLinkContent {
+  color: #ffffff; 
+} */
+/*Fin hover menú*/
+/* Hover menú categoría por cambio de clases*/
+.submenuWrapper--isOpen .styledLink .styledLinkContent {
+  color: #4a4a4a !important;
+}
+.menuContainerNav--main-submenu .menuItem--isOpen .styledLink .styledLinkContent {
+  font-family: "NN Forever Grotesk STD";
+}
+.menuContainerNav--main-submenu .menuItem--isOpen .styledLink .styledLinkContent {
+  color: #122d80 !important;
+  transition: all 0.35s ease;
+}
+/*Fin hover menú*/
+/* Hover menú sub-categoría por cambio de clases*/
+.menuContainerNav--main-submenu .menuItem--isOpen:hover {
+  cursor: pointer;
+  border-radius: 10px;
+}
+/*Fin hover menú*/
+/* Hover Ofertas por cambio de clases*/
+
+.menuItem--menu-item-ofertas .styledLinkContent--menu-item-ofertas {
+  color: #fdfdfd;
+}
+.menuItem--menu-item-ofertas:hover .styledLinkContent--menu-item-ofertas {
+  color: rgb(236, 236, 236) !important;
+}
+
+.menuItem--menu-item-ofertas :global(.vtex-menu-2-x-styledLinkContainer--menu-item-ofertas) {
+  padding: 3px 20px;
+  background-color: rgb(216, 114, 67);
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
+/* .menuItem--menu-item-ofertas--isOpen:hover {
+  transition: all 0.35s ease;
+  background-color: #122d80 !important;
+  color: #FFFFFF;
+} */
+/*Fin hover Ofertas*/
+/* Hover Practipagos por cambio de clases*/
+.menuItem--menu-item-practipagos {
+  background-color: #ffffff;
+}
+.menuItem--menu-item-practipagos .styledLinkContent--menu-item-practipagos {
+  color: #e57200;
+}
+/* .menuItem--menu-item-practipagos--isOpen:hover {
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  background-color: #00859B !important;
+  color: #FFFFFF;
+} */
+/*Fin hover Practipagos*/
+
+.menuContainerNav--main-submenu .menuItem--isClosed .styledLink .styledLinkContent {
+  color: #4a4a4a !important;
+  transition: all 0.35s ease;
+}
+
+/* .menuContainerNav--main-menu .styledLink:active,
+.menuContainerNav--main-menu .styledLink:focus,
+.menuContainerNav--main-menu .styledLink:hover {
+  color: #122d80;
+} */
+
+.menuContainerNav--main-menu .styledLinkContent:hover::after {
+  width: 100%;
+}
+
+.menuContainerNav--main-submenu {
+  position: relative;
+}
+
+.menuContainer--main-submenu {
+  display: grid;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.submenuWrapper.submenuWrapper--isOpen {
+  height: auto;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  border-radius: 0 0 10px 10px;
+  border-color: #ffffff;
+  transition: all 0.3s ease 0s;
+  background: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+.submenuContainer {
+  transition: all 0.3s ease 0s;
+}
+
+.submenuWrapper.submenuWrapper--isOpen .menuContainerNav--main-submenu .styledLinkContainer {
+  position: relative;
+  padding: 2px 0;
+  height: 28px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  z-index: 0;
+  margin-right: 4.5rem;
+  width: 50%;
+}
+
+.submenuWrapper--main-submenu--isOpen {
+  left: 100%;
+  top: -46px;
+  border-radius: 0 10px 10px 10px !important;
+}
+
+.submenuWrapper--main-submenu--isOpen .styledLinkContainer {
+  padding: 2px 2px 2px 0 !important;
+  margin-right: 2.5rem !important;
+}
+
+/* @media screen and (max-width: 1450px) {
+
+  .submenuWrapper.submenuWrapper--isOpen .menuContainerNav--main-submenu .styledLinkContainer {
+    padding: 2px 26px;
+  }
+} */
+
+/* .menuItem--isOpen .menuContainerNav--main-menu .styledLink::after {
+    height: 4px;
+    position: absolute;
+    content: "";
+    transition: all .35s ease;
+    background-color: #122d80;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+}
+
+.menuContainerNav--main-menu .menuItem--isOpen .styledLink{
+    color: #122d80;
+} */
+
+/* Footer */
+
+.menuContainer--menu-footer .styledLinkContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.menuContainer--menu-footer .styledLinkContent {
+  font-family: "NN Forever Grotesk STD";
+  color: #fff;
+  /* text-transform: uppercase; */
+  font-size: 15px;
+  font-weight: 400;
+  margin: 8px 0 0 0;
+}
+
+.menuContainer--menu-footer .styledLinkContent:hover {
+  color: #f2cd00;
+}
+
+.menuItem--redes-sociales {
+  margin-top: 5px;
+}
+.menuItem--menu-footer {
+  list-style: none !important;
+}
+
+/* END Footer */
+@media screen and (max-width: 700px) {
+  :global(.vtex-store-drawer-0-x-drawer) {
+    background: #ffffff;
+  }
+
+  .styledLinkContainer {
+    padding: 10px;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent) .menuItem .styledLinkContainer {
+    padding: 6px 0px;
+    margin: 0;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent) :global(.vtex-store-components-3-x-imageElement--answer-img) {
+    margin: auto;
+    display: flex;
+  }
+
+  .accordionIcon--isOpen {
+    color: #122d80;
+  }
+
+  .accordionIcon--isClosed,
+  .styledLinkContainer .styledLinkContent {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+  }
+
+  .styledLinkContainer--menu-footer .styledLinkContent {
+    font-family: "NN Forever Grotesk STD";
+    color: #ffffff;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+  }
+
+  /* Menu */
+  .menuContainer {
+    display: block;
+  }
+
+  .menuContainerNav {
+    width: 100%;
+  }
+
+  .menuItem--isOpen .menuItemInnerDiv .styledLinkContainer .styledLinkContent {
+    color: #122d80;
+  }
+
+  .menuItem--isOpen .menuItemInnerDiv .styledLinkContainer::after {
+    font-family: "NN Forever Grotesk STD";
+    content: "";
+    background-color: #122d80;
+    font-size: 10px;
+    display: flex;
+    width: 100%;
+    height: 1px;
+  }
+
+  .menuItem .menuItemInnerDiv .styledLinkContainer .styledLink {
+    font-family: "NN Forever Grotesk STD";
+    font-size: 16px;
+    /* text-transform: uppercase; */
+  }
+
+  /* Menu end */
+  /* sub-menu */
+  .submenuAccordion .menuItem .menuItemInnerDiv .styledLinkContainer .styledLinkContent {
+    color: #000000;
+  }
+
+  .submenuAccordion .menuItem--isOpen .menuItemInnerDiv .styledLinkContainer .styledLinkContent {
+    color: #122d80;
+  }
+
+  /* .menuItem--isClosed:hover {
+    color: aqua;
+    background-color: aqua;
+  } */
+
+  .submenuAccordion .menuItem .menuItemInnerDiv .styledLinkContainer::after {
+    font-family: "NN Forever Grotesk STD";
+    content: "";
+    background-color: #122d80;
+    font-size: 10px;
+    display: flex;
+    width: 100%;
+    height: 0px;
+  }
+
+  .submenuAccordion .menuItem--isOpen .menuItemInnerDiv .styledLinkContainer::after {
+    font-family: "NN Forever Grotesk STD";
+    content: "";
+    background-color: #122d80;
+    font-size: 10px;
+    display: flex;
+    width: 100%;
+    height: 1px;
+  }
+
+  /*   .submenuAccordion
+    .menuItem
+    .menuItemInnerDiv
+    .styledLinkContainer
+    .styledLink {
+    text-transform: capitalize;
+  } */
+
+  /* sub-menu end */
+
+  /* sub-menu content */
+
+  .submenuAccordion--accordion-main-submenu .menuItem .styledLinkContainer .styledLinkContent {
+    font-family: "NN Forever Grotesk STD";
+    /* text-transform: capitalize; */
+    font-size: 16px;
+  }
+
+  /* sub-menu content end */
+}

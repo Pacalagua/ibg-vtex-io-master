@@ -1,0 +1,47 @@
+{
+  "store.custom#quienes-somos": {
+    
+    "blocks": ["flex-layout.row#about-us"]
+  },
+
+  "flex-layout.row#about-us": {
+    "props": {
+      "blockClass": "container",
+      "fullWidth": false,
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#col-about-us"
+    ]
+  },
+
+
+  "breadcrumb#about-us": {
+    "props": {
+      "showOnMobile": true,
+      "categories": ["¿Quiénes somos? /"],
+      "blockClass": "miga-pan"
+    }
+
+  },
+
+  "flex-layout.col#col-about-us": {
+    "props": {
+      "blockClass": "col-about-us",
+      "fullWidth": false,
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "breadcrumb#about-us",
+      "rich-text#1-contenido-about-us"
+    ]
+  },
+  "rich-text#1-contenido-about-us": {
+    "props": {
+      "text": "### ¿Quiénes somos? \n\n  Con casi 25 años de experiencia, somos una compañía familiar colombiana que ha venido transformando el mercado de la belleza nacional e internacional, trabajando fuertemente por la democratización de los productos que nuestra competencia hacía inalcanzable. \n\n Nos hemos especializado en productos de maquillaje para rostro, ojos, labios y uñas, fabricando en nuestras instalaciones, ubicadas en la ciudad de Medellín, el 91% de nuestro portafolio activo. \n\n Desde la concepción del producto, en SAMY trabajamos por el desarrollo de cosméticos de gran calidad afines a las tendencias mundiales, con formulaciones, empaques y diseños que sean muy aspiracionales dentro de nuestro mercado objetivo. Buscamos además, que nuestros esfuerzos se transformen en liderazgo, siendo esta la visión que nos obliga a ser dinámicos con nuestros lanzamientos.  \n\n uestra estrategia comercial se enfoca en las ventas en el canal retail, con una alta concentración en las tiendas especializadas en belleza. Nos inspiran las consumidoras en constante evolución, aquellas que consumen productos que les permiten estar a la moda, arriesgadas con las tendencias, que buscan opciones con estilo y buen gusto, pero sin excesos.  \n\n ueremos hacer de SAMY, a través de ellas, una marca global deseada por el desarrollo de su portafolio; buscando inspirarlas con nuestra propuesta de color, formulaciones y empaques. ",
+      "blockClass": "1-contenido-about-us"
+    }
+  }
+}

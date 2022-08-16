@@ -1,0 +1,53 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#faq": {
+    "path": "/faq"
+  },
+  "store.custom#contact-us": {
+    "path": "/contact-us"
+  },
+  "my-account-link.wishlist-link": {
+    "path": "/account/#/wishlist"
+  },
+  "store.custom#nuestra-empresa": {
+    "path": "/nuestra-empresa"
+  },
+  "store.custom#fondo-de-empleados": {
+    "path": "/fondo-de-empleados"
+  },
+  "store.custom#mision-y-vision": {
+    "path": "/mision-y-vision"
+  },
+  "store.custom#politicas-de-garantia":{
+    "path": "/politicas-de-garantia"
+  },
+  "store.custom#terminos-y-condiciones":{
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#politicas-de-privacidad":{
+    "path": "/politicas-de-privacidad"
+  },
+  "store.custom#servicio-tecnico":{
+    "path": "/servicio-tecnico"
+  },
+  "store.custom#preguntas-frecuentes":{
+    "path": "/preguntas-frecuentes"
+  },
+  "store.custom#tyc-promos":{
+    "path": "/tyc-promos"
+  },
+  "store.custom#formas-de-pago":{
+    "path": "/formas-de-pago"
+  },
+  "store.custom#ofertas": {
+    "path": "/ofertas"
+  },
+  "store.custom#transparencia-y-etica": {
+    "path": "/transparencia-y-etica"
+  },
+  "store.custom#politica-de-calidad": {
+    "path": "/politica-de-calidad"
+  }
+}

@@ -1,0 +1,4 @@
+.menuLinks :global(.flex div:nth-child(5)) {
+    /* Autenticación*/
+    display: none;
+}

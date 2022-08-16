@@ -1,0 +1,272 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main"
+      //"flex-layout.row#description",
+      // "flex-layout.row#specifications-title"
+      // "shelf.relatedProducts"
+      // "product-reviews",
+      // "product-questions-and-answers"
+    ]
+  },
+  "responsive-layout.desktop#especificacionespdp": {
+    "children": [
+      "disclosure-layout#simple"
+    ]
+  },
+  "disclosure-layout#simple": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#simple",
+      "disclosure-content#simple"
+    ]
+  },
+  "disclosure-trigger#simple": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#question",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#simple": {
+    "props": {
+      "blockClass": "answer-pdp"
+    },
+    "children": [
+      "product-specification-group#table"
+    ]
+  },
+  "rich-text#question": {
+    "props": {
+      "text": "Especificaciones Técnicas"
+    }
+  },
+  "responsive-layout.mobile#especificacionespdp": {
+    "children": [
+      "product-specification-group#table"
+    ]
+  },
+  "flex-layout.row#specifications-title": {
+    "children": [
+      "rich-text#specifications"
+    ]
+  },
+  "rich-text#specifications": {
+    "props": {
+      "text": "##### Product Specifications"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": [
+      "product-description"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "container"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
+  },
+  "product-price-savings#summaryPercentagePdp": {
+    "props": {
+      "message": "- {savingsPercentage}",
+      "blockClass": "pdpFlag"
+    }
+  },
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+  "flex-layout.col#stack": {
+    "children": [
+      "flex-layout.row#stack-layout",
+      "flex-layout.row#especificaciones"
+    ],
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "stack"
+    }
+  },
+  "flex-layout.row#product-image": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "blockClass": "product-image",
+      "thumbnailAspectRatio": "5:4",
+      "thumbnailMaxHeight": "600px",
+      "maxHeight": "600px",
+      "zoomMode": "in-place-hover",
+      "zoomFactor": 2,
+      "arrowSize": 20,
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.row#stack-layout": {
+    "props": {},
+    "children": [
+      "stack-layout"
+    ]
+  },
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      // "product-bookmark",
+      // "product-specification-badges"
+      "flex-layout.row#add-to-list",
+      "flex-layout.row#bookmark",
+      "product-specification-badges",
+      // aquiii pdp
+      "flex-layout.col#category-discount"
+      // "product-price-savings#summaryPercentagePdp"
+    ]
+  },
+
+  "flex-layout.col#category-discount": {
+    "props": {
+      "blockClass": "DiscountCategory"
+    },
+    // "blockClass": "pdpFlag",
+    "children": [
+      "DiscountCategory"
+    ]
+  },
+
+  "flex-layout.row#add-to-list": {
+    "children": [
+      "add-to-list-btn#add-to-list"
+    ]
+  },
+  "flex-layout.row#bookmark": {
+    "children": [
+      "product-bookmark"
+    ]
+  },
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "right-col"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-rating-summary",
+      // "flex-layout.row#list-price-savings",
+      "flex-layout.col#product-price-pdp",
+      // "product-installments",
+      "product-separator",
+      "product-identifier.product",
+      "sku-selector",
+      "product-quantity",
+      "SharePDP#default",
+      "flex-layout.row#description",
+      "product-assembly-options",
+      "product-gifts",
+      "flex-layout.row#buy-button",
+      "AddiCol",
+      "BancoBogotaPDP",
+      "availability-subscriber", // TODO QUITAR
+      // "shipping-simulator", // TODO QUITAR
+      // "share#default"
+      "responsive-layout.mobile#especificacionespdp"
+    ]
+  },
+  "flex-layout.row#especificaciones": {
+    "props": {},
+    "children": [
+      "flex-layout.col#especificaciones"
+    ]
+  },
+  "flex-layout.col#especificaciones": {
+    "children": [
+      "responsive-layout.desktop#especificacionespdp"
+    ]
+  },
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "vtex.store-components:product-name"
+    ]
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999,
+      "showLabel": false,
+      "blockClass": "productBuyButton"
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      // "showValueNameForImageVariation": true,
+      "maxItems": "200",
+      "displayMode": "select"
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+  "SharePDP#default": {
+    "children": [
+      "share#default"
+    ]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false /* ,
+        "Pinterest": true */
+      }
+    }
+  }
+}

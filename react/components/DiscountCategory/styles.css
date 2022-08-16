@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    border-top: 1px solid black;
+}
+.CategoryDiscount-plp {
+    width: 100px;
+    height: 100px;
+    background: black;
+}  
+
+.CategoryDiscountPLP {
+    color: #000000;
+    background: #f2cd00;
+    padding: 5px 10px;
+    border-radius: 13.5px;
+    font-family: "NN Forever Grotesk STD";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    z-index: 9;
+}
+
+.CategoryDiscount {
+    color: #000000;
+    background: #f2cd00;
+    padding: 5px 10px;
+    border-radius: 13.5px;
+    font-family: "NN Forever Grotesk STD";
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 12px; */
+    line-height: 18px;
+    z-index: 9;
+
+    top: 15px;
+    font-size: 15px;
+    position: absolute;
+    left: 26%;
+    transform: scale(1.5);
+}
+  

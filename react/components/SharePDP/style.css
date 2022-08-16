@@ -1,0 +1,13 @@
+/* .sharepdp circle{
+    fill: #000 !important;
+} */
+
+.sharepdp button circle{
+    fill: #b7b7b7 !important;
+}
+.sharepdp button:hover circle{
+    fill: #F2CD00 !important;
+}
+/* .sharepdp .vtex-store-components-3-x-shareSocialButton:hover{
+    opacity: 1;
+} */

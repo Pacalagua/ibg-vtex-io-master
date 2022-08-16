@@ -1,0 +1,209 @@
+{
+    "store.custom#servicio-tecnico": {
+        "blocks": [
+            "rich-text#title-servicio-tecnico",
+            "flex-layout.row#fila-de-servicios1",
+            "flex-layout.row#fila-de-servicios2"/* ,
+            "flex-layout.row#empresas-text",
+            "flex-layout.row#empresas-imgs2",
+            "flex-layout.row#empresas-text2" */
+        ]
+    },
+    "flex-layout.row#fila-de-servicios1": {
+        "children": [
+            "flex-layout.col#hp",
+            "flex-layout.col#ibg",
+            "flex-layout.col#lg",
+            "flex-layout.col#samsung"
+        ],
+        "props":{
+            "blockClass":"fila-de-servicios"
+        }
+    },
+    "flex-layout.col#hp":{
+        "children": [
+            "image#servicio-hp",
+            "rich-text#number-hp"
+        ]
+    },
+    "flex-layout.col#ibg":{
+        "children": [
+            "image#servicio-ibg",
+            "rich-text#number-ibg"
+        ]
+    },
+    "flex-layout.col#lg":{
+        "children": [
+            "image#servicio-lg",
+            "rich-text#number-lg"
+        ]
+    },
+    "flex-layout.col#samsung":{
+        "children": [
+            "image#servicio-samsung",
+            "rich-text#number-samsung"
+        ]
+    },
+    "flex-layout.row#fila-de-servicios2": {
+        "children": [
+            
+            "flex-layout.col#challenger",
+            "flex-layout.col#haceb",
+            "flex-layout.col#lenovo"
+        ],
+        "props":{
+            "blockClass":"fila-de-servicios"
+        }
+    },
+    "flex-layout.col#challenger":{
+        "children": [
+            "image#servicio-challenger",
+            "rich-text#number-challenger"
+        ]
+    },
+    "flex-layout.col#haceb":{
+        "children": [
+            "image#servicio-haceb",
+            "rich-text#number-haceb"
+        ]
+    },
+    "flex-layout.col#lenovo":{
+        "children": [
+            "image#servicio-lenovo",
+            "rich-text#number-lenovo"
+        ]
+    },
+    /* "flex-layout.row#empresas-text":{
+        "children":[
+            "rich-text#number-hp",
+            "rich-text#number-ibg",
+            "rich-text#number-lg",
+            "rich-text#number-samsung"
+        ]
+    },
+    "flex-layout.row#empresas-imgs2":{
+        "children":[
+            "image#servicio-challenger",
+            "image#servicio-haceb",
+            "image#servicio-lenovo"
+        ]
+    },
+    "flex-layout.row#empresas-text2":{
+        "children":[
+            "rich-text#number-challenger",
+            "rich-text#number-haceb",
+            "rich-text#number-lenovo"
+        ]
+    }, */
+    "rich-text#title-servicio-tecnico": {
+        "props": {
+            "text": "## Servicio técnico",
+            "blockClass": "title_tyc"
+        }
+    },
+    "image#servicio-hp": {
+        "title": "01800 518 4842",
+        "props": {
+            "src": "assets/images/hp.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-hp": {
+        "props": {
+            "text": "01800 518 4842",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-ibg": {
+        "props": {
+            "title": "018000 960960",
+            "src": "assets/images/ibg-servicio.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-ibg": {
+        "props": {
+            "text": "018000 960960",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-lg": {
+        "props": {
+            "title": "018000 910 683",
+            "src": "assets/images/lg.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-lg": {
+        "props": {
+            "text": "018000 910 683",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-samsung": {
+        "props": {
+            "title": "018000 112 782",
+            "src": "assets/images/samsung-servicio.jpg",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-samsung": {
+        "props": {
+            "text": "018000 112 782",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-challenger": {
+        "props": {
+            "title": "018000 111 966",
+            "src": "assets/images/challenger.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-challenger": {
+        "props": {
+            "text": "018000 111 966",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-haceb": {
+        "props": {
+            "title": "018000 511 000",
+            "src": "assets/images/haceb.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-haceb": {
+        "props": {
+            "text": "018000 511 000",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-lenovo": {
+        "props": {
+            "title": "01800 917 0541",
+            "src": "assets/images/lenovo.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-lenovo": {
+        "props": {
+            "text": "01800 917 0541",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    }
+}

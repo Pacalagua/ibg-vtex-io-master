@@ -1,0 +1,20 @@
+{
+    "store.custom#tyc-promos": {
+        "blocks": [
+            "rich-text#title-tyc-promos",
+            "rich-text#tyc-promos"
+        ]
+    },
+    "rich-text#title-tyc-promos": {
+        "props": {
+            "text": "## Términos y condiciones en promociones online",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#tyc-promos": {
+        "props": {
+            "text":"**LAS SIGUIENTES CONDICIONES Y RESTRICCIONES APLICAN EN TODAS LAS ACTIVIDADES Y CAMPAÑAS ONLINE DE IBG.COM.CO**\n\n1. Los descuentos se hacen efectivos al momento que se registra y aprueba la compra.\n\n2. Los descuentos aplican para compras de pago único y por cualquier medio descrito [AQUÍ](/formas-de-pago)\n\n3. Las ofertas aplican hasta el último día de la oferta enunciada en cada promoción y hasta las 23:59 horas.\n\n4. Los descuentos de cada actividad no son acumulables con otras ofertas y/o promociones.\n\n5. El límite de compra por cliente y por referencia es de una (1) unidad de compra máxima.\n\n6. Las imágenes en la tienda virtual son de referencia y están sujetas a cambios de presentación por parte del proveedor/fabricante sin previo aviso.\n\n7. Los precios ofrecidos en la tienda virtual ibg.com.co son diferentes a los de los puntos de venta física (sucursales).\n\n8. El servicio de entrega por las compras a través de la tienda virtual no tendrán un costo adicional cuando el municipio y el departamento se encuentren dentro de la cobertura de entrega sin costo, el cual será verificado durante el proceso de compra.\n\n9. El único responsable de la actividad es IBG IVÁN BOTERO GÓMEZ S.A por lo cual no maneja intermediarios ni asesores de terceras personas.\n\n",
+            "blockClass": "tyc"
+        }
+    }
+}

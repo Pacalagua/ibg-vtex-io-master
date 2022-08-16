@@ -1,0 +1,106 @@
+.trigger--question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+.trigger--question-pdp {
+  color: #122d80;
+  border: solid 0.1px #b3b3b3;
+  width: 100%;
+  border-radius: 20px;
+  padding: 0 0 0 30px;
+  box-shadow: 0px 8px 15px rgb(0 0 0 / 10%);
+  background: #e6e6e6;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+}
+.trigger--question :global(.vtex-rich-text-0-x-paragraph) {
+  /* font-weight: bold; */
+  color: #f2cd00;
+  font-family: "NN Forever Grotesk STD";
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+.trigger--question-pdp :global(.vtex-rich-text-0-x-paragraph) {
+  color: #161616;
+  font-family: "NN Forever Grotesk STD";
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+/* .trigger--question:focus,
+  .trigger--question:focus :global(.vtex-rich-text-0-x-paragraph) {
+    color: #f2cd00;
+      font-family: 'NN Forever Grotesk STD';
+      letter-spacing: 1.5px;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+  } */
+
+.trigger :global(.vtex-store-icons-0-x-caretIcon) {
+  padding: 5px;
+    background: #122d80;
+    margin-right: 1rem;
+    color: #f2cd00;
+    border-radius: 25px;
+}
+/* .trigger:focus :global(.vtex-store-icons-0-x-caretIcon) {
+  color: #122d80;
+} */
+
+.trigger--visible :global(.vtex-rich-text-0-x-container),
+.trigger--question--hidden :global(.vtex-rich-text-0-x-container) {
+  width: 90%;
+}
+.trigger--visible :global(.vtex-rich-text-0-x-container),
+.trigger--question-pdp--hidden :global(.vtex-rich-text-0-x-container) {
+  width: 90% !important;
+}
+
+.content--answer {
+  transition: opacity 250ms ease-in-out, height 250ms ease-in-out, transform 250ms ease-in-out;
+  opacity: 0;
+  height: 0;
+  transform: translate3d(0, -10%, 0);
+}
+.content--answer-pdp {
+  transition: opacity 250ms ease-in-out, height 250ms ease-in-out, transform 250ms ease-in-out;
+  opacity: 0;
+  height: 0;
+  transform: translate3d(0, -10%, 0);
+}
+
+.content--answer[data-enter] {
+  opacity: 1;
+  height: fit-content;
+  height: -moz-fit-content;
+  transform: translate3d(0, 0, 0);
+}
+.content--answer-pdp[data-enter] {
+  opacity: 1;
+  height: fit-content;
+  height: -moz-fit-content;
+  transform: translate3d(0, 0, 0);
+}
+
+.content--answer[data-leave] {
+  height: 0;
+  overflow: hidden;
+}
+.content--answer-pdp[data-leave] {
+  height: 0;
+  overflow: hidden;
+}

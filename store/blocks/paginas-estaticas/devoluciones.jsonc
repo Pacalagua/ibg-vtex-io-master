@@ -1,0 +1,122 @@
+{
+  "store.custom#devoluciones": {
+    "blocks": [
+      "flex-layout.row#devoluciones"
+    ]
+  },
+
+
+  "flex-layout.row#devoluciones": {
+    "props": {
+      "blockClass": "container",
+      "fullWidth": false,
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#col-content-devoluciones"
+    ]
+  },
+
+
+  "breadcrumb#tiendas": {
+    "props": {
+      "showOnMobile": true,
+      "categories" : ["Devoluciones /"],
+      "blockClass": "miga-pan"
+    }
+   
+  },
+
+  "flex-layout.col#col-content-devoluciones": {
+    "props": {
+      "blockClass": "col-content-devoluciones",
+      "fullWidth": false,
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "breadcrumb#tiendas",
+      "rich-text#1-contenido-devoluciones",
+      "flex-layout.col#despacho"
+    ]
+  },
+
+  "flex-layout.col#despacho": {
+    "props": {
+      "blockClass": "col-content-despacho",
+      "fullWidth": false,
+      "width": "100%",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "rich-text#title",
+      "rich-text#compra",
+      "rich-text#envio",
+      "rich-text#pantalla",
+      "rich-text#estado"
+    ]
+  },
+
+  "rich-text#1-contenido-devoluciones": {
+    "props": {
+      "text": "### Políticas de cambios y devoluciones \n Una experiencia positiva en la compra es nuestra mejor recompensa y por eso te invitamos a tener presente las siguientes recomendaciones \n 1. El pedido será entregado por la transportadora TCC con la respectiva factura y remesa; te recomendamos revisar muy bien el producto cuando llegue y, en caso de identificar algún problema en su embalaje, proceder a devolverlo inmediatamente detallando en las observaciones el motivo de la devolución . \n 2. Si luego de recibido el pedido quieres devolver algún producto de acuerdo a la ley de retracto (conforme al artículo 58 de la Ley 1480 de 2011), este deberá estar en perfectas condiciones, tanto en su empaque como en la etiqueta, y deberá contar con todas sus partes y/o accesorios completos, no tener abolladuras, rayones, roturas, manchas, falla de su funcionamiento, para poder así verificar que no presenta ninguna señal de uso. También debes tener presente que, como la devolución no procede por un error logístico ni de calidad del producto, debes asumir el costo del envío y realizarlo en un plazo máximo de 5 días hábiles después de recibido y de inmediato comunicarte con nosotros a través de nuestras líneas de atención para indicarte el paso a seguir. \n 3. Los productos que presenten avería por mala manipulación no tendrán cambio ni se hará la devolución del dinero. \n 4. Si después de abierto el producto se identifica alguna situación anormal con su desempeño, color o aplicación, deberá comunicarse con nuestra línea de atención para revisar el caso y tendrá 5 días hábiles para realizar la devolución. Una vez validada la causa, se definirá con el cliente si se envía un producto nuevo o si se realiza la devolución del dinero.",
+      "blockClass": "content",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#home1": {
+    "props": {
+      "text": "# My title h1 \n Insert a paragraph here \n ## My title h2 \n Insert the second paragraph here \n Include a list here \n - Item 1 \n - Item 2 \n - Item3",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT"
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "#### Políticas de despacho",
+      "blockClass": "title-landing",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+
+  "rich-text#compra": {
+    "props": {
+      "text": "321 255 1297 Nuestros tiempos de entrega son: 6 a 10 días en ciudades principales e intermedias y de 10 a 12 días en ciudades apartadas.",
+      "blockClass": "compra",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#envio": {
+    "props": {
+      "text": "Recuerda, el envío es gratis a partir de $70.000 para toda Colombia",
+      "blockClass": "envio",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#pantalla": {
+    "props": {
+      "text": "Recuerda q los colores pueden verse diferentes según la resolución de la pantalla y la calibración de cada dispositivo",
+      "blockClass": "pantalla",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  },
+  "rich-text#estado": {
+    "props": {
+      "text": "Verifica con el transportador el estado de tu pedido en el momento de entrega",
+      "blockClass": "estado",
+      "fullWidth": true,
+      "width": "100%"
+    }
+  }
+
+
+
+
+
+}
