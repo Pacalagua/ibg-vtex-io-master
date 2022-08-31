@@ -44,10 +44,16 @@
   "store.custom#ofertas": {
     "path": "/ofertas"
   },
+  "store.custom#combos": {
+    "path": "/combos"
+  },
   "store.custom#transparencia-y-etica": {
     "path": "/transparencia-y-etica"
   },
   "store.custom#politica-de-calidad": {
     "path": "/politica-de-calidad"
+  },
+  "store.custom#sucursales-y-tiendas": {
+    "path": "/sucursales-y-tiendas"
   }
 }

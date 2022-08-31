@@ -32,7 +32,7 @@
     "rich-text#cert-proceso-produccion": {
         "props": {
             "blockClass": "texto-c",
-            "text": "El proceso de producción de muebles de **Iván Botero Gómez S.A.** se encuentra certificado bajo la **NTC ISO 9001 de 2015** \"Sistema de Gestión de Calidad\""
+            "text": "El proceso de diseño y producción de muebles en madera línea hogar de **Iván Botero Gómez S.A.** se encuentra certificado bajo la **NTC-ISO 9001 de 2015** \"Sistema de Gestión de Calidad\""
         }
     },
     "image#logo-iconteq-iqnet": {
@@ -62,7 +62,11 @@
     },
     "image#logo-madera-responsable": {
         "props": {
-            "src": "assets/images/logo-madera-responsable.svg"
+            "src": "assets/images/logo-madera-responsable.svg",
+            "link": {
+                "newTab": "true",
+                "url": "https://elijamaderalegal.com/"
+            }
         }
     }
 }

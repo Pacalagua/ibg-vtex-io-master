@@ -1,0 +1,609 @@
+{
+  "store.custom#sucursales-y-tiendas": {
+    "blocks": [
+      "rich-text#titulo-sucursales-y-tiendas",
+      "rich-text#titulo-nuevas-tiendas",
+      "flex-layout.row#lista-nuevas-tiendas",
+      "rich-text#como-llegar-nuevas-tiendas",
+      "flex-layout.row#mapa-de-tiendas",
+      "rich-text#titulo-sucursales",
+      "rich-text#titulo-eje-cafetero",
+      "flex-layout.row#lista-eje-cafetero",
+      "rich-text#titulo-sur-occidente",
+      "flex-layout.row#lista-sur-occidente",
+      "rich-text#titulo-centro-andina",
+      "flex-layout.row#lista-centro-andina",
+      "rich-text#titulo-centro-oriente",
+      "flex-layout.row#lista-centro-oriente"
+    ]
+  },
+  "rich-text#titulo-sucursales-y-tiendas": {
+    "props": {
+      "blockClass": "title_tyc",
+      "text": "### **Conoce nuestras sucursales y puntos de venta**"
+    }
+  },
+  // Slider Nuevas Tiendas
+  "rich-text#titulo-nuevas-tiendas": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **Nuevas Tiendas**"
+    }
+  },
+  "flex-layout.row#lista-nuevas-tiendas": {
+    "props": {
+      "blockClass": "etica",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#lista-nuevas-tiendas"
+    ]
+  },
+  "list-context.image-list#lista-nuevas-tiendas": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/agencia-ibg-bucaramanga-v2.jpg",
+          "alt": "agencia-ibg-bucaramanga",
+          "link": {
+            "attributeTitle": "agencia-ibg-bucaramanga",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-moniquira.jpg",
+          "alt": "punto-ibg-moniquira",
+          "link": {
+            "attributeTitle": "punto-ibg-moniquira",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-sabana-de-torres.jpg",
+          "alt": "punto-ibg-sabana-de-torres",
+          "link": {
+            "attributeTitle": "punto-ibg-sabana-de-torres",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-melgar.jpg",
+          "alt": "punto-ibg-melgar",
+          "link": {
+            "attributeTitle": "punto-ibg-melgar",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-filandia.jpg",
+          "alt": "punto-ibg-filandia",
+          "link": {
+            "attributeTitle": "punto-ibg-filandia",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-la-union.jpg",
+          "alt": "punto-ibg-la-union",
+          "link": {
+            "attributeTitle": "punto-ibg-la-union",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-el-bordo.jpg",
+          "alt": "punto-ibg-el-bordo",
+          "link": {
+            "attributeTitle": "punto-ibg-el-bordo",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-mariquita.jpg",
+          "alt": "punto-ibg-mariquita",
+          "link": {
+            "attributeTitle": "punto-ibg-mariquita",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-neira.jpg",
+          "alt": "punto-ibg-neira",
+          "link": {
+            "attributeTitle": "punto-ibg-neira",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-sibundoy.jpg",
+          "alt": "punto-ibg-sibundoy",
+          "link": {
+            "attributeTitle": "punto-ibg-sibundoy",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/punto-ibg-tesalia.jpg",
+          "alt": "punto-ibg-tesalia",
+          "link": {
+            "attributeTitle": "punto-ibg-tesalia",
+            "url": ""
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#lista-nuevas-tiendas"
+    ]
+  },
+  "slider-layout#lista-nuevas-tiendas": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  },
+  // Slider Nuevas Tiendas Fin
+  "rich-text#titulo-sucursales": {
+    "props": {
+      "blockClass": "title_tyc",
+      "text": "\n ### **Sucursales IBG**"
+    }
+  },
+  // Slider Eje Cafetero
+  "rich-text#titulo-eje-cafetero": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **Eje Cafetero**"
+    }
+  },
+  "flex-layout.row#lista-eje-cafetero": {
+    "props": {
+      "blockClass": "etica",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#lista-eje-cafetero"
+    ]
+  },
+  "list-context.image-list#lista-eje-cafetero": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/agencia-ibg-armenia.jpg",
+          "alt": "agencia-ibg-armenia",
+          "link": {
+            "attributeTitle": "agencia-ibg-armenia",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-pereira.jpg",
+          "alt": "agencia-ibg-pereira",
+          "link": {
+            "attributeTitle": "agencia-ibg-pereira",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-manizales-1.jpg",
+          "alt": "agencia-ibg-manizales-1",
+          "link": {
+            "attributeTitle": "agencia-ibg-manizales-1",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-manizales-2.jpg",
+          "alt": "agencia-ibg-manizales-2",
+          "link": {
+            "attributeTitle": "agencia-ibg-manizales-2",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-chinchina.jpg",
+          "alt": "agencia-ibg-chinchina",
+          "link": {
+            "attributeTitle": "agencia-ibg-chinchina",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-cartago.jpg",
+          "alt": "agencia-ibg-cartago",
+          "link": {
+            "attributeTitle": "agencia-ibg-cartago",
+            "url": ""
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#lista-eje-cafetero"
+    ]
+  },
+  "slider-layout#lista-eje-cafetero": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  },
+  // Slider Eje Cafetero Fin
+  // Slider Sur Occidente
+  "rich-text#titulo-sur-occidente": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **Sur Occidente**"
+    }
+  },
+  "flex-layout.row#lista-sur-occidente": {
+    "props": {
+      "blockClass": "etica",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#lista-sur-occidente"
+    ]
+  },
+  "list-context.image-list#lista-sur-occidente": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/agencia-ibg-cali.jpg",
+          "alt": "agencia-ibg-cali",
+          "link": {
+            "attributeTitle": "agencia-ibg-cali",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-popayan.jpg",
+          "alt": "agencia-ibg-popayan",
+          "link": {
+            "attributeTitle": "agencia-ibg-popayan",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-pasto.jpg",
+          "alt": "agencia-ibg-pasto",
+          "link": {
+            "attributeTitle": "agencia-ibg-pasto",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-santander-de-quilichao.jpg",
+          "alt": "agencia-ibg-santander-de-quilichao",
+          "link": {
+            "attributeTitle": "agencia-ibg-santander-de-quilichao",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-palmira.jpg",
+          "alt": "agencia-ibg-palmira",
+          "link": {
+            "attributeTitle": "agencia-ibg-palmira",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-puerto-tejada.jpg",
+          "alt": "agencia-ibg-puerto-tejada",
+          "link": {
+            "attributeTitle": "agencia-ibg-puerto-tejada",
+            "url": ""
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#lista-sur-occidente"
+    ]
+  },
+  "slider-layout#lista-sur-occidente": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  },
+  // Slider Sur Occidente Fin
+  // Slider Centro Andina
+  "rich-text#titulo-centro-andina": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **Centro Andina**"
+    }
+  },
+  "flex-layout.row#lista-centro-andina": {
+    "props": {
+      "blockClass": "etica",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#lista-centro-andina"
+    ]
+  },
+  "list-context.image-list#lista-centro-andina": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/agencia-ibg-neiva.jpg",
+          "alt": "agencia-ibg-neiva",
+          "link": {
+            "attributeTitle": "agencia-ibg-neiva",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-ibague.jpg",
+          "alt": "agencia-ibg-ibague",
+          "link": {
+            "attributeTitle": "agencia-ibg-ibague",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-florencia.jpg",
+          "alt": "agencia-ibg-florencia",
+          "link": {
+            "attributeTitle": "agencia-ibg-florencia",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-girardot.jpg",
+          "alt": "agencia-ibg-girardot",
+          "link": {
+            "attributeTitle": "agencia-ibg-girardot",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-mocoa.jpg",
+          "alt": "agencia-ibg-mocoa",
+          "link": {
+            "attributeTitle": "agencia-ibg-mocoa",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-pitalito.jpg",
+          "alt": "agencia-ibg-pitalito",
+          "link": {
+            "attributeTitle": "agencia-ibg-pitalito",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-espinal.jpg",
+          "alt": "agencia-ibg-espinal",
+          "link": {
+            "attributeTitle": "agencia-ibg-espinal",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-la-dorada.jpg",
+          "alt": "agencia-ibg-la-dorada",
+          "link": {
+            "attributeTitle": "agencia-ibg-la-dorada",
+            "url": ""
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#lista-centro-andina"
+    ]
+  },
+  "slider-layout#lista-centro-andina": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  },
+  // Slider Centro Andina Fin
+  // Slider Centro Oriente
+  "rich-text#titulo-centro-oriente": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **Centro Oriente**"
+    }
+  },
+  "flex-layout.row#lista-centro-oriente": {
+    "props": {
+      "blockClass": "etica",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#lista-centro-oriente"
+    ]
+  },
+  "list-context.image-list#lista-centro-oriente": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/agencia-ibg-tunja.jpg",
+          "alt": "agencia-ibg-tunja",
+          "link": {
+            "attributeTitle": "agencia-ibg-tunja",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-zipaquira.jpg",
+          "alt": "agencia-ibg-zipaquira",
+          "link": {
+            "attributeTitle": "agencia-ibg-zipaquira",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-bucaramanga.jpg",
+          "alt": "agencia-ibg-bucaramanga",
+          "link": {
+            "attributeTitle": "agencia-ibg-bucaramanga",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-fusagasuga.jpg",
+          "alt": "agencia-ibg-fusagasuga",
+          "link": {
+            "attributeTitle": "agencia-ibg-fusagasuga",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-villavicencio.jpg",
+          "alt": "agencia-ibg-villavicencio",
+          "link": {
+            "attributeTitle": "agencia-ibg-villavicencio",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-yopal.jpg",
+          "alt": "agencia-ibg-yopal",
+          "link": {
+            "attributeTitle": "agencia-ibg-yopal",
+            "url": ""
+          }
+        },
+        {
+          "image": "assets/images/agencia-ibg-duitama.jpg",
+          "alt": "agencia-ibg-duitama",
+          "link": {
+            "attributeTitle": "agencia-ibg-duitama",
+            "url": ""
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#lista-centro-oriente"
+    ]
+  },
+  "slider-layout#lista-centro-oriente": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  },
+  // Slider Centro Oriente Fin
+  // Mapa de Sucursales y Tiendas
+  "rich-text#como-llegar-nuevas-tiendas": {
+    "props": {
+      "blockClass": "tyc",
+      "text": "#### **¿Cómo llegar?**"
+    }
+  },
+  "flex-layout.row#mapa-de-tiendas": {
+    "children": [
+      "iframe.dynamic-src#mapa"
+    ]
+  },
+  "iframe.dynamic-src#mapa": {
+    "props": {
+      "blockClass": "iframe-map",
+      "dynamicSrc": "https://www.google.com/maps/d/embed?mid=1EVOan8jTEfh_csbwzDgC_Cn0HtFywYk&ehbc=2E312F",
+      "width": "640",
+      "height": "480",
+      "title": "Mapa de Sucursales y Puntos de Venta",
+      "allow": "geolocation"
+    }
+  }
+  // Mapa de Sucursales y Tiendas Fin
+}

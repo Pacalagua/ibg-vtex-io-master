@@ -138,6 +138,7 @@
       "menu-item#nuestra-empresa",
       "menu-item#fondo-de-empleados",
       "menu-item#mision-y-vision",
+      "menu-item#sucursales-y-tiendas",
       "menu-item#transparencia-y-etica",
       "menu-item#politica-de-calidad"
     ]
@@ -197,6 +198,22 @@
         "noFollow": false,
         "tagTitle": "Misión y visión",
         "text": "Misión y visión"
+      }
+    }
+  },
+  "menu-item#sucursales-y-tiendas": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales-y-tiendas",
+        "noFollow": false,
+        "tagTitle": "Sucursales y Tiendas",
+        "text": "Sucursales y Tiendas"
       }
     }
   },

@@ -9,7 +9,8 @@
       "menu-item#electrodomesticos",
       "menu-item#tecnologia",
       "menu-item#movilidad",
-      "menu-item#ofertas"
+      "menu-item#ofertas",
+      "menu-item#combos"
       // "menu-item#practipagos"
       /* "menu-item#accesorios",
       "menu-item#cuidado-capilar",
@@ -1148,6 +1149,18 @@
       "itemProps": {
         "type": "internal",
         "href": "/ofertas",
+        "noFollow": false
+      }
+    }
+  },
+  "menu-item#combos": {
+    "props": {
+      "tagTitle": "Combos",
+      "text": "Combos",
+      "blockClass": "menu-item-combos",
+      "itemProps": {
+        "type": "internal",
+        "href": "/combos",
         "noFollow": false
       }
     }

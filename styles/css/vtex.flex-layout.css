@@ -528,6 +528,18 @@
   width: 700px;
 }
 
+.flexRow--iframe-map {
+  margin: auto;
+  display: table;
+  width: 700px;
+}
+
+.iframe-map {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
 @media (max-width: 680px) {
   .flexRow--imgs-estatica-tarjetas {
     margin: 0 !important;
@@ -542,6 +554,11 @@
     margin: auto;
     display: table;
     width: 380px !important;
+  }
+  .iframe-map {
+    position: relative;
+    overflow: hidden;
+    width: 40% !important;
   }
 }
 

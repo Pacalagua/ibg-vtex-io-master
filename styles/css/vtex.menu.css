@@ -108,6 +108,20 @@
   border-radius: 5px;
 }
 
+.menuItem--menu-item-combos .styledLinkContent--menu-item-combos {
+  color: #fdfdfd;
+}
+.menuItem--menu-item-combos:hover .styledLinkContent--menu-item-combos {
+  color: rgb(236, 236, 236) !important;
+}
+
+.menuItem--menu-item-combos :global(.vtex-menu-2-x-styledLinkContainer--menu-item-combos) {
+  padding: 3px 20px;
+  background-color: rgb(131, 71, 173);
+  margin-top: 6px;
+  border-radius: 5px;
+}
+
 /* .menuItem--menu-item-ofertas--isOpen:hover {
   transition: all 0.35s ease;
   background-color: #122d80 !important;
