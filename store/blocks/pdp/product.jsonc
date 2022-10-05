@@ -240,7 +240,7 @@
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
-      // "showValueNameForImageVariation": true,
+      "showValueNameForImageVariation": true,
       "maxItems": "200",
       "displayMode": "select"
     }
