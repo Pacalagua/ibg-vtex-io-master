@@ -1,6 +1,7 @@
 {
     "store.custom#ofertas": {
         "blocks": [
+            "list-context.image-list#bannerOfertas",
             "search-result-layout.customQuery#ofertas"
         ],
         "props": {

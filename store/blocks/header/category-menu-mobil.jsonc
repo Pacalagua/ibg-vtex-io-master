@@ -736,6 +736,7 @@
 
   // Menu movilidad Fin
   // Menu accesorios
+  /* IBGMANIA */
   "menu-item#ofertas-mobile": {
     "props": {
       "tagTitle": "Ofertas",

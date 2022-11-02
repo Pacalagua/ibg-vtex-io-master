@@ -1141,6 +1141,7 @@
   // Sub-sub Menu audio fin
   // Menu tecnología FIN
   // Menu Movilidad
+  /* IBGMANIA */
   "menu-item#ofertas": {
     "props": {
       "tagTitle": "Ofertas",

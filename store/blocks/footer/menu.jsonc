@@ -319,7 +319,7 @@
     "children": [
       "menu-item#politicas-de-garantia",
       "menu-item#terminos-y-condiciones",
-      "menu-item#politicas-de-privacidad",
+      "menu-item#aviso-de-privacidad",
       "menu-item#servicio-tecnico",
       "menu-item#preguntas-frecuentes",
       "menu-item#tyc-promos",
@@ -360,7 +360,7 @@
       }
     }
   },
-  "menu-item#politicas-de-privacidad": {
+  "menu-item#aviso-de-privacidad": {
     "props": {
       "blockClass": "menu-footer",
       "id": "menu-item-black-friday",
@@ -369,10 +369,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/politicas-de-privacidad",
+        "href": "/aviso-de-privacidad",
         "noFollow": false,
-        "tagTitle": "Políticas de privacidad",
-        "text": "Políticas de privacidad"
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
       }
     }
   },

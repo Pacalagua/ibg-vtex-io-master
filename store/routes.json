@@ -55,5 +55,8 @@
   },
   "store.custom#sucursales-y-tiendas": {
     "path": "/sucursales-y-tiendas"
+  },
+  "store.custom#aviso-de-privacidad": {
+    "path": "/aviso-de-privacidad"
   }
 }

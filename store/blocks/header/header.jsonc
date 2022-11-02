@@ -160,6 +160,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
+      //"url": "assets/images/logo-ibg-mania.svg",
       "url": "assets/images/logo-ibgcol.svg",
       "width": "180"
     }
@@ -237,6 +238,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
+      //"url": "assets/images/logo-ibg-mania.svg",
       "url": "assets/images/logo-mobile-ibg.svg",
       "width": "70"
     }
