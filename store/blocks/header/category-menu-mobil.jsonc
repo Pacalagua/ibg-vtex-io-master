@@ -283,10 +283,10 @@
       "blockClass": "main-submenu"
     },
     "children": [
+      "menu-item#muebles-de-dormitorio-mobile",
       "menu-item#salas-mobile",
       "menu-item#muebles-de-sala-mobile",
       "menu-item#comedores-mobile",
-      "menu-item#muebles-de-dormitorio-mobile",
       "menu-item#muebles-de-oficina-y-estudio-mobile",
       "menu-item#muebles-mascota-mobile"
     ]

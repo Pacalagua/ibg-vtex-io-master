@@ -2,7 +2,7 @@
     "store.custom#formas-de-pago": {
         "blocks": [
             "rich-text#title-formas-de-pago",
-            "rich-text#medios-de-pago-titulo",
+            /* "rich-text#medios-de-pago-titulo", */
             "rich-text#medios-de-pago-texto",
             "rich-text#practipago-img",
             "rich-text#pagos-tarjeta-titulo",
@@ -20,19 +20,19 @@
     },
     "rich-text#title-formas-de-pago": {
         "props": {
-            "text": "## Formas de pago",
+            "text": "# Métodos de Pago para Comprar Online en IBG",
             "blockClass": "title_tyc"
         }
     },
-    "rich-text#medios-de-pago-titulo": {
+    /* "rich-text#medios-de-pago-titulo": {
         "props": {
             "text": "**NUESTROS MEDIOS DE PAGO PARA OBLIGACIONES DE PAGOS PERIÓDICOS:**",
             "blockClass": "title-gray"
         }
-    },
+    }, */
     "rich-text#medios-de-pago-texto": {
         "props": {
-            "text": "Estimado cliente, pensando en su bienestar y velando por que su obligación no genere mora, tiene a su disposición varios medios de pago que puede hacer en efecty desde cualquier parte del país.",
+            "text": "Bienvenid@ a nuestra sección de métodos de pago en IBG. Aquí encontrarás toda la información relacionada con las opciones que tienes para comprar en nuestra tienda virtual y tener el hogar que sueñas.",
             "blockClass": "text-info"
         }
     },

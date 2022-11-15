@@ -1,13 +1,4 @@
 {
-  "store.custom#about-us": {
-    "path": "/about-us"
-  },
-  "store.custom#faq": {
-    "path": "/faq"
-  },
-  "store.custom#contact-us": {
-    "path": "/contact-us"
-  },
   "my-account-link.wishlist-link": {
     "path": "/account/#/wishlist"
   },
@@ -58,5 +49,8 @@
   },
   "store.custom#aviso-de-privacidad": {
     "path": "/aviso-de-privacidad"
+  },
+  "store.custom#bono-hogar-ibg": {
+      "path": "/bono-hogar-ibg"
   }
 }

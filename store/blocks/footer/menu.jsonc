@@ -319,6 +319,7 @@
     "children": [
       "menu-item#politicas-de-garantia",
       "menu-item#terminos-y-condiciones",
+      "menu-item#tyc-bono-hogar-ibg",
       "menu-item#aviso-de-privacidad",
       "menu-item#servicio-tecnico",
       "menu-item#preguntas-frecuentes",
@@ -357,6 +358,22 @@
         "noFollow": false,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#tyc-bono-hogar-ibg": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bono-hogar-ibg",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones Bono Hogar IBG",
+        "text": "TyC Bono Hogar IBG"
       }
     }
   },
@@ -419,8 +436,8 @@
         "type": "internal",
         "href": "/tyc-promos",
         "noFollow": false,
-        "tagTitle": "Términos y condiciones en promociones online",
-        "text": "Términos y condiciones en promociones online"
+        "tagTitle": "Términos y condiciones promociones online",
+        "text": "TyC promociones online"
       }
     }
   },

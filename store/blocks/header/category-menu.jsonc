@@ -350,10 +350,10 @@
       "blockClass": "main-submenu"
     },
     "children": [
+      "menu-item#muebles-de-dormitorio",
       "menu-item#salas",
       "menu-item#muebles-de-sala",
       "menu-item#comedores",
-      "menu-item#muebles-de-dormitorio",
       "menu-item#muebles-de-oficina-y-estudio",
       "menu-item#muebles-mascota"
     ]

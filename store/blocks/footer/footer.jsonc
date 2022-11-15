@@ -171,6 +171,7 @@
     "children": [
       "menu-item#politicas-de-garantia",
       "menu-item#terminos-y-condiciones",
+      "menu-item#tyc-bono-hogar-ibg",
       "menu-item#aviso-de-privacidad",
       "menu-item#servicio-tecnico",
       "menu-item#preguntas-frecuentes",
