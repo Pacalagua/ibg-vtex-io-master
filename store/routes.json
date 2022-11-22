@@ -52,5 +52,8 @@
   },
   "store.custom#bono-hogar-ibg": {
       "path": "/bono-hogar-ibg"
-  }
+  },
+  "store.custom#puntos-de-recaudo": {
+    "path": "/puntos-de-recaudo"
+}
 }

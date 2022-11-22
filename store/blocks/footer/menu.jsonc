@@ -325,6 +325,7 @@
       "menu-item#preguntas-frecuentes",
       "menu-item#tyc-promos",
       "menu-item#formas-de-pago",
+      "menu-item#puntos-de-recaudo",
       "menu-item#pqrs",
       "menu-item#sic"
     ]
@@ -454,6 +455,22 @@
         "noFollow": false,
         "tagTitle": "Formas de pago",
         "text": "Formas de pago"
+      }
+    }
+  },
+  "menu-item#puntos-de-recaudo": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/puntos-de-recaudo",
+        "noFollow": false,
+        "tagTitle": "Puntos de recaudo",
+        "text": "Puntos de recaudo"
       }
     }
   },

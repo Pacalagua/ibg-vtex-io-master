@@ -2,10 +2,7 @@
     "store.custom#formas-de-pago": {
         "blocks": [
             "rich-text#title-formas-de-pago",
-            /* "rich-text#medios-de-pago-titulo", */
             "rich-text#medios-de-pago-texto",
-            "rich-text#practipago-img",
-            "rich-text#pagos-tarjeta-titulo",
             "rich-text#pagos-tarjeta-texto",
             "flex-layout.row#imagenes-pago-tarjetas",
             "rich-text#tarjetas-texto",
@@ -15,39 +12,26 @@
             "rich-text#tarjeta-deboito-texto",
             "rich-text#pagos-efectivo-titulo",
             "flex-layout.row#imagenes-pago-efectivo",
-            "rich-text#pagos-en-efectivo-texto"
+            "rich-text#pagos-en-efectivo-texto",
+            "rich-text#pagos-bancolombia-titulo",
+            "flex-layout.row#imagenes-pago-bancolombia",
+            "rich-text#pagos-bancolombia-texto",
+            "rich-text#pagos-addi-titulo",
+            "flex-layout.row#imagenes-pago-addi",
+            "rich-text#pagos-addi-texto",
+            "rich-text#info-recaudo-texto"
         ]
     },
     "rich-text#title-formas-de-pago": {
         "props": {
-            "text": "# Métodos de Pago para Comprar Online en IBG",
+            "text": "# Formas de Pago para Compras Online en IBG",
             "blockClass": "title_tyc"
         }
     },
-    /* "rich-text#medios-de-pago-titulo": {
-        "props": {
-            "text": "**NUESTROS MEDIOS DE PAGO PARA OBLIGACIONES DE PAGOS PERIÓDICOS:**",
-            "blockClass": "title-gray"
-        }
-    }, */
     "rich-text#medios-de-pago-texto": {
         "props": {
-            "text": "Bienvenid@ a nuestra sección de métodos de pago en IBG. Aquí encontrarás toda la información relacionada con las opciones que tienes para comprar en nuestra tienda virtual y tener el hogar que sueñas.",
+            "text": "#### Conoce todos los medios de pago disponibles para comprar a través de nuestra tienda virtual y estos los encontrarás disponibles en el checkout de tu compra.",
             "blockClass": "text-info"
-        }
-    },
-    "rich-text#practipago-img": {
-        "props": {
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "text": "![Practi Pago](assets/images/Imagen1.jpg)",
-            "blockClass": "imagen-practi-pago"
-        }
-    },
-    "rich-text#pagos-tarjeta-titulo": {
-        "props": {
-            "text": "**NUESTROS MEDIOS DE PAGO ONLINE PARA COMPRAS DE PAGO ÚNICO:**",
-            "blockClass": "title-gray"
         }
     },
     "rich-text#pagos-tarjeta-texto": {
@@ -88,42 +72,6 @@
             "src": "assets/images/Imagen5.jpg"
         }
     },
-    /* "list-context.image-list#tarjetas-img": {
-        "children": [
-            "slider-layout#tarjetas-img-images"
-        ],
-        "props": {
-            "blockClass": "imagen-tyc",
-            "images": [
-                {
-                    "image": "assets/images/Imagen2.jpg",
-                    "description": "MasterCard"
-                },
-                {
-                    "image": "assets/images/Imagen3.jpg",
-                    "description": "Visa"
-                },
-                {
-                    "image": "assets/images/Imagen4.jpg",
-                    "description": "American Express"
-                },
-                {
-                    "image": "assets/images/Imagen5.jpg",
-                    "description": "Diners Club"
-                }
-            ]
-        }
-    },
-    "slider-layout#tarjetas-img-images": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 4,
-                "tablet": 4,
-                "phone": 2
-            },
-            "infinite": true
-        }
-    }, */
     "rich-text#tarjetas-texto": {
         "props": {
             "text": "Aceptamos tu tarjeta de crédito para que puedas realizar tus compras, Mastercard, Visa, American Express y Diners International emitidas en Colombia o en el extranjero. Si las tarjetas son extranjeras estas están sujetas a las políticas de cada entidad financiera para el pago en cuotas y modalidad en que estos son diferidas.",
@@ -170,63 +118,79 @@
             /* "marginTop": 3 */
         },
         "children": [
-            "image#efecty",
-            "image#separador",
-            "image#davivienda"
+            "image#efecty"
         ]
     },
     "image#efecty": {
         "props": {
-            "src": "assets/images/Imagen8.jpg"
+            "maxHeight": 50,
+            "src": "assets/images/logo-efecty.svg"
         }
     },
-    "image#separador": {
-        "props": {
-            "src": "assets/images/Imagen10.jpg"
-        }
-    },
-    "image#davivienda": {
-        "props": {
-            "src": "assets/images/Imagen9.jpg"
-        }
-    },
-    /* "list-context.image-list#pagos-en-efectivo": {
-        "children": [
-            "slider-layout#pagos-en-efectivo-imgs"
-        ],
-        "props": {
-            "width": "100%",
-            "images": [
-                {
-                    "image": "assets/images/Imagen8.jpg",
-                    "description": "Efecty"
-                },
-                {
-                    "image": "assets/images/Imagen10.jpg",
-                    "description": "separador"
-                },
-                {
-                    "image": "assets/images/Imagen9.jpg",
-                    "description": "DAVIVIENDA"
-                }
-            ]
-        }
-    },
-    "slider-layout#pagos-en-efectivo-imgs": {
-        "props": {
-            "itemsPerPage": {
-                "desktop": 3,
-                "tablet": 3,
-                "phone": 3
-            },
-            "infinite": true,
-            "blockClass": "medios-de-pago"
-        }
-    }, */
     "rich-text#pagos-en-efectivo-texto": {
         "props": {
             "text": "Si no tienes tarjeta Débito o crédito puedes realizar el pago de tu orden en una sucursal Efecty. Encuentra tu punto efecty más cercano.",
             "blockClass": "text-info"
         }
+    },
+    "rich-text#pagos-bancolombia-titulo": {
+        "props": {
+            "text": "PAGOS CON BOTÓN BANCOLOMBIA:",
+            "blockClass": "title-blue"
+        }
+    },
+    "flex-layout.row#imagenes-pago-bancolombia": {
+        "props": {
+            "blockClass": "imgs-estatica"
+            /* "marginTop": 3 */
+        },
+        "children": [
+            "image#bancolombia"
+        ]
+    },
+    "image#bancolombia": {
+        "props": {
+            "maxHeight": 45,
+            "src": "assets/images/logo-bancolombia.svg"
+        }
+    },
+    "rich-text#pagos-bancolombia-texto": {
+        "props": {
+            "text": "Con el botón Bancolombia puedes pagar a través de trasferencia bancaria fácil y seguro.",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#pagos-addi-titulo": {
+        "props": {
+            "text": "PAGOS A CRÉDITO:",
+            "blockClass": "title-blue"
+        }
+    },
+    "flex-layout.row#imagenes-pago-addi": {
+        "props": {
+            "blockClass": "imgs-estatica"
+            /* "marginTop": 3 */
+        },
+        "children": [
+            "image#addi"
+        ]
+    },
+    "image#addi": {
+        "props": {
+            "maxHeight": 45,
+            "src": "assets/images/logo-addi.svg"
+        }
+    },
+    "rich-text#pagos-addi-texto": {
+        "props": {
+            "text": "Puedes comprar a crédito por medio de nuestro aliado Addi, solo debes elegirlo como medio de pago en el checkout. \n También nos puedes escribir a nuestra línea de ventas WhatsApp <a href=\"https://wa.me/573173729437\" target=\"_blank\" rel=\"noopener noreferrer\">+573173729437</a> y asistimos tu compra. \n Términos y condiciones: <a href=\"https://co.addi.com/terminos-y-condiciones\" target=\"_blank\" rel=\"noopener noreferrer\">https://co.addi.com/terminos-y-condiciones</a>. \n Tasas y Tarifas: <a href=\"https://co.addi.com/tasas-tarifas\" target=\"_blank\" rel=\"noopener noreferrer\">https://co.addi.com/tasas-tarifas</a>.",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#info-recaudo-texto": {
+        "props": {
+            "text": "Si tienes una obligación con Promodescuentos S.A.S. Zomac por compras a través de nuestras tiendas físicas y quieres conocer nuestros puntos de recaudo puedes informarte dando clic [**AQUÍ**](https://www.ibg.com.co/puntos-de-recaudo).",
+            "blockClass": "text-info"
+        }       
     }
 }

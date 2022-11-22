@@ -133,6 +133,12 @@
   margin-bottom: 4em !important;
 }
 
+.container--texto-info {
+  font-family: NN Forever Grotesk STD;
+  color: #122d80!important;
+  font-size: 14px;
+}
+
 @media (max-width: 680px) {
   .container--number-info {
     justify-content: center !important;
@@ -819,5 +825,7 @@
 .wrapper--1-contenido-politica-de-privacidad .headingLevel3--1-contenido-politica-de-privacidad:first-child {
   text-align: center;
 }
+
+
 
 /* paginas legales end */
