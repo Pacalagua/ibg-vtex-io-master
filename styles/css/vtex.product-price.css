@@ -1,0 +1,284 @@
+/* .listPrice {
+  color: #727273;
+  margin-bottom: .25rem;
+  font-size: 1rem;
+}
+
+.sellingPrice {
+  color: #3f3f40;
+  font-size: 1.25rem;
+}
+
+.sellingPriceValue {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.installments {
+  color: #727273;
+  margin-bottom: 1rem;
+}
+
+.savings {
+  font-weight: 500;
+  color: #79B03A;
+}
+
+.sellingPriceValue--summary {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2E2E2E;
+}
+
+.savings--summary {
+  background: #8BC34A;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+}
+
+.savings-discount--summary {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.listPrice--summary {
+  margin-bottom: 0.25rem;
+  font-size: .875rem;
+}
+
+.installments--summary {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+
+.savings--summaryPercentage {
+  background: #0f3e99;
+  border-radius: 1000px;
+  align-items: center;
+  display: flex;
+}
+
+.savingsPercentage--summaryPercentage {
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: baseline;
+  color: #FFFFFF;
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+} */
+
+/*  */
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price) .sellingPriceValue, :global(.vtex-flex-layout-0-x-flexRowContent--price) .listPriceValue {
+  margin-left: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price) .savings {
+  font-family: "NN Forever Grotesk STD";
+  color: #8bc34a;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price) .sellingPrice {
+  /* justify-content: flex-start;
+  display: flex;
+  margin-left: 5px; */
+  /* margin-left: 5px; */
+  color: #122d80;
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-price) {
+  display: flex;
+  padding: 1px 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--product-price) .listPrice {
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00859b;
+  margin-right: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--product-price) .sellingPriceValue {
+  color: #122d80;
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price) .listPrice {
+  /* justify-content: flex-end;
+  display: flex;
+  margin-right: 5px;
+   */
+  margin-right: 10px;
+  display: flex;
+  flex-direction: initial;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: 18px;
+  color: #00859b;
+  font-family: "NN Forever Grotesk STD";
+  /* color: #BDBDBD; */
+}
+
+.savings--summaryPercentage{
+  display: none;
+}
+:global(.vtex-search-result-3-x-container--layout--landing-ofertas) .savings--summaryPercentage{
+  display: block !important;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .savings--summaryPercentage {
+  display: none;
+  font-family: "NN Forever Grotesk STD";
+  color: #fff;
+  background: #f2cd00;
+  padding: 5px 10px;
+  border-radius: 13.5px;
+  font-size: 0px;
+  line-height: 18px;
+  margin-left: 0;
+  margin-top: 0;
+  display: flex;
+  width: 48px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .savingsPercentage--summaryPercentage {
+  display: none;
+  font-family: "NN Forever Grotesk STD";
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--right-col) .savingsPercentage--summaryPercentage::before {
+  display: none;
+  font-family: "NN Forever Grotesk STD";
+  content: "-";
+  font-size: 15px;
+}
+
+.savings--summaryPercentage {
+  display: none;
+  color: #000000;
+  background: #f2cd00;
+  padding: 5px 10px;
+  border-radius: 13.5px;
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  /* line-height: 18px; */
+  z-index: 9;
+}
+
+.savings--pdpFlag {
+  top: 15px;
+  padding: 5px 10px;
+  border-radius: 13.5px;
+  font-size: 15px;
+  color: #000000;
+  background: #f2cd00;
+  position: absolute;
+  z-index: 9;
+  left: 26%;
+  transform: scale(1.5);
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: 600;
+}
+
+@media (max-width: 680px) {
+  .savings--pdpFlag {
+    top: 9px;
+    padding: 5px 10px;
+    border-radius: 13.5px;
+    font-size: 15px;
+    color: #000000;
+    background: #f2cd00;
+    position: absolute;
+    z-index: 9;
+    left: 4%;
+    transform: scale(1.5);
+    font-family: "NN Forever Grotesk STD";
+    font-style: normal;
+    font-weight: 600;
+  }
+  .savingsPercentage--summaryPercentage {
+    /* display: none; */
+    margin-left: 5px;
+  }
+}
+
+.savingsPercentage--summaryPercentage {
+  /* display: none; */
+  margin-left: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price) .sellingPriceValue {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.currencyLiteral {
+  display: none;
+}
+
+.currencyDecimal, .currencyFraction {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sellingPrice {
+    margin-left: 0px;
+  }
+  .savings--summaryPercentage {
+    display: none;
+    font-family: "NN Forever Grotesk STD";
+    font-size: 0px;
+    padding: 5px;
+  }
+  .savingsPercentage--summaryPercentage {
+    /* display: none; */
+    font-family: "NN Forever Grotesk STD";
+    font-size: 15px;
+  }
+  .savingsPercentage--summaryPercentage::before {
+    display: none;
+    font-family: "NN Forever Grotesk STD";
+    content: "-";
+    font-size: 15px;
+  }
+  :global(.vtex-flex-layout-0-x-flexColChild--product-price) {
+    justify-content: center;
+  }
+  :global(.vtex-flex-layout-0-x-flexCol--product-price) .listPrice {
+    margin-right: 0px;
+  }
+}

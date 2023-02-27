@@ -1,0 +1,1427 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "main-menu"
+    },
+    "children": [
+      "menu-item#muebles",
+      "menu-item#electrodomesticos",
+      "menu-item#tecnologia",
+      "menu-item#movilidad",
+      "menu-item#ofertas",
+      "menu-item#combos"
+      // "menu-item#practipagos"
+      /* "menu-item#accesorios",
+      "menu-item#cuidado-capilar",
+      "menu-item#cuidado-personal" */
+    ]
+  },
+  // Menu electrodomesticos
+  "menu-item#electrodomesticos": {
+    "props": {
+      "id": "menu-item-category-electrodomesticos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos",
+        "noFollow": false,
+        "tagTitle": "Electrodomésticos",
+        "text": "Electrodomésticos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-refrigeracion"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-refrigeracion": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category--refrigeracion"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category--refrigeracion": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#refrigeracion",
+      "menu-item#lavadoras-y-secadoras",
+      "menu-item#cocina",
+      "menu-item#electromenor"
+    ]
+  },
+  "menu-item#refrigeracion": {
+    "props": {
+      "id": "menu-item-category-refrigeracion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/refrigeracion",
+        "noFollow": false,
+        "tagTitle": "Refrigeracion",
+        "text": "Refrigeración"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-refrigeracion"
+    ]
+  },
+  // Sub-sub Menu refrigeracion
+  "vtex.menu@2.x:submenu#category-apparel-sub-refrigeracion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-refrigeracion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-refrigeracion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-neveras",
+      "menu-item#category-apparel-refrigeradores-y-congeladores",
+      "menu-item#category-apparel-minibares-y-cavas-de-vino"
+    ]
+  },
+  "menu-item#category-apparel-neveras": {
+    "props": {
+      "id": "menu-item-category-apparel-neveras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/refrigeracion/neveras",
+        "noFollow": false,
+        "tagTitle": "Neveras",
+        "text": "Neveras"
+      }
+    }
+  },
+  "menu-item#category-apparel-refrigeradores-y-congeladores": {
+    "props": {
+      "id": "menu-item-category-apparel-refrigeradores-y-congeladores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/refrigeracion/refrigeradores-y-congeladores",
+        "noFollow": false,
+        "tagTitle": "Refrigeradores y congeladores",
+        "text": "Refrigeradores y congeladores"
+      }
+    }
+  },
+  "menu-item#category-apparel-minibares-y-cavas-de-vino": {
+    "props": {
+      "id": "menu-item-category-apparel-minibares-y-cavas-de-vino",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/refrigeracion/minibares-y-cavas-de-vino",
+        "noFollow": false,
+        "tagTitle": "Minibares y cavas de vino",
+        "text": "Minibares y cavas de vino"
+      }
+    }
+  },
+  // Sub-sub Menu refrigeración Fin
+  "menu-item#lavadoras-y-secadoras": {
+    "props": {
+      "id": "menu-item-category-lavadoras-y-secadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/lavadoras-y-secadoras",
+        "noFollow": false,
+        "tagTitle": "Lavadoras y Secadoras",
+        "text": "Lavadoras y secadoras"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-lavadoras-y-secadoras"
+    ]
+  },
+  // Sub-sub Menu lavadoras-y-secadoras
+  "vtex.menu@2.x:submenu#category-apparel-sub-lavadoras-y-secadoras": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-lavadoras-y-secadoras"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-lavadoras-y-secadoras": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-lavadoras"
+    ]
+  },
+  "menu-item#category-apparel-lavadoras": {
+    "props": {
+      "id": "menu-item-category-apparel-lavadoras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/lavadoras-y-secadoras/lavadoras",
+        "noFollow": false,
+        "tagTitle": "Lavadoras",
+        "text": "Lavadoras"
+      }
+    }
+  },
+  // Sub-sub Menu Lavadoras y Secadoras Fin
+
+  // Sub-sub Menu electromenor
+  "menu-item#electromenor": {
+    "props": {
+      "id": "menu-item-category-electromenor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/electromenor",
+        "noFollow": false,
+        "tagTitle": "Electromenores",
+        "text": "Electromenores"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-electromenor"
+    ]
+  },
+  
+  "vtex.menu@2.x:submenu#category-apparel-sub-electromenor": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-electromenor"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-electromenor": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-freidora-de-aire-air-fryer",
+      "menu-item#category-apparel-licuadora"
+    ]
+  },
+  "menu-item#category-apparel-freidora-de-aire-air-fryer": {
+    "props": {
+      "id": "menu-item-category-apparel-freidora-de-aire-air-fryer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/electromenor/freidora-de-aire-air-fryer",
+        "noFollow": false,
+        "tagTitle": "Freidoras de Aire",
+        "text": "Freidoras de Aire"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-licuadora": {
+    "props": {
+      "id": "menu-item-category-apparel-licuadora",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/electromenor/licuadoras",
+        "noFollow": false,
+        "tagTitle": "Licuadoras",
+        "text": "Licuadoras"
+      }
+    }
+  },
+  // Sub-sub Menu electromenor fin
+
+    // Sub-sub Menu Lavadoras y Secadoras Fin
+    "menu-item#cocina": {
+      "props": {
+        "id": "menu-item-category-cocina",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/electrodomesticos/cocina",
+          "noFollow": false,
+          "tagTitle": "Cocina",
+          "text": "Cocina"
+        }
+      },
+      "blocks": [
+        "vtex.menu@2.x:submenu#category-apparel-sub-cocina"
+      ]
+    },
+    // Sub-sub Menu cocina
+    "vtex.menu@2.x:submenu#category-apparel-sub-cocina": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "main-submenu"
+      },
+      "children": [
+        "vtex.menu@2.x:menu#category-apparel-sub-cocina"
+      ]
+    },
+    "vtex.menu@2.x:menu#category-apparel-sub-cocina": {
+      "props": {
+        "orientation": "vertical",
+        "blockClass": "submain-submenu"
+      },
+      "children": [
+        "menu-item#category-apparel-estufas-y-cubiertas-de-empotar"
+      ]
+    },
+    "menu-item#category-apparel-estufas-y-cubiertas-de-empotar": {
+      "props": {
+        "id": "menu-item-category-apparel-estufas-y-cubiertas-de-empotar",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/electrodomesticos/cocina/estufas-y-cubiertas-de-empotar",
+          "noFollow": false,
+          "tagTitle": "Estufas y cubiertas de empotar",
+          "text": "Estufas y cubiertas de empotar"
+        }
+      }
+    },
+    // Sub-sub Menu electromenor fin
+
+  // Menu electrodomésticos FIN
+  // Menu muebles
+  "menu-item#muebles": {
+    "props": {
+      "id": "menu-item-category-muebles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles",
+        "noFollow": false,
+        "tagTitle": "Muebles",
+        "text": "Muebles"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-salas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-salas": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category--salas"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category--salas": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#muebles-de-dormitorio",
+      "menu-item#salas",
+      "menu-item#muebles-de-sala",
+      "menu-item#comedores",
+      "menu-item#muebles-de-oficina-y-estudio",
+      "menu-item#muebles-mascota"
+    ]
+  },
+  "menu-item#salas": {
+    "props": {
+      "id": "menu-item-category-salas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/salas",
+        "noFollow": false,
+        "tagTitle": "Salas",
+        "text": "Salas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-salas"
+    ]
+  },
+  // Sub-sub Menu salas
+  "vtex.menu@2.x:submenu#category-apparel-sub-salas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-salas"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-salas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-juegos-de-sala",
+      "menu-item#category-apparel-sofa-camas",
+      "menu-item#category-apparel-sofas-y-sillas"
+    ]
+  },
+  "menu-item#category-apparel-juegos-de-sala": {
+    "props": {
+      "id": "menu-item-category-apparel-juegos-de-sala",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/salas/juegos-de-sala",
+        "noFollow": false,
+        "tagTitle": "Juegos de sala",
+        "text": "Juegos de sala"
+      }
+    }
+  },
+  "menu-item#category-apparel-sofa-camas": {
+    "props": {
+      "id": "menu-item-category-apparel-sofa-camas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/salas/sofa-camas",
+        "noFollow": false,
+        "tagTitle": "Sofá camas",
+        "text": "Sofá camas"
+      }
+    }
+  },
+  "menu-item#category-apparel-sofas-y-sillas": {
+    "props": {
+      "id": "menu-item-category-apparel-sofas-y-sillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/salas/sofas-y-sillas",
+        "noFollow": false,
+        "tagTitle": "Sofás y sillas",
+        "text": "Sofás y sillas"
+      }
+    }
+  },
+  // Sub-sub Menu salas Fin
+  "menu-item#muebles-de-sala": {
+    "props": {
+      "id": "menu-item-category-muebles-de-sala",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-sala",
+        "noFollow": false,
+        "tagTitle": "Muebles de sala",
+        "text": "Muebles de sala"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-sala"
+    ]
+  },
+  // Sub-sub Menu muebles-de-sala
+  "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-sala": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-sala"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-sala": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-muebles-de-tv",
+      "menu-item#category-apparel-mesas-de-centro"
+    ]
+  },
+  "menu-item#category-apparel-muebles-de-tv": {
+    "props": {
+      "id": "menu-item-category-apparel-muebles-de-tv",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-sala/muebles-de-tv",
+        "noFollow": false,
+        "tagTitle": "Muebles de tv",
+        "text": "Muebles de tv"
+      }
+    }
+  },
+  "menu-item#category-apparel-mesas-de-centro": {
+    "props": {
+      "id": "menu-item-category-apparel-mesas-de-centro",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-sala/mesas-de-centro",
+        "noFollow": false,
+        "tagTitle": "Mesas de centro",
+        "text": "Mesas de centro"
+      }
+    }
+  },
+  // Sub-sub Menu Muebles de sala Fin
+  "menu-item#comedores": {
+    "props": {
+      "id": "menu-item-category-comedores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores",
+        "noFollow": false,
+        "tagTitle": "Comedores",
+        "text": "Comedores"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-comedores"
+    ]
+  },
+  // Sub-sub Menu comedores
+  "vtex.menu@2.x:submenu#category-apparel-sub-comedores": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-comedores"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-comedores": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-juegos-de-comedor"
+    ]
+  },
+  "menu-item#category-apparel-juegos-de-comedor": {
+    "props": {
+      "id": "menu-item-category-apparel-juegos-de-comedor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/comedores/juegos-de-comedor",
+        "noFollow": false,
+        "tagTitle": "Juegos de comedor",
+        "text": "Juegos de comedor"
+      }
+    }
+  },
+  // Sub-sub Menu comedores fin
+  "menu-item#muebles-de-dormitorio": {
+    "props": {
+      "id": "menu-item-category-muebles-de-dormitorio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio",
+        "noFollow": false,
+        "tagTitle": "Muebles de dormitorio",
+        "text": "Muebles de dormitorio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-dormitorio"
+    ]
+  },
+  // Sub-sub Menu muebles-de-dormitorio
+  "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-dormitorio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-dormitorio"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-dormitorio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-camas-y-base-camas",
+      "menu-item#category-apparel-colchones",
+      "menu-item#category-apparel-juegos-de-alcoba",
+      "menu-item#category-apparel-camas-infantiles",
+      "menu-item#category-apparel-juegos-de-alcoba-para-niños",
+      "menu-item#category-apparel-camarote-y-cama-tarima",
+      "menu-item#category-apparel-closets",
+      "menu-item#category-apparel-mesas-de-noche",
+      "menu-item#category-apparel-comodas-y-tocadores"
+    ]
+  },
+  "menu-item#category-apparel-camas-y-base-camas": {
+    "props": {
+      "id": "menu-item-category-apparel-camas-y-base-camas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/camas-y-base-camas",
+        "noFollow": false,
+        "tagTitle": "Camas y base camas",
+        "text": "Camas y base camas"
+      }
+    }
+  },
+  "menu-item#category-apparel-colchones": {
+    "props": {
+      "id": "menu-item-category-apparel-colchones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/colchones",
+        "noFollow": false,
+        "tagTitle": "Colchones",
+        "text": "Colchones"
+      }
+    }
+  },
+  "menu-item#category-apparel-juegos-de-alcoba": {
+    "props": {
+      "id": "menu-item-category-apparel-juegos-de-alcoba",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/juegos-de-alcoba",
+        "noFollow": false,
+        "tagTitle": "Juegos de alcoba",
+        "text": "Juegos de alcoba"
+      }
+    }
+  },
+  "menu-item#category-apparel-camas-infantiles": {
+    "props": {
+      "id": "menu-item-category-apparel-camas-infantiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/camas-infantiles",
+        "noFollow": false,
+        "tagTitle": "Camas infantiles",
+        "text": "Camas infantiles"
+      }
+    }
+  },
+  "menu-item#category-apparel-juegos-de-alcoba-para-niños": {
+    "props": {
+      "id": "menu-item-category-apparel-juegos-de-alcoba-para-niños",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/juegos-de-alcoba-para-niños",
+        "noFollow": false,
+        "tagTitle": "Juegos de alcoba para niños",
+        "text": "Juegos de alcoba para niños"
+      }
+    }
+  },
+  "menu-item#category-apparel-camarote-y-cama-tarima": {
+    "props": {
+      "id": "menu-item-category-apparel-camarote-y-cama-tarima",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/camarote-y-cama-tarima",
+        "noFollow": false,
+        "tagTitle": "Camarote y cama tarima",
+        "text": "Camarote y cama tarima"
+      }
+    }
+  },
+  "menu-item#category-apparel-closets": {
+    "props": {
+      "id": "menu-item-category-apparel-closets",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/closets",
+        "noFollow": false,
+        "tagTitle": "Closets",
+        "text": "Closets"
+      }
+    }
+  },
+  "menu-item#category-apparel-mesas-de-noche": {
+    "props": {
+      "id": "menu-item-category-apparel-mesas-de-noche",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/mesas-de-noche",
+        "noFollow": false,
+        "tagTitle": "Mesas de noche",
+        "text": "Mesas de noche"
+      }
+    }
+  },
+  "menu-item#category-apparel-comodas-y-tocadores": {
+    "props": {
+      "id": "menu-item-category-apparel-comodas-y-tocadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-dormitorio/comodas-y-tocadores",
+        "noFollow": false,
+        "tagTitle": "Cómodas y tocadores",
+        "text": "Cómodas y tocadores"
+      }
+    }
+  },
+  // Sub-sub Menu Muebles de dormitorio fin
+  "menu-item#muebles-de-oficina-y-estudio": {
+    "props": {
+      "id": "menu-item-category-muebles-de-oficina-y-estudio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/muebles-de-oficina-y-estudio",
+        "noFollow": false,
+        "tagTitle": "Muebles de oficina y estudio",
+        "text": "Muebles de oficina y estudio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-oficina-y-estudio"
+    ]
+  },
+  // Sub-sub Menu muebles-de-oficina-y-estudio
+  "vtex.menu@2.x:submenu#category-apparel-sub-muebles-de-oficina-y-estudio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-oficina-y-estudio"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-muebles-de-oficina-y-estudio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-escritorios"
+    ]
+  },
+  "menu-item#category-apparel-escritorios": {
+    "props": {
+      "id": "menu-item-category-apparel-escritorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/muebles/menu-item#muebles-de-oficina-y-estudio/escritorios",
+        "noFollow": false,
+        "tagTitle": "Escritorios",
+        "text": "Escritorios"
+      }
+    }
+  },
+  //Sub-sub Menu Muebles de oficina y estudio fin
+
+  //Sub-sub Menu Mascotas
+
+  "menu-item#muebles-mascota": {
+    "props": {
+      "id": "menu-item-category-muebles-mascota",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas",
+        "noFollow": false,
+        "tagTitle": "Mascotas",
+        "text": "Mascotas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-muebles-mascota-camas"
+    ]
+  },
+  // Sub-sub Menu camas para mascota
+  "vtex.menu@2.x:submenu#category-apparel-sub-muebles-mascota-camas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-muebles-mascota-camas"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-muebles-mascota-camas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-mascota-camas"
+    ]
+  },
+  "menu-item#category-apparel-mascota-camas": {
+    "props": {
+      "id": "menu-item-category-apparel-mascota-camas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascotas/hogar-y-accesorios/camas",
+        "noFollow": false,
+        "tagTitle": "Camas",
+        "text": "Camas"
+      }
+    }
+  },
+
+  //Sub-sub Menu Mascotas FIN
+
+
+  // Menu muebles FIN
+  // Menu Tecnología - INICIO
+  "menu-item#tecnologia": {
+    "props": {
+      "id": "menu-item-category-tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia",
+        "noFollow": false,
+        "tagTitle": "Tecnología",
+        "text": "Tecnología"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-telefonos-celulares"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-telefonos-celulares": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-category--telefonos-celulares"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-category--telefonos-celulares": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#telefonos-celulares",
+      "menu-item#tv-y-video",
+      "menu-item#computadores-y-accesorios",
+      "menu-item#audio"
+    ]
+  },
+  "menu-item#telefonos-celulares": {
+    "props": {
+      "id": "menu-item-category-telefonos-celulares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/telefonos-celulares",
+        "noFollow": false,
+        "tagTitle": "Teléfonos celulares",
+        "text": "Teléfonos celulares"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-telefonos-celulares"
+    ]
+  },
+  // Sub-sub Menu telefonos-celulares
+  "vtex.menu@2.x:submenu#category-apparel-sub-telefonos-celulares": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-telefonos-celulares"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-telefonos-celulares": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-smartphones"
+    ]
+  },
+  "menu-item#category-apparel-smartphones": {
+    "props": {
+      "id": "menu-item-category-apparel-smartphones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/telefonos-celulares/smartphones",
+        "noFollow": false,
+        "tagTitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    }
+  },
+  // Sub-sub Menu smartphones Fin
+  "menu-item#tv-y-video": {
+    "props": {
+      "id": "menu-item-category-tv-y-video",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/tv-y-video",
+        "noFollow": false,
+        "tagTitle": "TV y video",
+        "text": "TV y video"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-tv-y-video"
+    ]
+  },
+  // Sub-sub Menu tv-y-video
+  "vtex.menu@2.x:submenu#category-apparel-sub-tv-y-video": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-tv-y-video"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-tv-y-video": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-accesorios-tv",
+      "menu-item#category-apparel-televisores"
+    ]
+  },
+  "menu-item#category-apparel-accesorios-tv": {
+    "props": {
+      "id": "menu-item-category-apparel-accesorios-tv",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/tv-y-video/accesorios-tv",
+        "noFollow": false,
+        "tagTitle": "Accesorios TV",
+        "text": "Accesorios TV"
+      }
+    }
+  },
+  "menu-item#category-apparel-televisores": {
+    "props": {
+      "id": "menu-item-category-apparel-televisores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/tv-y-video/televisores",
+        "noFollow": false,
+        "tagTitle": "Televisores",
+        "text": "Televisores"
+      }
+    }
+  },
+  // Sub-sub Menu TV y Video Fin
+  "menu-item#computadores-y-accesorios": {
+    "props": {
+      "id": "menu-item-category-computadores-y-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/computadores-y-accesorios",
+        "noFollow": false,
+        "tagTitle": "Computadores y accesorios",
+        "text": "Computadores y accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-computadores-y-accesorios"
+    ]
+  },
+  // Sub-sub Menu computadores-y-accesorios
+  "vtex.menu@2.x:submenu#category-apparel-sub-computadores-y-accesorios": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-computadores-y-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-computadores-y-accesorios": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-portatiles"
+    ]
+  },
+  "menu-item#category-apparel-portatiles": {
+    "props": {
+      "id": "menu-item-category-apparel-portatiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/computadores-y-accesorios/portatiles",
+        "noFollow": false,
+        "tagTitle": "Portátiles",
+        "text": "Portátiles"
+      }
+    }
+  },
+  // Sub-sub Menu Computadores y accesorios fin
+  "menu-item#audio": {
+    "props": {
+      "id": "menu-item-category-audio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/audio",
+        "noFollow": false,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-audio"
+    ]
+  },
+  // Sub-sub Menu audio
+  "vtex.menu@2.x:submenu#category-apparel-sub-audio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-audio"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-audio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-minicomponentes",
+      "menu-item#category-apparel-torres-y-cabinas"
+    ]
+  },
+  "menu-item#category-apparel-minicomponentes": {
+    "props": {
+      "id": "menu-item-category-apparel-minicomponentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/audio/minicomponentes",
+        "noFollow": false,
+        "tagTitle": "Minicomponentes",
+        "text": "Minicomponentes"
+      }
+    }
+  },
+  "menu-item#category-apparel-torres-y-cabinas": {
+    "props": {
+      "id": "menu-item-category-apparel-torres-y-cabinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia/audio/torres-y-cabinas",
+        "noFollow": false,
+        "tagTitle": "Torres y Cabinas",
+        "text": "Torres y Cabinas"
+      }
+    }
+  },
+  // Sub-sub Menu audio fin
+  // Menu tecnología FIN
+  // Menu Movilidad
+  /* IBGMANIA */
+  "menu-item#ofertas": {
+    "props": {
+      "tagTitle": "Ofertas",
+      "text": "Ofertas",
+      "blockClass": "menu-item-ofertas",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false
+      }
+    }
+  },
+  "menu-item#combos": {
+    "props": {
+      "tagTitle": "Combos",
+      "text": "Combos",
+      "blockClass": "menu-item-combos",
+      "itemProps": {
+        "type": "internal",
+        "href": "/combos",
+        "noFollow": false
+      }
+    }
+  },
+  "menu-item#practipagos": {
+    "props": {
+      "tagTitle": "Practipagos",
+      "text": "Practipagos",
+      "blockClass": "menu-item-practipagos"
+    }
+  },
+  "menu-item#movilidad": {
+    "props": {
+      "id": "menu-item-category-movilidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad",
+        "noFollow": false,
+        "tagTitle": "Movilidad",
+        "text": "Movilidad"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#movilidad"
+    ]
+  },
+  "vtex.menu@2.x:submenu#movilidad": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-movilidad"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-movilidad": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#patinetas-y-scooter",
+      "menu-item#bicicletas"
+    ]
+  },
+
+  // Sub-sub Menu Scooter eléctrica
+  "menu-item#patinetas-y-scooter": {
+    "props": {
+      "id": "menu-item-category-patinetas-y-scooter",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad/patinetas-y-scooter",
+        "noFollow": false,
+        "tagTitle": "Patinetas y scooter",
+        "text": "Patinetas y scooter"
+      }
+    }
+  },
+  // Sub-sub Menu Scooter eléctrica Fin
+
+  // Sub-sub Menu Bicicletas
+  "menu-item#bicicletas": {
+    "props": {
+      "id": "menu-item-category-bicicletas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/movilidad/bicicletas",
+        "noFollow": false,
+        "tagTitle": "Bicicletas",
+        "text": "Bicicletas"
+      }
+    }
+  },
+  // Sub-sub Menu Bicicletas Fin
+
+  // Sub-sub Menu movilidad fin
+
+  // Menu accesorios
+  "menu-item#accesorios": {
+    "props": {
+      "id": "menu-item-category-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#accesorios"
+    ]
+  },
+  "vtex.menu@2.x:submenu#accesorios": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-accesorios": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#brochas",
+      "menu-item#cosmetiquera",
+      "menu-item#sacapuntas"
+    ]
+  },
+  "menu-item#brochas": {
+    "props": {
+      "id": "menu-item-category-brochas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/brochas",
+        "noFollow": false,
+        "tagTitle": "Brochas",
+        "text": "Brochas"
+      }
+    }
+  },
+  "menu-item#cosmetiquera": {
+    "props": {
+      "id": "menu-item-category-cosmetiquera",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/cosmetiquera",
+        "noFollow": false,
+        "tagTitle": "Cosmetiquera",
+        "text": "Cosmetiquera"
+      }
+    }
+  },
+  "menu-item#sacapuntas": {
+    "props": {
+      "id": "menu-item-category-sacapuntas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/sacapuntas",
+        "noFollow": false,
+        "tagTitle": "Sacapuntas",
+        "text": "Sacapuntas"
+      }
+    }
+  },
+  // Menu accesorios fin
+  // Menu cuidado capilar
+  "menu-item#cuidado-capilar": {
+    "props": {
+      "id": "menu-item-category-cuidado-capilar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-capilar",
+        "noFollow": false,
+        "tagTitle": "Capilar",
+        "text": "Capilar"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#silicona"
+    ]
+  },
+  "vtex.menu@2.x:submenu#silicona": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-silicona"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-silicona": {
+    "props": {
+      "orientation": "horizontal"
+      // "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#silicona"
+    ]
+  },
+  "menu-item#silicona": {
+    "props": {
+      "id": "menu-item-category-silicona",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-capilar/silicona",
+        "noFollow": false,
+        "tagTitle": "Silicona",
+        "text": "Silicona"
+      }
+    }
+  },
+  // Menu cuidado capilar Fin
+  // Menu cuidado personal Fin
+  "menu-item#cuidado-personal": {
+    "props": {
+      "id": "menu-item-category-cuidado-personal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal",
+        "noFollow": false,
+        "tagTitle": "Cuidado Personal",
+        "text": "Cuidado Personal"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#cuidado-personal"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cuidado-personal": {
+    "children": [
+      "vtex.menu@2.x:menu#submenu-cuidado-personal"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu-cuidado-personal": {
+    "props": {
+      "orientation": "horizontal"
+      // "blockClass": "main-submenu"
+    },
+    "children": [
+      "menu-item#antibacterial-liquido"
+    ]
+  },
+  "menu-item#antibacterial-liquido": {
+    "props": {
+      "id": "menu-item-category-antibacterial-liquido",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-personal/antibacterial-liquido",
+        "noFollow": false,
+        "tagTitle": "Antibacterial liquido",
+        "text": "Antibacterial liquido"
+      }
+    }
+  }
+  // Menu cuidado personal Fin
+}

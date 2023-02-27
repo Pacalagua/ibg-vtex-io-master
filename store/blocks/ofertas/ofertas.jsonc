@@ -1,0 +1,33 @@
+{
+    "store.custom#ofertas": {
+        "blocks": [
+            "list-context.image-list#bannerOfertas",
+            "search-result-layout.customQuery#ofertas"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "default",
+                "maxItemsPerPage": 16
+            }
+        }
+    },
+    "search-result-layout.customQuery#ofertas": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "138",
+                "mapField": "productClusterIds",
+                "facetsBehavior": "dynamic"
+            },
+            "blockClass": "landing-ofertas"
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}

@@ -1,0 +1,509 @@
+{
+  "vtex.menu@2.x:menu#Contacto": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "rich-text#title-menu-1",
+      // "rich-text#contactoFooter"
+      "flex-layout.row#info-text-desktop"
+    ]
+  },
+  "rich-text#title-menu-1": {
+    "props": {
+      "text": "###### Contacto ventas",
+      "blockClass": "title-col-footer"
+    }
+  },
+  "rich-text#tittle-contacto-notificaciones": {
+    "props": {
+      "text": "###### Contacto notificaciones",
+      "blockClass": "title-col-footer"
+    }
+  },
+  // "rich-text#contactoFooter": {
+  //   "props": {
+  //     "text": "+(57) 2 - 5552255 Ext 141 \n Calle 36 No. 134-201 \n  Km 6 Vía Cali - Jamundí \n <contactenos@bellezaexpress.com>  ",
+  //     "blockClass": "textInfo-col-footer"
+  //   }
+  // },
+  "flex-layout.row#info-text": {
+    "children": [
+      "rich-text#contactoFooterNumber2",
+      "rich-text#contactoFooterCoantact"
+    ],
+    "props": {
+      "blockClass": "info-text",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#info-text-desktop": {
+    "children": [
+      "rich-text#contactoFooterNumber2",
+      "rich-text#contactoFooterCoantact",
+      "rich-text#tittle-contacto-notificaciones",
+      "rich-text#contactoFooterFijo",
+      "rich-text#contactoFooterCoantact2",
+      "rich-text#contactoFooterNit",
+      "rich-text#contactoFooterJuridica"
+    ],
+    "props": {
+      "blockClass": "info-text",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#info-text-notificaciones": {
+    "children": [
+      "rich-text#contactoFooterFijo",
+      "rich-text#contactoFooterCoantact2",
+      "rich-text#contactoFooterNit",
+      "rich-text#contactoFooterJuridica"
+    ],
+    "props": {
+      "blockClass": "info-text",
+      "fullWidth": true
+    }
+  },
+  /* "rich-text#contactoFooterNumber": {
+    "props": {
+      "text": "[+57 310 883 7394](https://api.whatsapp.com/send?phone=573108837394)",
+      "blockClass": "textInfo-contactoFooterNumber"
+    }
+  }, */
+  "rich-text#contactoFooterNumber2": {
+    "props": {
+      "text": "[+57 317 372 9437](https://api.whatsapp.com/send?phone=573173729437)",
+      "blockClass": "textInfo-contactoFooterNumber"
+    }
+  },
+  "rich-text#contactoFooterCoantact": {
+    "props": {
+      "text": "email: <asesorweb@ibg.com.co>",
+      "blockClass": "textInfo-contactoFooterCoantact"
+    }
+  },
+  "rich-text#contactoFooterFijo": {
+    "props": {
+      "text": "PQR: 018000-960960",
+      "blockClass": "textInfo-contactoFooterFijo"
+    }
+  },
+  "rich-text#contactoFooterNit": {
+    "props": {
+      "text": "Nit: 890.001.600-3",
+      "blockClass": "textInfo-contactoFooterNumber"
+    }
+  },
+  "rich-text#contactoFooterJuridica": {
+    "props": {
+      "text": "Dirección jurídica: Calle 20 # 14-56",
+      "blockClass": "textInfo-contactoFooterNumber"
+    }
+  },
+  /* "rich-text#contactoFooterCoantact-2": {
+    "props": {
+      "text": "<samy@samycosmetics.com>",
+      "blockClass": "textInfo-contactoFooterCoantact"
+
+    }
+  }, */
+  "rich-text#contactoFooterCoantact2": {
+    "props": {
+      "text": "email: <notificaciones@ibg.com.co>",
+      "blockClass": "textInfo-contactoFooterCoantact"
+    }
+  },
+  "vtex.menu@2.x:menu#Servicio": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "rich-text#legal",
+      "flex-layout.row#legal"
+    ]
+  },
+  "rich-text#legal": {
+    "props": {
+      "text": "###### ¿Quiénes somos?",
+      "blockClass": "title-col-footer"
+    }
+  },
+  "flex-layout.row#legal": {
+    "props": {
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#nuestra-empresa",
+      "menu-item#fondo-de-empleados",
+      "menu-item#mision-y-vision",
+      "menu-item#sucursales-y-tiendas",
+      "menu-item#transparencia-y-etica",
+      "menu-item#politica-de-calidad"
+    ]
+  },
+  // "rich-text#contacto-notificacion": {
+  //   "props": {
+  //     "text": "###### ¿Pruebas?",
+  //     "blockClass": "title-col-footer"
+  //   }
+  // },
+  // "vtex.menu@2.x:menu#contacto-notificacion": {
+  //   "props": {
+  //     "orientation": "vertical",
+  //     "blockClass": "menu-footer"
+  //   },
+  //   "children": [
+  //     "rich-text#contacto-notificacion",
+  //     "flex-layout.row#contacto-notificacion"
+  //   ]
+  // },
+  // "flex-layout.row#contacto-notificacion": {
+  //   "props": {
+  //     "blockClass": "menu-footer"
+  //   },
+  //   "children": [
+  //     "menu-item#nuestra-empresa",
+  //     "menu-item#fondo-de-empleados",
+  //     "menu-item#mision-y-vision"
+  //   ]
+  // },
+  "menu-item#promociones": {
+    "props": {
+      "id": "menu-item-seguridad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "menu-footer",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  },
+  "menu-item#mision-y-vision": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mision-y-vision",
+        "noFollow": false,
+        "tagTitle": "Misión y visión",
+        "text": "Misión y visión"
+      }
+    }
+  },
+  "menu-item#sucursales-y-tiendas": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales-y-tiendas",
+        "noFollow": false,
+        "tagTitle": "Sucursales y Tiendas",
+        "text": "Sucursales y Tiendas"
+      }
+    }
+  },
+  "menu-item#transparencia-y-etica": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/transparencia-y-etica",
+        "noFollow": false,
+        "tagTitle": "Transparencia y Ética",
+        "text": "Transparencia y Ética"
+      }
+    }
+  },
+  "menu-item#politica-de-calidad": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-de-calidad",
+        "noFollow": false,
+        "tagTitle": "Política de Calidad",
+        "text": "Política de Calidad"
+      }
+    }
+  },
+  "menu-item#tyc": {
+    "props": {
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#fondo-de-empleados": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fondo-de-empleados",
+        "noFollow": false,
+        "tagTitle": "Fondo de empleados",
+        "text": "Fondo de empleados"
+      }
+    }
+  },
+  "menu-item#nuestra-empresa": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nuestra-empresa",
+        "noFollow": false,
+        "tagTitle": "Nuestra empresa",
+        "text": "Nuestra empresa"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#ubicacion-tiendas": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "rich-text#ubica-tu-tienda",
+      "flex-layout.row#colnosotros"
+    ]
+  },
+  "rich-text#ubica-tu-tienda": {
+    "props": {
+      "text": "###### Servicios al cliente",
+      "blockClass": "title-col-footer"
+    }
+  },
+  "flex-layout.row#colnosotros": {
+    "props": {
+      "blockClass": "row-legal"
+    },
+    "children": [
+      "menu-item#politicas-de-garantia",
+      "menu-item#terminos-y-condiciones",
+      "menu-item#tyc-bono-hogar-ibg",
+      "menu-item#aviso-de-privacidad",
+      "menu-item#servicio-tecnico",
+      "menu-item#preguntas-frecuentes",
+      "menu-item#tyc-promos",
+      "menu-item#formas-de-pago",
+      "menu-item#puntos-de-recaudo",
+      "menu-item#pqrs",
+      "menu-item#sic"
+    ]
+  },
+  "menu-item#politicas-de-garantia": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politicas-de-garantia",
+        "noFollow": false,
+        "tagTitle": "Políticas de garantía y retractos",
+        "text": "Políticas de garantía y retractos"
+      }
+    }
+  },
+  "menu-item#terminos-y-condiciones": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/terminos-y-condiciones",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#tyc-bono-hogar-ibg": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bono-hogar-ibg",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones Bono Hogar IBG",
+        "text": "TyC Bono Hogar IBG"
+      }
+    }
+  },
+  "menu-item#aviso-de-privacidad": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aviso-de-privacidad",
+        "noFollow": false,
+        "tagTitle": "Aviso de privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+  "menu-item#servicio-tecnico": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicio-tecnico",
+        "noFollow": false,
+        "tagTitle": "Servicio técnico",
+        "text": "Servicio técnico"
+      }
+    }
+  },
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "menu-item#tyc-promos": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tyc-promos",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones promociones online",
+        "text": "TyC promociones online"
+      }
+    }
+  },
+  "menu-item#formas-de-pago": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/formas-de-pago",
+        "noFollow": false,
+        "tagTitle": "Formas de pago",
+        "text": "Formas de pago"
+      }
+    }
+  },
+  "menu-item#puntos-de-recaudo": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/puntos-de-recaudo",
+        "noFollow": false,
+        "tagTitle": "Puntos de recaudo",
+        "text": "Puntos de recaudo"
+      }
+    }
+  },
+  "menu-item#pqrs": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://serviciosibg.ibg.com.co/practipagos/public/pqrs",
+        "noFollow": false,
+        "tagTitle": "Preguntas, Quejas, Reclamos o Sugerencias",
+        "text": "PQRS"
+      }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.sic.gov.co/",
+        "noFollow": false,
+        "tagTitle": "Superintendencia de Industria y Comercio",
+        "text": "SIC"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+
+}
+
+.link {
+  font-family: 'NN Forever Grotesk STD';
+  color: #58595b;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: #122d80;
+}
+.link:focus {
+  color: #122d80;
+}
+
+
+.term {
+  font-family: 'NN Forever Grotesk STD';
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.homeLink::before {
+  font-family: 'NN Forever Grotesk STD';
+  content: 'Home';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.homeIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+
+  }
+ }

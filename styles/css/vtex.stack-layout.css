@@ -1,0 +1,39 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--quickview {
+  right: 0;
+  bottom: 1%;
+  top: 82%;
+  left: 0;
+  margin: 0 auto;
+  display: flex;
+}
+
+.flexColChild {
+  display: none;
+}
+
+:global(.vtex-search-result-3-x-gallery) .stackItem--quickview {
+  top: 77%;
+}
+
+
+.stackItem--collection {
+  right: 10px;
+  left: auto;
+  top: 10px;
+}
+
+@media screen and (max-width:1300px) {
+
+  :global(.vtex-search-result-3-x-gallery) .stackItem--quickview {
+    top: 80%;
+  }
+}
+@media (max-width: 680px){
+  .stackItem--product{
+    position: initial;
+  }
+}

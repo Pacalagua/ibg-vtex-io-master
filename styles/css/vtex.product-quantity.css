@@ -1,0 +1,10 @@
+@media (max-width: 680px){
+    .quantitySelectorStepper--productBuyButton{
+        margin-top: 1em;
+    }
+}
+.availableQuantityContainer--productBuyButton::after{
+    content: 'Envío gratis';
+    display: flex;
+    flex-direction: column;
+}

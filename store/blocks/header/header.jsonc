@@ -1,0 +1,320 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#2-desktop"
+    ]
+  },
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#3-desktop",
+      "flex-layout.row#4-desktop"
+    ]
+  },
+  "flex-layout.row#1-desktop": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.row#3-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      // "colGap": "5",
+      // "preventHorizontalStretch": true,
+      // "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.row#logo-desktop",
+      "flex-layout.row#search-bar",
+      "flex-layout.row#icons"
+    ]
+  },
+  "flex-layout.row#4-desktop": {
+    "props": {
+      "blockClass": "main-header-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.row#logo-desktop": {
+    "props": {
+      // "verticalAlign": "middle"
+      "colGap": "5",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "logo-desktop"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "flex-layout.row#search-bar": {
+    "props": {
+      "colGap": "5",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "search-bar"
+    },
+    "children": [
+      "search-bar#header"
+    ]
+  },
+  "flex-layout.row#icons": {
+    "props": {
+      "colGap": "5",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "icons-row"
+    },
+    "children": [
+      // "image#logo-practipagos",
+      "image#logo-practipagos",
+      "rich-text#wishlist",
+      "login#deskt",
+      "minicart.v2"
+    ]
+  },
+  "search-bar#header": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "blockClass": "searchBarHeader",
+      "attemptPageTypeSearch": true,
+      "autocompleteFullWidth": false,
+      "compactMode": false,
+      "search-and-clear-buttons": "search-and-clear-buttons",
+      "hasIconLeft": true,
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+  "rich-text#wishlist": {
+    "props": {
+      "blockClass": "icon-wish",
+      "text": "[![Foo](assets/images/wish.svg)](/account/#/wishlist)"
+    }
+  },
+  "login#deskt": {
+    "props": {
+      "showIconProfile": true,
+      "viewBox": "0 0 90 90",
+      "blockClass": "main-login",
+      "hideIconLabel": "false"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      //"url": "assets/images/logo-ibg-mania.svg",
+      "url": "assets/images/logo-ibgcol.svg",
+      "width": "180"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "flex-layout.row#3-mobile",
+      "sticky-layout#1-mobile"
+    ]
+  },
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ]
+  },
+  "flex-layout.row#3-mobile": {
+    "props": {
+      "blockClass": "menu-link",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      // "flex-layout.col#spacer",
+      // "login",
+      "image#logo-practipagos",
+      "login#deskt-mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      // "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "props": {
+      "blockClass": "menu--pp"
+    },
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "menu#drawer": {
+    "children": [
+      // "menu-item#kits",
+      // "menu-item#maquillaje",
+      // "menu-item#skin-lab",
+      // "menu-item#uñas",
+      // "menu-item#accesorios",
+      // "menu-item#cuidado-capilar",
+      // "menu-item#cuidado-personal"
+      "vtex.menu@2.x:menu#category-menuMobile"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      //"url": "assets/images/logo-ibg-mania.svg",
+      "url": "assets/images/logo-mobile-ibg.svg",
+      "width": "70"
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "mainMobileSearch"
+    },
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "attemptPageTypeSearch": true,
+      "autocompleteFullWidth": false,
+      "compactMode": false,
+      "search-and-clear-buttons": "search-and-clear-buttons",
+      "horizontalAlignment": "center",
+      "hasIconLeft": true,
+      "placeholder": "¿Que estás buscando?",
+      "blockClass": "searchBar"
+    }
+  },
+  // "image#logo-practipagos": {
+  //   "children": [
+  //     "image#logo-practipagos"
+  //   ]
+  // },
+  "image#logo-practipagos": {
+    "props": {
+      "src": "assets/images/ibgpractipagos.svg",
+      "link": {
+        "url": "https://serviciosibg.ibg.com.co/practipagos/public/",
+        "newTab": true
+      },
+      "blockClass": "practipagos",
+      "target": "_blank"
+    }
+  },
+  "modal-layout#first": {
+    "children": [
+      "modal-header",
+      "flex-layout.row#practipagos-pronto"
+    ]
+  },
+  "flex-layout.row#practipagos-pronto": {
+    "props": {
+      "width": "50%"
+    },
+    "children": [
+      "flex-layout.col#practipagos-pronto"
+    ]
+  },
+  "flex-layout.col#practipagos-pronto": {
+    "props": {
+      "width": "100%",
+      "blockClass": "practipagos-image"
+    },
+    "children": [
+      "image#practipago-pronto"
+    ]
+  },
+  "image#practipago-pronto": {
+    "props": {
+      "src": "assets/images/banner-pagina-web.jpg",
+      "maxHeight": "30",
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "16:9"
+      }
+    }
+  }
+}

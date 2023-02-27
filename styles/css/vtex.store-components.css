@@ -1,0 +1,479 @@
+/* .itemContainer {
+  padding-right: .625rem;
+  padding-left: .625rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1180px;
+} */
+
+.shareSocialButton:hover {
+  opacity: 1;
+}
+
+.shareSocialIcon {
+  fill: #3b5998 !important;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+.productDescriptionContainer {
+  margin: 10px 40px;
+}
+
+.skuSelectorItem {
+  margin: 0;
+}
+
+.skuSelectorItem .frameAround {
+  border-color: transparent;
+}
+
+.skuSelectorInternalBox {
+  min-width: 142px;
+}
+
+.price_sellingPrice,
+.price_sellingPriceLabel {
+  font-family: "NN Forever Grotesk STD";
+  color: #032643;
+  font-size: 22px;
+  font-weight: 700;
+  /* font-family: "Lucida Grande"; */
+}
+
+.skuSelectorOptionsList {
+  margin-left: 0;
+}
+
+.skuSelectorNameContainer {
+  margin: 0;
+}
+
+.productDescriptionContainer {
+  margin: 1em 0 0 0;
+}
+
+.shareLabel {
+  margin: 0.5rem;
+}
+
+.imageElement--bannersDeal-carousel {
+  border-radius: 15px;
+  /*  max-width: 70%; */
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+
+/* .imageElement--bannersDeal-carousel:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+} */
+
+.imageElement--bannersDeal-carousel-all {
+  border-radius: 15px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+.notificationBarContainer {
+  font-family: "NN Forever Grotesk STD";
+  background-color: #e6f1e6;
+  color: #03034e;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #e6f1e6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #03054e;
+  max-width: 1528px;
+  margin: 0 auto;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  font-family: "NN Forever Grotesk STD";
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  font-family: "NN Forever Grotesk STD";
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup :global(.vtex-button) {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.skuSelectorContainer {
+  margin: 1rem 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    font-family: "NN Forever Grotesk STD";
+    padding: 140px;
+  }
+  .label {
+    font-size: 40px;
+  }
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+  .logoImage {
+    width: 100%;
+    max-width: 127px;
+  }
+}
+
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
+}
+
+.productImagesContainer--quickview .productImageTag {
+  object-fit: cover !important;
+}
+
+.productImagesContainer--quickview .carouselGaleryThumbs {
+  display: none;
+}
+
+.productImagesContainer--quickview .carouselGaleryCursor {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.productNameContainer {
+  font-family: "NN Forever Grotesk STD";
+  color: #3f3f40;
+  font-weight: bold;
+  font-size: 20px;
+  /* min-height: 40px; */
+}
+
+/* Nuevo */
+
+.notificationBarInner {
+  background-image: url("https://titamedia.vteximg.com.br/arquivos/back-top-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  font-family: "NN Forever Grotesk STD";
+  max-width: 450px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #777777;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: #777777;
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  background-color: #ffffff;
+}
+
+.searchBarContainer {
+  position: relative;
+  max-width: 500px;
+  width: 500px;
+  right: 5em;
+  top: 0.5em;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionTitle) {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 0;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionTitle)::before {
+  content: "Descripción del producto";
+  font-size: 20px;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) {
+  font-family: "NN Forever Grotesk STD";
+}
+
+@media (max-width: 640px) {
+  .logoImage {
+    margin-top: 5px;
+  }
+  .searchBarContainer {
+    position: relative;
+    right: 0em !important;
+    top: 0em !important;
+  }
+}
+
+.sizeDesktop {
+  max-width: inherit;
+  max-height: inherit;
+  min-width: inherit;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.logoImage {
+  max-width: 110px;
+  width: 100%;
+  height: 70px;
+}
+
+.searchBarIcon--search {
+  display: none;
+}
+
+/* Search bar */
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  height: 40px;
+  border-color: transparent;
+}
+
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input__prefix) {
+  padding-top: 4px;
+  background-color: #ffffff;
+  color: #777777;
+}
+
+.autoCompleteOuterContainer--searchBar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* end Search bar */
+
+/* Shipping container  */
+
+.shippingContainer :global(.vtex-dropdown__label),
+.shippingContainer :global(.vtex-address-form-4-x-container) {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 14px;
+}
+
+/* Shipping container end */
+
+/* Footer */
+
+.imageElementLink {
+  margin: auto;
+}
+
+.imageElementLink--redes-sociales-fb,
+.imageElementLink--redes-sociales-in,
+.imageElementLink--redes-sociales-yt,
+.imageElementLink--redes-sociales-tc,
+.imageElementLink--redes-sociales-wp {
+  max-width: 50px;
+  width: 100%;
+  margin: 5px;
+}
+
+.imageElement--redes-sociales-fb,
+.imageElement--redes-sociales-in,
+.imageElement--redes-sociales-wp,
+.imageElement--redes-sociales-yt {
+  max-width: 50px;
+}
+
+.imageElementLink--redes-sociales-in:hover .imageElement--redes-sociales-in,
+.imageElementLink--redes-sociales-yt:hover .imageElement--redes-sociales-yt,
+.imageElementLink--redes-sociales-tc:hover .imageElement--redes-sociales-tc,
+.imageElementLink--redes-sociales-wp:hover .imageElement--redes-sociales-wp,
+.imageElementLink--redes-sociales-fb:hover .imageElement--redes-sociales-fb {
+  opacity: 0;
+}
+
+.imageElementLink--redes-sociales-in::before,
+.imageElementLink--redes-sociales-yt::before,
+.imageElementLink--redes-sociales-tc::before,
+.imageElementLink--redes-sociales-wp::before,
+.imageElementLink--redes-sociales-fb::before {
+  content: "";
+}
+
+.imageElementLink--redes-sociales-fb:hover::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("assets/images/icons/fb-hover.png");
+  background-repeat: no-repeat;
+}
+
+.imageElementLink--redes-sociales-in:hover::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("assets/images/icons/ig-hover.png");
+  background-repeat: no-repeat;
+}
+
+.imageElementLink--redes-sociales-yt:hover::before {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 28px;
+  background-image: url("assets/images/icons/Yt-hover.png");
+  background-repeat: no-repeat;
+}
+
+.imageElementLink--redes-sociales-wp:hover::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-image: url("assets/images/icons/wa-hover.png");
+  background-repeat: no-repeat;
+}
+
+/* End Footer */
+
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input-prefix__group) {
+  opacity: 0.9;
+  transition: all 0.3s ease 0s;
+  border: 1px #122d80 solid;
+  border-radius: 2.25rem;
+}
+
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input-prefix__group):visited,
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input-prefix__group):focus,
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input-prefix__group):hover,
+.autoCompleteOuterContainer--searchBarHeader :global(.vtex-input-prefix__group):active {
+  opacity: 1;
+  transition: all 0.3s ease 0s;
+}
+
+.imageElementLink--bannersDeal-carousel {
+  height: 197px;
+  background-color: #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  width: 196px;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.imageElementLink--practipagos{
+  padding-top: 4px!important;
+    margin: 20px 0;
+}
+
+@media (max-width: 680px){
+  .imageElementLink--practipagos{
+    margin-left: 12px;
+  }
+
+}
+
+/* .imageElement--bannersDeal-carousel {
+  font-size: 6em;
+  font-weight: bold;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  margin: 0.25em;
+  padding: 2.5em 0.75em;
+  text-align: center;
+  color: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.imageElementLink--bannersDeal-carousel:hover .imageElement--bannersDeal-carousel {
+  transform: scale(0.9);
+  transition: all 0.3s ease 0s;
+}
+
+/* modal img */
+
+.productImageTag--quickview {
+  margin: auto;
+  width: auto !important;
+  border-radius: 20px;
+  display: flex;
+  /* max-height: 540px !important; */
+}
+
+/* modal img end*/
+
+@media (max-width: 768px) {
+  .logoContainer {
+    width: 100%;
+    display: block;
+    max-width: none;
+    max-height: none;
+    min-width: auto;
+    padding: 0;
+    margin: 0 0 0 -5px ;
+  }
+  .logoLink {
+    margin: auto;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--logoFooter-mobile) .imageElementLink {
+    display: flex;
+  }
+  :global(.vtex-flex-layout-0-x-flexRowContent--logoFooter-mobile) .imageElement {
+    max-width: 190px;
+    margin: auto;
+  }
+  .productDescriptionContainer {
+    margin: auto;
+  }
+  /* .skuSelectorInternalBox {
+    min-width: max-content;
+  } */
+}

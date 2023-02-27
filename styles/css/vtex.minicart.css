@@ -1,0 +1,105 @@
+/* .cartIcon{
+    color: #000000;
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+} */
+.minicartContainer :global(.vtex-button):hover {
+  background: transparent;
+}
+
+.cartIcon {
+  opacity: 0;
+}
+
+.minicartIconContainer {
+  background: url(assets/images/carrito.svg);
+  width: 50px;
+  height: 33.5px;
+  background-repeat: no-repeat;
+}
+
+.minicartWrapperContainer {
+  margin-left: -20px !important;
+}
+
+.minicartWrapperContainer .minicartIconContainer:hover {
+  background: url(assets/images/carrito-hover-2.svg) !important;
+}
+
+.openIconContainer  {
+  padding: 0;
+} 
+
+.minicartQuantityBadge {
+  background-color: #f2cd00;
+  color: #000000;
+}
+
+/* Booton  */
+
+.minicartCheckoutButton :global(.vtex-button) {
+  border: 1px solid #122d80;
+  transition: all 0.4s ease-in-out;
+  background: #ffffff;
+  border-color: #122d80;
+  text-transform: uppercase;
+  color: #122d80;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: "NN Forever Grotesk STD";
+  padding: 12px 5px !important;
+  font-size: 0;
+  font-weight: 500;
+}
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label)::after {
+  font-family: "NN Forever Grotesk STD";
+  content: "Finalizar Pedido";
+  font-size: 16px;
+}
+.minicartCheckoutButton :global(.vtex-button):hover {
+  font-family: "NN Forever Grotesk STD";
+  background-color: #122d80;
+  border: 1px solid #122d80;
+  color: #ffffff;
+  font-size: 16px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+.minicartCheckoutButton
+  :global(.vtex-store-components-3-x-seeMoreButton)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font-family: "NN Forever Grotesk STD";
+  padding-top: 0.25em !important;
+  padding-bottom: 0.32em !important;
+  font-size: 11px;
+  padding: 10px !important;
+}
+.minicartTitle {
+  font-family: "NN Forever Grotesk STD";
+}
+
+.minicartQuantityBadgeDefault {
+  top: -0.6rem;
+  right: -0.1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .openIconContainer {
+    padding: 0 !important;
+  }
+
+  .minicartIconContainer {
+    background: url(assets/images/carrito.svg);
+    background-size: contain;
+    width: 45px;
+    height: 33.5px;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Booton  end */

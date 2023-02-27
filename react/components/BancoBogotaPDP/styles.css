@@ -1,0 +1,38 @@
+.contenedor__pp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid rgb(235, 236, 237);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contenedor__pp .contenedor__logo {
+    max-width: 30px;
+    width: 100%;
+}
+
+.contenedor__pp .contenedor__logo img {
+    width: 100%;
+}
+
+.contenedor__pp .texto__bancob {
+    font-family: 'NN Forever Grotesk STD';
+    font-size: 13px;
+    /* font-weight: bold !important; */
+    margin-left: 10px;
+    font-weight: 400;
+    color: #2f2f2f;
+}
+
+.contenedor__pp .texto__bancob a:hover {
+  color: #00407F;
+}
+
+.contenedor__pp .cont__superintendencia {
+    max-width: 5px;
+    width: 100%;
+    margin-right: 10px;
+}

@@ -1,0 +1,16 @@
+.block {
+    display: block;
+    padding: 15px 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .block {
+        padding: 15px 0;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .block {
+        padding: 15px 0;
+    }
+ }

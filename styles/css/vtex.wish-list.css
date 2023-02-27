@@ -1,0 +1,70 @@
+.wishlistIconContainer--collection :global(.vtex-button) {
+  background: transparent;
+  min-height: inherit;
+  border: none;
+}
+
+:global(.vtex-stack-layout-0-x-stackContainer--product)
+  .wishlistIconContainer--collection
+  :global(.vtex-button) {
+  position: absolute;
+  right: 32px;
+}
+
+.wishlistIconContainer--collection :global(.vtex-button):hover {
+  font-family: 'NN Forever Grotesk STD';
+  background-color: transparent;
+  border: none;
+  color: #f2cd00;
+  font-size: 15px;
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.15));
+}
+
+.wishlistIconContainer--collection :global(.vtex-button):hover .outline {
+  content: "";
+  background: url("assets/images/icons/heart-ping.svg") !important;
+  /* background-size: 80%; */
+  background-repeat: no-repeat;
+  width: 24px;
+}
+
+.fill {
+  content: "";
+  background: url("assets/images/icons/heart-ping-active.svg") !important;
+  /* background-size: 80%; */
+  background-repeat: no-repeat;
+  width: 24px;
+}
+
+.wishlistIconContainer--collection
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding: 0px !important;
+  width: 32px;
+}
+
+.wishlistIcon--collection {
+  height: 25px;
+}
+
+.outline {
+  content: "";
+  background: url("assets/images/icons/heart-blue.svg") !important;
+  /* background-size: 80%; */
+  background-repeat: no-repeat;
+  width: 24px;
+
+  /* color: #122d80; */
+  /* background-color: #122d80;
+  -webkit-mask-image: url(icon.svg);
+  mask-image: url(icon.svg); */
+}
+@media screen and (max-width: 768px) {
+  :global(.vtex-stack-layout-0-x-stackContainer--product)
+    .wishlistIconContainer--collection
+    :global(.vtex-button) {
+    position: absolute;
+    right: 0px;
+    top: 3px;
+  }
+}

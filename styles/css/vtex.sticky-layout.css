@@ -1,0 +1,9 @@
+.wrapper--sticky-header {
+  margin-bottom: 35px;
+}
+
+@media screen and (width: 700px) {
+  .wrapper--sticky-header {
+    margin-bottom: 0px;
+  }
+}

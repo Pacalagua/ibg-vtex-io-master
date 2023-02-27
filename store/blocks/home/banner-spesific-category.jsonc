@@ -1,0 +1,67 @@
+{
+  "list-context.image-list#spesific-category": {
+    "props": {
+      "width": "100%",
+      "images": [
+        {
+          "image": "assets/images/muebles.png",
+          "alt": "MUEBLES",
+          "link": {
+            "url": "#",
+            "attributeTitle": "MUEBLES"
+          }
+        },
+        {
+          "image": "assets/images/cocina.png",
+          "alt": "COCINA",
+          "link": {
+            "url": "#",
+            "attributeTitle": "COCINA"
+          }
+        },
+        /* {
+            "image": "assets/images/ojos-banner.png",
+            "alt":"OJOS",
+            "link": {
+              "url": "#",
+              "attributeTitle":"OJOS"
+            }
+          }, */
+        {
+          "image": "assets/images/tecnologia.png",
+          "alt": "TECNOLOGÍA",
+          "link": {
+            "url": "#",
+            "attributeTitle": "TECNOLOGÍA"
+          }
+        }
+      ],
+      "blockClass": "product-summary.shelf"
+    },
+    "children": [
+      "slider-layout#spesific-category"
+    ]
+  },
+  "slider-layout#spesific-category": {
+    "props": {
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "disabled",
+        "phone": "center"
+      },
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel-all"
+    }
+  }
+}

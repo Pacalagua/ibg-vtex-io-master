@@ -1,0 +1,625 @@
+{
+    "store.custom#formas-de-pago": {
+        "blocks": [
+            "rich-text#title-formas-de-pago",
+            "rich-text#medios-de-pago-texto",
+            "flex-layout.row#imagenes-medios-pago",
+            "flex-layout.row#faq-medios-pago",
+            "flex-layout.row#boton-venta-asistida",
+            "flex-layout.row#oferta-mes",
+            "flex-layout.row#pagos-tarjeta-texto",
+            "flex-layout.row#pagos-bancolombia-texto",
+            "flex-layout.row#pagos-pse-texto",
+            "flex-layout.row#pagos-efecty-texto",
+            "flex-layout.row#info-recaudo-texto"
+        ]
+    },
+    "rich-text#title-formas-de-pago": {
+        "props": {
+            "text": "# Medios de Pago para Comprar Online en IBG",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#medios-de-pago-texto": {
+        "props": {
+            "text": "Conoce todos los medios de pago disponibles para comprar a través de nuestra tienda virtual y estos los encontrarás disponibles en el checkout de tu compra:",
+            "blockClass": "text-info"
+        }
+    },
+    "flex-layout.row#imagenes-medios-pago": {
+        "props": {
+            "maxHeight": 50,
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_sumas",
+            "image#logo_addi",
+            "image#logo_mastercard",
+            "image#logo_visa",
+            "image#logo_amex",
+            "image#logo_bancolombia",
+            "image#logo_pse",
+            "image#logo_efecty"
+        ]
+    },
+    "image#logo_sumas": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_sumas.svg"
+        }
+    },
+    "image#logo_addi": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_addi.svg"
+        }
+    },
+    "image#logo_mastercard": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_mastercard.svg"
+        }
+    },
+    "image#logo_visa": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_visa.svg"
+        }
+    },
+    "image#logo_amex": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_amex.svg"
+        }
+    },
+    "image#logo_bancolombia": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_bancolombia.svg"
+        }
+    },
+    "image#logo_pse": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_pse.svg"
+        }
+    },
+    "image#logo_efecty": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_efecty.svg"
+        }
+    },
+    "flex-layout.row#oferta-mes": {
+        "props": {
+            "blockClass": "container"
+        },
+        "children": [
+            "rich-text#texto-oferta-mes",
+            "image#banner-oferta-mes"
+        ]
+    },
+    "rich-text#texto-oferta-mes": {
+        "props": {
+            "text": "## Aprovecha la promoción del mes comprando Online \n En IBG tenemos las mejores ofertas en muebles y electrodomésticos para que construyas el hogar que sueñas. Descubre todo lo que tenemos para ti en muebles para el hogar, electrodomésticos, tecnología y movilidad con calidad y respaldo garantizados."
+        }
+    },
+    "image#banner-oferta-mes": {
+        "props": {
+            "src": "assets/images/oferta_mes.jpg",
+            "link": {
+                "url": "/ofertas"
+              }
+        }
+    },
+
+    /* Preguntas frecuentes medios de pago */
+    "flex-layout.row#faq-medios-pago": {
+        "props": {
+          "blockClass": "faq"
+        },
+        "children": [
+          "flex-layout.col#faq-medios-pago"
+        ]
+      },
+    
+      "flex-layout.col#faq-medios-pago": {
+        "children": [
+          "rich-text#compra-sumas-titulo",
+          "flex-layout.row#compra-sumas-1-1",
+          "flex-layout.row#compra-sumas-1-2",
+          "flex-layout.row#compra-sumas-1-3",
+          "rich-text#compra-addi-titulo",
+          "flex-layout.row#compra-addi-1-1",
+          "flex-layout.row#compra-addi-1-2",
+          "flex-layout.row#compra-addi-1-3"
+        ]
+      },
+      "rich-text#compra-sumas-titulo": {
+        "props": {
+          "text": "## Compra a crédito con Su+Pay"
+        }
+      },
+
+      /* faq sumas */
+      "flex-layout.row#compra-sumas-1-1": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "image#logo_sumas_solgan"
+        ]
+      },
+      "image#logo_sumas_solgan": {
+        "props": {
+            "height": 100,
+            "src": "assets/images/logo_sumas_slogan.png"
+        }
+      },
+      "flex-layout.row#compra-sumas-1-2": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#info-sumas-1",
+            "flex-layout.col#info-sumas-2",
+            "flex-layout.col#info-sumas-3"
+        ]
+      },
+      "flex-layout.col#info-sumas-1": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-sumas-1",
+            "rich-text#info-sumas-1"
+        ]
+      },
+      "image#info-sumas-1": {
+        "props": {
+            "src": "assets/images/info-sumas-1.png"
+        }
+      },
+      "rich-text#info-sumas-1": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Agrega tus productos al carrito de compras e ingresa tus datos de identificación y dirección de entrega"
+        }
+      },
+      "flex-layout.col#info-sumas-2": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-sumas-2",
+            "rich-text#info-sumas-2"
+        ]
+      },
+      "image#info-sumas-2": {
+        "props": {
+            "src": "assets/images/info-sumas-2.png"
+        }
+      },
+      "rich-text#info-sumas-2": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Selecciona Crédito Su+Pay como medio de pago y da clic en \"Comprar Ahora\""
+        }
+      },
+      "flex-layout.col#info-sumas-3": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-sumas-3",
+            "rich-text#info-sumas-3"
+        ]
+      },
+      "image#info-sumas-3": {
+        "props": {
+            "src": "assets/images/info-sumas-3.png"
+        }
+      },
+      "rich-text#info-sumas-3": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Serás redirigido a la página de Su+Pay para que selecciones el número de cuotas que deseas pagar y confirmas tu crédito ingresando el código de verificación que te llega por SMS o WhatsApp"
+        }
+      },
+      "flex-layout.row#compra-sumas-1-3": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#solicita_sumas"
+        ]
+      },
+      "flex-layout.col#solicita_sumas": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "rich-text#solicta_sumas",
+            "image#sumas_solicitar",
+            "rich-text#politicas-sumas"
+        ]
+      },
+      "rich-text#solicta_sumas": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Si no tienes cupo"
+        }
+      },
+      "image#sumas_solicitar": {
+        "props": {
+            "height": 50,
+            "src": "assets/images/sumas_solicitar.svg",
+            "link": {
+                "url": "https://solicitud.mundosumas.com/",
+                "newTab": true
+              },
+              "target": "_blank"
+            }
+      },
+      "rich-text#politicas-sumas": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Consulta las políticas de Su+Pay aquí: \n <a href=\"https://www.mundosumas.com/nuestraspoliticas\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.mundosumas.com/nuestraspoliticas</a>"
+        }
+      },
+      /* fin faq sumas */
+
+      /* faq addi */
+      "rich-text#compra-addi-titulo": {
+        "props": {
+          "text": "## Compra a crédito con Addi"
+        }
+      },
+      "flex-layout.row#compra-addi-1-1": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "image#logo_addi_slogan",
+            "image#addi_banner"
+        ]
+      },
+      "image#logo_addi_slogan": {
+        "props": {
+            "height": 300,
+            "src": "assets/images/logo_addi_slogan.svg"
+        }
+      },
+      "image#addi_banner": {
+        "props": {
+            "src": "assets/images/addi_banner.png"
+        }
+      },
+      "flex-layout.row#compra-addi-1-2": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#info-addi-1",
+            "flex-layout.col#info-addi-2",
+            "flex-layout.col#info-addi-3"
+        ]
+      },
+      "flex-layout.col#info-addi-1": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-addi-1-1",
+            "image#info-addi-1-2"
+        ]
+      },
+      "image#info-addi-1-1": {
+        "props": {
+            "height": 120,
+            "src": "assets/images/info-addi-1.svg"
+        }
+      },
+      "image#info-addi-1-2": {
+        "props": {
+            "src": "assets/images/info-addi-1.png"
+        }
+      },
+      "flex-layout.col#info-addi-2": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-addi-2-1",
+            "image#info-addi-2-2"
+        ]
+      },
+      "image#info-addi-2-1": {
+        "props": {
+            "height": 120,
+            "src": "assets/images/info-addi-2.svg"
+        }
+      },
+      "image#info-addi-2-2": {
+        "props": {
+            "src": "assets/images/info-addi-2.png"
+        }
+      },
+      "flex-layout.col#info-addi-3": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#info-addi-3-1",
+            "image#info-addi-3-2"
+        ]
+      },
+      "image#info-addi-3-1": {
+        "props": {
+            "height": 120,
+            "src": "assets/images/info-addi-3.svg"
+        }
+      },
+      "image#info-addi-3-2": {
+        "props": {
+            "src": "assets/images/info-addi-3.png"
+        }
+      },
+      "flex-layout.row#compra-addi-1-3": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#solicita_addi"
+        ]
+      },
+      "flex-layout.col#solicita_addi": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#addi_solicitar",
+            "rich-text#tyc-addi"
+        ]
+      },
+      "image#addi_solicitar": {
+        "props": {
+            "src": "assets/images/info-addi-final.png"
+            }
+      },
+      "rich-text#tyc-addi": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Addi mostrará la información de tu compra de forma clara y transparente. La aprobación del crédito está sujeta al estudio realizado por Addi. *El 0% de interés aplica para compras hasta $600.000, diferidas a 3 (tres) cuotas. \n Lee aquí los términos y condiciones: <a href=\"https://co.addi.com/terminos-y-condiciones\" target=\"_blank\" rel=\"noopener noreferrer\">https://co.addi.com/terminos-y-condiciones</a>. \n Tasas y Tarifas: <a href=\"https://co.addi.com/tasas-tarifas\" target=\"_blank\" rel=\"noopener noreferrer\">https://co.addi.com/tasas-tarifas</a>."
+        }
+      },
+      "flex-layout.row#boton-venta-asistida": {
+        "props": {
+            "blockClass": "container"
+        },
+        "children": [
+            "flex-layout.col#boton-venta-asistida"
+        ]
+      },
+      "flex-layout.col#boton-venta-asistida": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "rich-text#venta-asistida-titulo",
+            "image#boton-venta-asistida",
+            "rich-text#venta-asistida-descripcion"
+        ]
+      },
+      "rich-text#venta-asistida-titulo": {
+        "props": {
+            "text": "## Asistimos tu compra"
+        }
+      },
+      "image#boton-venta-asistida": {
+        "props": {
+            "height": 60,
+            "src": "assets/images/venta_asistida.svg",
+            "link": {
+                "url": "https://wa.me/573173729437",
+                "newTab": true
+              },
+              "target": "_blank"
+            }
+      },
+      "rich-text#venta-asistida-descripcion": {
+        "props": {
+            "text": "Si necesitas información de cómo adquirir tus productos a crédito nos puedes escribir al WhatsApp <a href=\"https://wa.me/573173729437\" target=\"_blank\" rel=\"noopener noreferrer\">+57 317 372 9437</a> y con gusto te asesoramos."
+        }
+      },
+      /* fin faq addi */
+
+      /* pagos con tarjetas */
+    "flex-layout.row#pagos-tarjeta-texto": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "flex-layout.col#pagos-tarjeta"
+        ]
+    },
+    "flex-layout.col#pagos-tarjeta": {
+        "children": [
+            "rich-text#tarjetas-texto-titulo",
+            "flex-layout.row#imagenes-pago-tarjetas",
+            "rich-text#tarjetas-texto"
+        ]
+    },
+    "rich-text#tarjetas-texto-titulo": {
+        "props": {
+            "text": "## Pagos con Tarjetas de Crédito"
+        }
+    },
+    "flex-layout.row#imagenes-pago-tarjetas": {
+        "props": {
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_mastercard",
+            "image#logo_visa",
+            "image#logo_amex"
+        ]
+    },
+    "rich-text#tarjetas-texto": {
+        "props": {
+            "text": "Aceptamos tu tarjeta de crédito para que puedas realizar tus compras, Mastercard, Visa, y American Express emitidas en Colombia o en el extranjero. Si las tarjetas son extranjeras estas están sujetas a las políticas de cada entidad financiera para el pago en cuotas y modalidad en que estos son diferidas.",
+            "blockClass": "text-info"
+        }
+    },
+    /* fin pagos con tarjetas */
+
+    /* Pagos Bancolombia Transfer */
+    "flex-layout.row#pagos-bancolombia-texto": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "flex-layout.col#pagos-bancolombia"
+        ]
+    },
+    "flex-layout.col#pagos-bancolombia": {
+        "children": [
+            "rich-text#bancolombia-texto-titulo",
+            "flex-layout.row#imagenes-pago-bancolombia",
+            "rich-text#bancolombia-texto"
+        ]
+    },
+    "rich-text#bancolombia-texto-titulo": {
+        "props": {
+            "text": "## Pagos por Botón Bancolombia"
+        }
+    },
+    "flex-layout.row#imagenes-pago-bancolombia": {
+        "props": {
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_bancolombia_2"
+        ]
+    },
+    "image#logo_bancolombia_2": {
+        "props": {
+            "height": 60,
+            "src": "assets/images/logo_bancolombia_2.svg"
+        }
+    },
+    "rich-text#bancolombia-texto": {
+        "props": {
+            "text": "Con el botón Bancolombia puedes pagar a través de trasferencia bancaria fácil y seguro.",
+            "blockClass": "text-info"
+        }
+    },
+    /* Fin Pagos Bancolombia Transfer */
+
+    /* Pagos PSE */
+    "flex-layout.row#pagos-pse-texto": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "flex-layout.col#pagos-pse"
+        ]
+    },
+    "flex-layout.col#pagos-pse": {
+        "children": [
+            "rich-text#pse-texto-titulo",
+            "flex-layout.row#imagenes-pago-pse",
+            "rich-text#pse-texto"
+        ]
+    },
+    "rich-text#pse-texto-titulo": {
+        "props": {
+            "text": "## Pagos por PSE"
+        }
+    },
+    "flex-layout.row#imagenes-pago-pse": {
+        "props": {
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_pse_2"
+        ]
+    },
+    "image#logo_pse_2": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_pse_2.svg"
+        }
+    },
+    "rich-text#pse-texto": {
+        "props": {
+            "text": "Para que realices tus compras, aceptamos todo tipo de tarjeta débito siempre y cuando esta pertenezca al grupo PSE. Recuerda que para poder efectuar tu compra con una tarjeta débito, debes tener la segunda clave de la misma. Si no tienes esta segunda clave, debes comunicarte con la entidad financiera correspondiente para obtenerla.",
+            "blockClass": "text-info"
+        }
+    },
+    /* Fin Pagos PSE */
+
+    /* Pagos por Efecty */
+    "flex-layout.row#pagos-efecty-texto": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "flex-layout.col#pagos-efecty"
+        ]
+    },
+    "flex-layout.col#pagos-efecty": {
+        "children": [
+            "rich-text#efecty-texto-titulo",
+            "flex-layout.row#imagenes-pago-efecty",
+            "rich-text#efecty-texto"
+        ]
+    },
+    "rich-text#efecty-texto-titulo": {
+        "props": {
+            "text": "## Pagos en efectivo por Efecty"
+        }
+    },
+    "flex-layout.row#imagenes-pago-efecty": {
+        "props": {
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_efecty"
+        ]
+    },
+    "rich-text#efecty-texto": {
+        "props": {
+            "text": "Si no tienes tarjeta Débito o crédito puedes realizar el pago de tu orden en una sucursal Efecty. Encuentra tu punto efecty más cercano.",
+            "blockClass": "text-info"
+        }
+    },
+    /* Fin Pagos por Efecty */
+
+    /* Info recaudo IBG tienda tradicional */
+    "flex-layout.row#info-recaudo-texto": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "flex-layout.col#info-recaudo"
+        ]
+    },
+    "flex-layout.col#info-recaudo": {
+        "children": [
+            "rich-text#info-recaudo-texto-titulo",
+            "rich-text#info-recaudo-texto"
+        ]
+    },
+    "rich-text#info-recaudo-texto-titulo": {
+        "props": {
+            "text": "## Información adicional solo para clientes de tiendas físicas"
+        }
+    },
+    "rich-text#info-recaudo-texto": {
+        "props": {
+            "text": "Si tienes una obligación con Promodescuentos S.A.S. Zomac por compras a través de nuestras tiendas físicas y quieres conocer nuestros puntos de recaudo puedes informarte dando clic [**AQUÍ**](https://www.ibg.com.co/puntos-de-recaudo).",
+            "blockClass": "text-info"
+        }       
+    }
+}

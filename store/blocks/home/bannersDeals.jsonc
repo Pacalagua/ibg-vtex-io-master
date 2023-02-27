@@ -1,0 +1,57 @@
+{
+  "list-context.image-list#bannersDeals": {
+    "children": [
+      "slider-layout#imagesDeals"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#imagesDeals": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 2
+      },
+      "fullWidth": true,
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "bannersDeal-carousel"
+    }
+  }
+}
+// {
+//   "list-context.image-list#bannersDeals": {
+//     "children": ["slider-layout#imagesDeals"],
+//     "props": {
+//       "images": [{
+//           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png"
+//         },
+//         {
+//           "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg"
+//         }
+//       ]
+//     }
+//   },
+//   "slider-layout#imagesDeals": {
+//     "props": {
+//       "itemsPerPage": {
+//         "desktop": 3,
+//         "tablet": 3,
+//         "phone": 2
+//       },
+//       "fullWidth": true,
+//       "infinite": false,
+//       "showNavigationArrows": "desktopOnly",
+//       "blockClass": "bannersDeal-carousel"
+//     }
+//   }
+// }

@@ -1,0 +1,117 @@
+.emailInputContainer {
+  display: flex;
+  color: #fff;
+  padding: 0;
+}
+
+.emailInputContainer :global(.vtex-input) {
+  display: flex;
+}
+
+.emailInputContainer :global(.vtex-input__label) {
+  font-family: 'NN Forever Grotesk STD';
+  display: flex;
+  padding: 0;
+  width: 270px;
+  height: 100%;
+  align-items: center;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+.emailInputContainer :global(.vtex-input-prefix__group) {
+  border-radius: 4px 0 0 4px;
+  border: 0px;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input) {
+  font-family: 'NN Forever Grotesk STD';
+  border-radius: 20px 0 0 20px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  height: 100%;
+}
+
+.newsletterForm {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.emailInputContainer {
+  width: 70%;
+}
+
+.formSubmitContainer {
+  width: 30%;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+  border-radius: 0px 20px 20px 0;
+  background-color: #F2CD00;
+  color: #000000;
+  border: none;
+  width: 100%;
+  font-family: 'NN Forever Grotesk STD';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+}
+
+.formSubmitContainer :global(.vtex-button__label) {
+  text-transform: uppercase;
+}
+
+.confirmationCheckboxContainer {
+  margin-top: 10px;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__label) {
+  font-family: 'NN Forever Grotesk STD';
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.005em;
+}
+
+.confirmationCheckboxContainer :global(.vtex-checkbox__inner-container) {
+  border-radius: 1.25rem;
+  border-style: none;
+  background: #F2CD00;
+}
+
+.defaultSuccessMessage {
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+@media only screen and (min-width: 640px) {
+  .emailInputContainer :global(.vtex-input-prefix__group) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* .emailInputContainer {
+    width: 69%;
+  } */
+
+  .emailInputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 100px 0 0 100px;
+    width: 100%;
+  }
+
+  .formSubmitContainer :global(.vtex-button__label) {
+    font-family: 'NN Forever Grotesk STD';
+    font-size: 12px;
+  }
+
+  .confirmationCheckboxContainer {
+    margin: 10px auto
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "responsive-layout.desktop#top-menu",
+      "responsive-layout.mobile#top-menu"
+    ]
+  },
+  "responsive-layout.desktop#top-menu": {
+    "children": [
+      "rich-text#ventas-envios"
+    ]
+  },
+  "responsive-layout.mobile#top-menu": {
+    "props": {
+      "blockClass": "top-menu-pp"
+    },
+    "children": [
+      "slider-layout#top-menu-mobile"
+    ]
+  },
+  "slider-layout#top-menu-mobile": {
+    "children": [
+      "rich-text#pp",
+      "rich-text#pp-2",
+      "rich-text#pp-3",
+      "rich-text#pp-4"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 2800,
+        "stopOnHover": true
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "top-menu-pp"
+    }
+  },
+  "rich-text#pp": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Financia tus productos con ADDI y Banco de Bogotá**",
+      "textColor": "c-on-emphasis",
+      "blockClass": "top-menu-pp"
+    }
+  },
+  "rich-text#pp-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[**Ventas: +57 317 372 9437**](https://api.whatsapp.com/send/?phone=%2B573173729437/&target=_blank)",
+      "textColor": "c-on-emphasis",
+      "blockClass": "top-menu-pp"
+    }
+  },
+  "rich-text#pp-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " **Envío Gratis**",
+      "textColor": "c-on-emphasis",
+      "blockClass": "top-menu-pp"
+    }
+  },
+  "rich-text#pp-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Línea gratuita: 018000960960**",
+      "textColor": "c-on-emphasis",
+      "blockClass": "top-menu-pp"
+    }
+  },
+  "rich-text#ventas-envios": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Financia tus productos con ADDI y Banco de Bogotá**  [**Ventas: +57 317 372 9437**](https://api.whatsapp.com/send/?phone=%2B573173729437/&target=_blank)  **Envío Gratis**   **Línea gratuita: 018000960960**  ",
+      "textColor": "c-on-emphasis",
+      "blockClass": "envios-ventas"
+    }
+  }
+}

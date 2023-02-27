@@ -1,0 +1,20 @@
+{
+    "store.custom#aviso-de-privacidad": {
+        "blocks": [
+            "rich-text#title-aviso-de-privacidad",
+            "rich-text#aviso-de-privacidad"
+        ]
+    },
+    "rich-text#title-aviso-de-privacidad": {
+        "props": {
+            "text": "## Aviso de privacidad",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#aviso-de-privacidad": {
+        "props": {
+            "text":"**La sociedad IBG S.A y demás empresas del grupo, en cumplimiento de la Ley 1581 de 2012 y demás normas concordantes, es responsable del tratamiento de sus datos personales.** \n\n Los datos personales que la Sociedad IBG S.A y demás empresas del grupo, solicitan serán utilizados para ser incorporados en las bases de datos de la empresa con el fin de (i) continuar con el contacto y el trámite de solicitud de venta iniciado, aplicación laboral o proceso de contratación de proveedores. (ii) Consultar en cualquier tiempo, en las centrales de riesgo, toda la información relevante para conocer su desempeño como deudor y capacidad de pago. (iii) Enviar información sobre actividades desarrolladas por la compañía o demás del grupo. (iv) Enviar información que se considere de interés a través de diversos medios. (v)  Realizar actividades de mercadeo y publicidad de servicios propios de compañía o demás empresas del grupo. (vi) Compartir la información con terceros que colaboran con la empresa y que para el cumplimiento de sus obligaciones deben acceder a la misma. (vii) Realizar gestiones de conocimiento al cliente, empleados, aspirantes, contratistas y proveedores y verificación o actualización de información a través de cualquier medio. (viii) Dar cumplimiento a las obligaciones legales de información a autoridades administrativas y judiciales. \n\n De acuerdo con la legislación colombiana, los titulares de los datos personales, sus representantes legales o sus causahabientes tienen derecho a conocer, actualizar y rectificar sus datos personales frente a los responsables del tratamiento o encargados del tratamiento y, sólo en los casos en que sea procedente, a suprimirlos o revocar la autorización otorgada para su tratamiento. \n\n Si requiere mayor información para conocer nuestra política de privacidad y tratamiento de datos personales y cambios sustanciales que se realicen a la misma. [Consulte aquí](https://www.ibg.com.co/politicas-de-privacidad \"Políticas de Privacidad y Tratamiento de Datos Personales\") \n\n Si desea presentar una consulta, reclamo o petición de información relacionada con la protección de datos personales puede ingresar a la página web www.ibg.com.co - en la opción de PQRS o comunicarse a la línea gratuita nacional [01 8000 960 960](tel:018000960960 \"Línea gratuita IBG\"), correo electrónico notificaciones@ibg.com.co, o en la calle 20 nro. 15-24 de Armenia Quindío.",
+            "blockClass": "tyc"
+        }
+    }
+}

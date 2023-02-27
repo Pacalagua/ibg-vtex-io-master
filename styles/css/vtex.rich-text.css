@@ -1,0 +1,835 @@
+/* Top Menu */
+
+.paragraph--envios {
+  font-family: "NN Forever Grotesk STD";
+  margin: 5px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media (max-width: 680px) {
+  .paragraph--envios {
+    font-family: "NN Forever Grotesk STD";
+    margin: 5px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .paragraph--envios-ventas {
+    margin: 0 !important;
+  }
+}
+
+.link--textInfo-contactonuestrasTiendas::after {
+  display: flex;
+  content: "";
+  background-image: url("assets/images/icons/ubicar.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 21px;
+}
+
+.link--textInfo-contactonuestrasTiendas {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.container--title_tyc {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 60%;
+  padding: 18px;
+  max-width: 1000px;
+  margin: 5px auto;
+}
+
+.heading--title_tyc {
+  font-family: "NN Forever Grotesk STD";
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.wrapper--envios-ventas {
+  margin-left: 20px;
+  color: #000000;
+  padding: 1px 0 0 0;
+}
+
+.wrapper--envios-ventas .strong--envios-ventas {
+  font-family: "NN Forever Grotesk STD";
+  font-weight: 500 !important;
+  padding: 0 15px;
+  color: #000000;
+}
+
+.wrapper--envios-ventas .link--envios-ventas {
+  font-family: "NN Forever Grotesk STD";
+  text-decoration: none;
+}
+
+.wrapper--envios-ventas .link--envios-ventas:hover {
+  color: #122d80;
+  font-weight: 600;
+}
+
+.paragraph--envios-ventas {
+  font-family: "NN Forever Grotesk STD";
+  padding: 0;
+  margin: 0;
+}
+
+.container--tyc {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000;
+  font-size: 14px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: justify;
+}
+
+.container--texto-r {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000 !important;
+  font-size: 14px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: right;
+}
+
+.container--texto-l {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000 !important;
+  font-size: 14px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left;
+}
+
+.container--texto-c {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000 !important;
+  font-size: 14px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.container--number-info {
+  justify-content: center !important;
+  background-color: #ebebeb;
+  width: 100%;
+  color: #122d80;
+  margin-bottom: 4em !important;
+}
+
+.container--texto-info {
+  font-family: NN Forever Grotesk STD;
+  color: #122d80!important;
+  font-size: 14px;
+}
+
+.container--texto-sumas-info {
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .container--number-info {
+    justify-content: center !important;
+    background-color: #ebebeb;
+    color: #122d80;
+    margin-bottom: 4em !important;
+  }
+  .image--practipagos {
+    max-width: 70px;
+    width: 100%;
+  }
+  .paragraph--envios-ventas {
+    font-family: "NN Forever Grotesk STD";
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+  }
+  .container--tyc {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000;
+    font-size: 14px;
+    padding: 18px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+  }
+  .wrapper--envios-ventas .strong--envios-ventas {
+    font-family: "NN Forever Grotesk STD";
+    font-weight: 500 !important;
+    padding: 0 5px;
+    font-size: 11px;
+    color: #1d1d1d;
+  }
+  .container--texto-r {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000;
+    font-size: 14px;
+    padding: 18px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: right;
+  }
+  
+  .container--texto-l {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000 !important;
+    font-size: 14px;
+    padding: 18px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .container--texto-c {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000 !important;
+    font-size: 14px;
+    padding: 18px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+
+}
+
+.container--text-info {
+  padding: 3em;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--title-gray {
+  color: #bdbdbd;
+  justify-content: center;
+  text-align: center;
+}
+
+.container--title-blue {
+  color: #00859b;
+  text-align: center;
+  justify-content: center;
+}
+
+.wrapper--practipagos {
+  max-width: 110px;
+  width: 100%;
+}
+
+.paragraph--practipagos {
+  padding-top: 4px !important;
+  margin: 10px 0;
+}
+
+@media (max-width: 680px) {
+  .container--title-blue {
+    margin: 0 1em !important;
+  }
+  .container--title-gray {
+    margin: 0 1em !important;
+  }
+  .container--text-info {
+    padding: 1.5em;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* Top Menu End */
+
+/* wish */
+
+.container--icon-wish {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 14px;
+}
+
+.wrapper--icon-wish {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph--icon-wish {
+  margin: 0;
+  filter: brightness(0) invert(1);
+}
+
+.paragraph--icon-wish:hover {
+  filter: grayscale(0);
+}
+
+/* wish end */
+
+/*  Footer */
+
+.container--text-subscribe {
+  margin: auto;
+}
+
+.paragraph--text-subscribe {
+  font-family: "NN Forever Grotesk STD";
+  color: #ffffff;
+  margin: auto 7%;
+}
+
+.strong--text-subscribe {
+  font-family: "NN Forever Grotesk STD";
+  color: #f2cd00;
+}
+
+.container--contact-title {
+  margin: auto;
+}
+
+.heading--contact-title {
+  color: #f2cd00;
+  font-family: "NN Forever Grotesk STD";
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 27px 0 0 0 !important;
+}
+
+.link--textInfo-contactoFooterNumber::before {
+  display: flex;
+  content: "";
+  background-image: url("assets/images/icons/wp-contact.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 15px;
+  margin: auto 5px auto auto;
+}
+
+.link--textInfo-contactoFooterNumber:hover::before {
+  background-image: url("assets/images/icons/wp-cantacto-hover.svg");
+  background-repeat: no-repeat;
+}
+
+.link--textInfo-contactoFooterNumber {
+  display: flex;
+}
+
+.paragraph--textInfo-contactoFooterNumber,
+.paragraph--textInfo-contactoFooterFijo,
+.paragraph--textInfo-contactoFooterEstado,
+.paragraph--textInfo-contactoFooterCoantact {
+  font-family: "NN Forever Grotesk STD";
+  margin: 5px 0;
+  font-size: 15px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.link--textInfo-contactoFooterNumber,
+.link--textInfo-contactoFooterCoantact {
+  color: #ffffff;
+  text-decoration: auto;
+}
+
+.link--textInfo-contactoFooterNumber:hover,
+.link--textInfo-contactoFooterCoantact:hover {
+  color: #f2cd00;
+  text-decoration: none;
+}
+
+.paragraph--title-medios-footer {
+  font-family: "NN Forever Grotesk STD";
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 10px;
+  line-height: 1;
+  text-align: center;
+}
+
+.paragraph--derechos-text,
+.paragraph--tecnologia-text {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 1;
+}
+
+/*  end Footer */
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  margin-top: 4em;
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  font-family: "NN Forever Grotesk STD";
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  font-family: "NN Forever Grotesk STD";
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  .container--question .strong {
+    font-family: "NN Forever Grotesk STD";
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .container--tyc {
+    font-family: "NN Forever Grotesk STD";
+    color: #000000;
+    font-size: 14px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 3em;
+  }
+  .container--about {
+    max-width: 85%;
+  }
+  .container--title {
+    font-family: "NN Forever Grotesk STD";
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.container--deals {
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--imagen-tyc {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image--imagen-practi-pago {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 680px) {
+  .image--imagen-practi-pago {
+    width: 90%;
+  }
+  .container--shelfTitle {
+    margin-top: 0;
+  }
+  .heading--shelfTitle {
+    font-size: 22px !important;
+  }
+  .strong--top-menu-pp {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .link--top-menu-pp {
+    text-decoration: none;
+  }
+}
+
+.paragraph--titlesP {
+  font-family: "NN Forever Grotesk STD";
+  color: #1d1d1d;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-family: "NN Forever Grotesk STD";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  font-family: "NN Forever Grotesk STD";
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  font-family: "NN Forever Grotesk STD";
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-family: "NN Forever Grotesk STD";
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .container--about {
+    max-width: 85%;
+  }
+  .container--title {
+    font-family: "NN Forever Grotesk STD";
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}
+
+.heading--shelfTitle {
+  color: #000000;
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.paragraph--quickview {
+  color: #eb2026;
+  font-family: "NN Forever Grotesk STD";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.paragraph--text-legal,
+.container--title-col-footer .headingLevel6 {
+  color: #f2cd00;
+  letter-spacing: 1.5px;
+  font-family: "NN Forever Grotesk STD";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 5px 0;
+}
+
+.wrapper--practipagos {
+  max-width: 50px;
+  width: 100%;
+  padding-top: 4px !important;
+  margin: 10px;
+}
+
+.paragraph--icon-wish-mobile {
+  margin-top: 23px;
+}
+.container--textInfo-col-footer .paragraph {
+  font-family: "NN Forever Grotesk STD";
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.paragraph--title-medios-footer {
+  font-family: "NN Forever Grotesk STD";
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.paragraph--copyRFooter {
+  font-family: "NN Forever Grotesk STD";
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .paragraph--text-subscribe {
+    font-family: "NN Forever Grotesk STD";
+    text-align: center;
+  }
+}
+
+/* Footer */
+
+@media screen and (max-width: 768px) {
+
+  .container--tecnologia-vtex-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .paragraph--tecnologia-vtex-mobile {
+    font-family: "NN Forever Grotesk STD";
+    color: white;
+    font-size: 12px;
+  }
+
+  .paragraph--tecnologia-vtex-mobile {
+    margin: 0;
+  }
+
+  .heading--contact-title {
+    margin: 0;
+  }
+  .container--copyRFooter {
+    margin: auto;
+  }
+  /* paginas legales  */
+  .listOrdered--content {
+    padding-left: 18px;
+  }
+  .wrapper--2-contenido-politica-de-privacidad,
+  .wrapper--1-contenido-politica-de-privacidad,
+  .wrapper--1-contenido-about-us {
+    margin: 0 10px 40px 10px !important;
+  }
+  /* paginas end */
+}
+
+/* Footer edn */
+
+/* paginas legales  */
+
+.wrapper--content {
+  margin: 0 20px 20px 20px;
+}
+
+.wrapper--content .heading--content {
+  text-align: center;
+}
+
+.heading--compra {
+  margin: 20px 10px;
+}
+
+.paragraph--compra {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.paragraph--envio {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.paragraph--pantalla {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.paragraph--estado {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.paragraph--compra::before {
+  content: url("assets/images/Compra.png");
+  margin: auto;
+  min-width: 95px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-image: ("assets/images/Compra.png"); */
+}
+
+.paragraph--envio::before {
+  content: url("assets/images/Envio.png");
+  margin: auto;
+  min-width: 95px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-image: ("assets/images/Compra.png"); */
+}
+
+.paragraph--pantalla::before {
+  content: url("assets/images/Pantalla.png");
+  margin: auto;
+  min-width: 95px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-image: ("assets/images/Compra.png"); */
+}
+
+.paragraph--estado::before {
+  content: url("assets/images/Estado.png");
+  margin: auto;
+  min-width: 95px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  /* background-image: ("assets/images/Compra.png"); */
+}
+
+.listItem--content {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.heading-level-4 {
+  margin: 10px 0;
+}
+
+.container--compra,
+.container--envio,
+.container--pantalla,
+.container--estado {
+  padding: 10px;
+}
+
+.wrapper--2-contenido-politica-de-privacidad,
+.wrapper--1-contenido-about-us {
+  margin: 0 100px 40px 100px;
+}
+
+.wrapper--1-contenido-politica-de-privacidad {
+  margin: 0 100px 0px 100px;
+}
+
+.paragraph--1-contenido-about-us {
+  text-align: justify;
+}
+
+.headingLevel3--1-contenido-about-us {
+  text-align: center;
+}
+
+.paragraph--1-contenido-politica-de-privacidad,
+.paragraph--2-contenido-politica-de-privacidad {
+  text-align: justify;
+}
+
+.wrapper--1-contenido-politica-de-privacidad .headingLevel3--1-contenido-politica-de-privacidad:first-child {
+  text-align: center;
+}
+
+
+
+/* paginas legales end */

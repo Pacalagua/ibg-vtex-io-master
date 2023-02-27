@@ -1,0 +1,223 @@
+{
+    "store.custom#puntos-de-recaudo": {
+        "blocks": [
+            "rich-text#title-puntos-de-recaudo",
+            "flex-layout.row#row-intro-puntos-recaudo",
+            "flex-layout.row#row-recaudo-tiendas",
+            "flex-layout.row#row-recaudo-efecty",
+            "flex-layout.row#row-recaudo-practipagos-pse",
+            "flex-layout.row#row-recaudo-bancolombia-davivienda",
+            "flex-layout.row#row-recaudo-banco-bogota-agrario",
+            "flex-layout.row#row-recaudo-importante",
+            "flex-layout.row#row-recaudo-logo-promo-zomac"
+        ]
+    },
+    "rich-text#title-puntos-de-recaudo": {
+        "props": {
+            "text": "# Puntos de Recaudo ",
+            "blockClass": "title_tyc"
+        }
+    },
+    // Filas
+    "flex-layout.row#row-intro-puntos-recaudo": {
+        "props": {
+            "blockClass": "row-recaudos-2"
+        },
+        "children": [
+            "rich-text#text-puntos-de-recaudo"
+        ]
+    },
+    "flex-layout.row#row-recaudo-tiendas": {
+        "props": {
+            "blockClass": "row-recaudos-4"
+        },
+        "children": [
+            "rich-text#text-recaudo-tiendas"
+        ]
+    },
+    "flex-layout.row#row-recaudo-efecty": {
+        "props": {
+            "blockClass": "row-recaudos-1"
+        },
+        "children": [
+            "flex-layout.col#col-recaudo-efecty-1",
+            "flex-layout.col#col-recaudo-efecty-2"
+        ]
+    },
+    "flex-layout.row#row-recaudo-practipagos-pse": {
+        "props": {
+            "blockClass": "row-recaudos-1"
+        },
+        "children": [
+            "image#logo-practipagos-pse",
+            "rich-text#text-recaudo-practipagos-pse"
+        ]
+    },
+    "flex-layout.row#row-recaudo-bancolombia-davivienda": {
+        "props": {
+            "blockClass": "row-recaudos-2"
+        },
+        "children": [
+            "flex-layout.col#col-recaudo-bancolombia",
+            "flex-layout.col#col-recaudo-davivienda"
+        ]
+    },
+    "flex-layout.row#row-recaudo-banco-bogota-agrario": {
+        "props": {
+            "blockClass": "row-recaudos-2"
+        },
+        "children": [
+            "flex-layout.col#col-recaudo-banco-bogota",
+            "flex-layout.col#col-recaudo-banco-agrario"
+        ]
+    },
+    "flex-layout.row#row-recaudo-importante": {
+        "props": {
+            "blockClass": "row-recaudos-3"
+        },
+        "children": [
+            "rich-text#text-recaudo-promo-zomac"
+        ]
+    },
+    "flex-layout.row#row-recaudo-logo-promo-zomac": {
+        "props": {
+            "blockClass": "row-recaudos-2"
+        },
+        "children": [
+            "image#logo-promo-zomac"
+        ]
+    },
+    // Columnas
+    "flex-layout.col#col-recaudo-efecty-1": {
+        "props": {
+            "blockClass": "row-recaudos-1"
+        },
+        "children": [
+            "image#logo-efecty",
+            "rich-text#text-recaudo-efecty-1"
+        ]
+    },
+    "flex-layout.col#col-recaudo-efecty-2": {
+        "props": {
+            "blockClass": "row-recaudos-1"
+        },
+        "children": [
+            "rich-text#text-recaudo-efecty-2"
+        ]
+    },
+    "flex-layout.col#col-recaudo-bancolombia": {
+        "props": {
+            "blockClass": "col-recaudos"
+        },
+        "children": [
+            "rich-text#text-recaudo-bancolombia"
+        ]
+    },
+    "flex-layout.col#col-recaudo-davivienda": {
+        "props": {
+            "blockClass": "col-recaudos"
+        },
+        "children": [
+            "rich-text#text-recaudo-davivienda"
+        ]
+    },
+    "flex-layout.col#col-recaudo-banco-bogota": {
+        "props": {
+            "blockClass": "col-recaudos"
+        },
+        "children": [
+            "rich-text#text-recaudo-banco-bogota"
+        ]
+    },
+    "flex-layout.col#col-recaudo-banco-agrario": {
+        "props": {
+            "blockClass": "col-recaudos"
+        },
+        "children": [
+            "rich-text#text-recaudo-banco-agrario"
+        ]
+    },
+    // Contenido
+    "rich-text#text-puntos-de-recaudo": {
+        "props": {
+            "text": "Si has realizado compras a través de nuestras tiendas físicas con Promodescuentos S.A.S. Zomac te invitamos a conocer todos nuestros convenios para que hagas el pago oportuno de tus obligaciones:",
+            "blockClass": "text-info"
+        }
+    },
+    "rich-text#text-recaudo-tiendas": {
+        "props": {
+            "text": "Realiza tus pagos de **PROMODESCUENTOS** en Almacenes y Puntos de Venta **IBG**",
+            "blockClass": "texto-info"
+        }
+    },
+    "image#logo-efecty": {
+        "props": {
+            "maxHeight": 50,
+            "src": "assets/images/logo-efecty.svg"
+        }
+    },
+    "rich-text#text-recaudo-efecty-1": {
+        "props": {
+            "text": "**PAGO ÚNICO** \n  **Convenio:** 111822 \n **Identificación:** C.C. Cliente \n  **No. Obligación:** 1010",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-efecty-2": {
+        "props": {
+            "text": "**PAGO INICIAL** \n  **Convenio:** 111822 \n  **Identificación:** C.C. Cliente \n  **No. Obligación:** 2020 \n\n  **PAGOS A CARTERA** \n  **Convenio:** 111822 \n  **Identificación:** C.C. Cliente",
+            "blockClass": "texto-info"
+        }
+    },
+    "image#logo-practipagos-pse": {
+        "props": {
+            "maxHeight": 70,
+            "src": "assets/images/logo-practipagos-pse.svg",
+            "link": {
+                "newTab": "true",
+                "url": "https://serviciosibg.ibg.com.co/practipagos/public/servicio-recaudo"
+            }
+        }
+    },
+    "rich-text#text-recaudo-practipagos-pse": {
+        "props": {
+            "text": "Paga tus abonos en **ibg.com.co** con PSE: \n **✔** Has clic en el ícono de **\"Practipagos\"** \n **✔** Ingresa con tu número de cédula \n  **✔** Selecciona tu factura",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-bancolombia": {
+        "props": {
+            "text": "![Bancolombia](assets/images/logo-bancolombia.svg) \n **Cuenta:** 75600058049 \n  **Tipo:** Cuenta Corriente \n  **Convenio:** 36707 \n  **Referencia:** No. CC. Cliente",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-davivienda": {
+        "props": {
+            "text": "![Davivienda](assets/images/logo-davivienda.svg) \n **Cuenta:** 136269998474 \n **Tipo:** Cuenta Corriente \n **Referencia:** No. CC. Cliente",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-banco-bogota": {
+        "props": {
+            "text": "![Banco de Bogotá](assets/images/logo-banco-bogota.svg) \n **Cuenta:** 845160092 \n  **Tipo:** Cuenta Ahorros \n **Referencia:** No. CC. Cliente",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-banco-agrario": {
+        "props": {
+            "text": "![Banco Agrario](assets/images/logo-banco-agrario.svg) \n **Cuenta:** 054010001342 \n **Tipo:** Cuenta Corriente \n **Convenio:** 12800",
+            "blockClass": "texto-info"
+        }
+    },
+    "rich-text#text-recaudo-promo-zomac": {
+        "props": {
+            "text": "**IMPORTANTE:** \n - En la referencia siempre escriba el número de cédula del titular de la obligación, no de quien realiza la consignación. \n - Para compras en un único pago o abono de inicial por Efecty la cédula debe de estar previamente registrada por uno de nuestros funcionarios en nuestra base de datos \"Data IBG\" con los respectivos datos de usuario. \n - Siempre exija su comprobante electrónico.",
+            "blockClass": "texto-info"
+        }
+    },
+    "image#logo-promo-zomac": {
+        "props": {
+            "maxHeight": 40,
+            "src": "assets/images/logo-promo-zomac.svg"
+        }
+    }
+}

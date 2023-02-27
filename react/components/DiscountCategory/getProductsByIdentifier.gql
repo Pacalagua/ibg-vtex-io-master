@@ -1,0 +1,12 @@
+query productsByIdentifier(
+    $values: [ID!]
+    $field: ProductUniqueIdentifierField!
+) {
+    productsByIdentifier(values: $values, field: $field)
+        @context(provider: "vtex.search-graphql") {
+         clusterHighlights {
+            name
+            id
+        }
+    }
+}

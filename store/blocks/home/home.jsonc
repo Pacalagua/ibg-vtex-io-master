@@ -1,0 +1,199 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#bannerPrincipal",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      // "__fold__.experimentalLazyAssets",
+      // "flex-layout.row#bannerDealsCont",
+      // "flex-layout.row#deals",
+      // TODO: Desde el site editor puedo cambiar aspectos visualmente
+      "WrapperShelf#home"
+
+
+      // "info-card#home"
+      // "flex-layout.row#newsletter"
+
+    ]
+  },
+
+  "WrapperShelf#home": {
+    "children":[
+      "flex-layout.row#spesific-category",
+      "__fold__.experimentalLazyAssets",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "rich-text#list-all-category-text",
+      "flex-layout.row#all-category",
+      "list-context.image-list#bannerSecundario",
+      "rich-text#shelf-personalCare-title",
+      "flex-layout.row#shelf-personalCare"
+    ]
+  },
+
+  // "flex-layout.row#home": {
+  //   "children":[]
+  // },
+
+
+
+
+  "flex-layout.row#spesific-category": {
+    "props": {
+      "blockClass": "spesific-category",
+      "fullWidth": false
+    },
+    "children": [
+      "list-context.image-list#spesific-category"
+    ]
+  },
+
+  "flex-layout.row#bannerDealsCont": {
+    "props": {
+      "fullWidth": false,
+      "blockClass": "container"
+    },
+    "children": ["list-context.image-list#bannersDeals"]
+  },
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "# PRODUCTOS DESTACADOS",
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#shelf-personalCare-title": {
+    "props": {
+      "text": "# PRODUCTOS MÁS BUSCADOS",
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#list-all-category-text": {
+    "props": {
+      "text": "#  CATEGORÍAS",
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"],
+    "props": {
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.row#bannerSecundario": {
+    "children": ["list-context.image-list#bannerSecundario"],
+    "props": {
+      "fullWidth": false
+    }
+
+  },
+
+  // "flex-layout.row#newsletter": {
+  //   "children": ["flex-layout.col#newsletter"],
+  //   "props": {
+  //     "blockClass": "container-newsletter"
+  //   }
+  // },
+  // "flex-layout.col#newsletter": {
+  //   "children": ["newsletter-form#contact"],
+  //   "props": {
+  //     "blockClass": "container-col-newsletter"
+  //   }
+  // },
+  "flex-layout.row#shelf-personalCare": {
+    "children": ["list-context.product-list#categorias"],
+    "props": {
+      "fullWidth": false
+    }
+  },
+
+  "flex-layout.row#all-category": {
+    "children": ["list-context.image-list#bannersMarcas"],
+    "props": {
+      "fullWidth": false
+    }
+  },
+  "list-context.product-list#categorias": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+  "slider-layout#demo-products2": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelf",
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  }
+  // "newsletter-form#contact": {
+  //   "children": [
+  //     "newsletter-input-email",
+  //     "newsletter-submit"
+  //   ]
+  // },
+  // "newsletter-input-email": {
+  //   "props": {
+  //     "placeholderText": "Correo Electronico",
+  //     "inputLabel": "Suscríbete para recibir promociones y descuentos especiales todos los días."
+  //     // "classes": "input-newsletter"
+  //   }
+  // },
+  // "newsletter-submit": {
+  //   "props": {
+  //     "submitButtonLabel": "ENVIAR"
+  //   }
+
+  // }
+
+}

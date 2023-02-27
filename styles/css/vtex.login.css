@@ -1,0 +1,106 @@
+.label {
+  display: none;
+}
+
+.profileIcon--main-login {
+  overflow: initial !important;
+  background: url(assets/images/user-login.svg);
+  width: 50px;
+  height: 33.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profileIcon--main-login:hover {
+  overflow: initial !important;
+  background: url(assets/images/user-login-hover.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profileIcon {
+  font-family: 'NN Forever Grotesk STD';
+  color: #000000;
+  font-size: 25px;
+}
+
+/* .container :global(.vtex-button) {
+  background: #000;
+} */
+
+.container :global(.vtex-button):hover {
+  background: transparent;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button), .accessCodeOptionBtn :global(.vtex-button) {
+  font-family: 'NN Forever Grotesk STD';
+  color: #122d80;
+  border: 1px solid #122d80;
+  transition: all 0.4s ease-in-out;
+  background: #FFFFFF;
+  border-color: #122d80;
+  text-transform: uppercase;
+  color: #122d80;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label), .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'NN Forever Grotesk STD';
+  padding: 12px 5px !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.emailPasswordOptionBtn :global(.vtex-button):hover, .accessCodeOptionBtn :global(.vtex-button):hover {
+  font-family: 'NN Forever Grotesk STD';
+  background-color: #122d80;
+  border: 1px solid #122d80;
+  color: #FFFFFF;
+  font-size: 12px;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.15));
+}
+
+.emailPasswordOptionBtn :global(.vtex-store-components-3-x-seeMoreButton) :global(.vtex-button) :global(.vtex-button__label), .accessCodeOptionBtn :global(.vtex-store-components-3-x-seeMoreButton) :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'NN Forever Grotesk STD';
+  padding-top: 0.25em !important;
+  padding-bottom: 0.32em !important;
+  font-size: 11px;
+  padding: 10px !important;
+}
+
+.backButton :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.sendButton :global(.vtex-button):hover {
+  border-color: #213c8d !important;
+  background-color: #213c8d !important;
+}
+
+:global(.vtex-login-2-x-profileIcon--main-login--mobile) {
+  background-image: url('assets/images/user-login.svg');
+  background-size: contain;
+  width: 45px;
+  height: 33.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 5px;
+}
+
+:global(.vtex-rich-text-0-x-image--icon-wish-mobile) {
+  background-image: url('assets/images/wish-mobile.svg');
+  width: 50px;
+  height: 33.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*
+.content--codeConfirmation,
+.content--emailVerification,
+.content--emailAndPassword {
+  margin-top: 50px;
+} */

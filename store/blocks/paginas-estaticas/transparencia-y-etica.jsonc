@@ -1,0 +1,90 @@
+{
+    "store.custom#transparencia-y-etica": {
+        "blocks": [
+            "rich-text#titulo-transparencia-y-etica",
+            "rich-text#transparencia-y-etica",
+            "flex-layout.row#info-contacto",
+            "flex-layout.row#form-etico",
+            "rich-text#denuncia-personal",
+            "flex-layout.row#proceso-ptee"
+        ]
+    },
+    "rich-text#titulo-transparencia-y-etica": {
+        "props": {
+            "text": "## Programa de Transparencia y Ética Empresarial",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#transparencia-y-etica": {
+        "props": {
+            "text":"#### **¿Qué es?**\n\nComo parte de las políticas de buen gobierno corporativo, Iván Botero Gómez S.A., y sus empresas aliadas, han implementado un Programa de Transparencia y Ética Empresarial, “PTEE”, para realizar denuncias de las conductas atípicas sospechosas que estén en contra de los principios éticos y corporativos tales como: corrupción, soborno trasnacional, fraude y acoso laboral, presuntamente cometidos por funcionarios de la compañía o terceros. \n\n#### **Objetivo General** \n\n Promover e incentivar una cultura ética, además, orientar y transmitir a las contrapartes que están relacionadas de manera directa o indirectamente con la empresa, sobre el compromiso de un actuar ético, y transparente en cada negocio o transacción que adelante la compañía. \n\n #### **Vocabulario:** \n\n - **Soborno transnacional:** Acto en virtud del cual, una persona jurídica, por medio de sus empleados, administradores, asociados o contratistas, da, ofrece o promete a un servidor público extranjero, de manera directa o indirecta: (i) sumas de dinero, (ii) objetos de valor pecuniario o (iii) cualquier beneficio o utilidad a cambio que ese servidor público realice, omita o retarde cualquier acto relacionado con sus funciones y en relación con un negocio o transacción internacional. \n\n- **Soborno:** Es todo aquello que tenga valor y se ofrezca, prometa o entregue a fin de influir en una decisión de negociar o de darle una ventaja inapropiada o indebida. \n\n- **Fraude:** Acción contraria a la verdad y a la rectitud, que perjudica a la persona contra quien se comete. \n\n- **Corrupción:** Es la acción y efecto de corromper (depravar, echar a perder, sobornar a alguien, pervertir, dañar. \n\n- **Conflicto de intereses:** Son aquellas situaciones en las que el juicio de un sujeto, en lo relacionado a un interés primario para él o ella, y la integridad de sus acciones, tienden a estar indebidamente influenciadas por un interés secundario, el cual frecuentemente es de tipo económico o personal. \n\n- **Acoso laboral:** Es toda conducta que constituya agresión u hostigamiento, ejercida por el empleador o por uno o más trabajadores, en contra de otro u otros, por cualquier medio, y que tenga como resultado para él o los afectados menoscabo, maltrato o humillación, o bien que amenace o perjudique su situación laboral o sus oportunidades en el empleo, siempre que todas estas conductas se practiquen en forma reiterada. \n\n\n #### **Canales para reportar** \n\nIván Botero Gómez S.A. y demás empresas aliadas, han puesto a disposición de todos sus colaboradores, contratistas y terceros, unos canales de comunicación confidenciales mediante los cuales puede dar a conocer a la compañía cualquier acto que se perciba como soborno transnacional, corrupción, acoso laboral, conflicto de intereses y/o fraude de sus funcionarios o contratistas, evitando difundirlos por otros medios. \n\nLos colaboradores podrán usar los siguientes mecanismos de comunicación también para realizar consultas sobre el Programa de Transparencia y Ética Empresarial o para asesorarse en la toma de decisiones en cualquiera de las situaciones mencionadas.",
+            "blockClass": "tyc"
+        }
+    },
+    "flex-layout.row#info-contacto": {
+        "props": {
+            "blockClass": "etica"
+        },
+        "children": [
+            "image#icon-denuncie-telefono",
+            "image#icon-denuncie-correo"
+        ]
+    },
+    "image#icon-denuncie-telefono": {
+        "props": {
+            "maxHeight": 50,
+            "src": "assets/images/icon-telefono.svg",
+            "link": {
+                "newTab": "true",
+                "url": "tel:018000960960"
+            }
+        }
+    },
+    "image#icon-denuncie-correo": {
+        "props": {
+            "maxHeight": 50,
+            "src": "assets/images/icon-correo.svg",
+            "link": {
+                "newTab": "true",
+                "url": "mailto:cuentenos@ibg.com.co"
+            }
+        }
+    },
+    "flex-layout.row#form-etico": {
+        "props": {
+            "blockClass": "etica"
+        },
+        "children": [
+            "image#icon-denuncie"
+        ]
+    },
+    "image#icon-denuncie": {
+        "props": {
+            "maxHeight": 50,
+            "src": "assets/images/icon-denuncie.svg",
+            "link": {
+                "newTab": "true",
+                "url": "https://forms.office.com/Pages/ResponsePage.aspx?id=1MhYx1sC2EeuiAo_ovBlDkwflwmXDl1KktgD08Av_6JUNTFCR0w3M0pOVlRVUVY1NjFYWTBNTElWQS4u"
+            }
+        }
+    },
+    "rich-text#denuncia-personal": {
+        "props": {
+            "text": "**Denuncia personal:** Oficial de cumplimiento del “PTEE”, en la dirección calle 21 # 15-12, segundo piso centro, Armenia, Quindío. Horarios de atención: Días hábiles de lunes – viernes 8:00 A. m a 12:00 m - 2:00 p. m a 6:00 p. m. \n\n #### **¿Cómo hago buen uso de los canales de comunicación?** \n\n **Debe utilizarse para:** \n- Comunicar prácticas contrarias a la ley, principios y valores de la compañía. \n- Uso indebido de la información confidencial. \n- Uso indebido o apropiación de los recursos de la compañía. \n- Practicas de soborno transnacional, corrupción, fraude, acoso laboral. \n- Abuso de confianza. \n- Falsificación de información. \n- Situaciones de conflicto de interés. \n- Uso de prácticas comerciales que afecten los intereses de la compañía. \n- Aceptar regalos, favores o pagos que puedan influir en las decisiones de negocios y operaciones, en beneficio directo o indirecto de terceros. \n\n\n **No utilizar para:** \n\n- Actos que vayan en contra del buen nombre de las personas, en donde no hay certeza o verdad de una posible conducta impropia. \n- Los mecanismos de comunicación éticos no deben utilizarse para la recepción de quejas formales en relación con la calidad de los servicios de las empresas, para esto existen otros canales que el cliente debe emplear. \n\n\n ",
+            "blockClass": "tyc"            
+        }
+    },
+    "flex-layout.row#proceso-ptee": {
+        "props": {
+            "blockClass": "etica"
+        },
+        "children": [
+            "image#img-proceso-ptee"
+        ]
+    },
+    "image#img-proceso-ptee": {
+        "props": {
+            "src": "assets/images/img-proceso-ptee.svg"
+        }
+    }
+}
