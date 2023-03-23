@@ -247,7 +247,8 @@
   },
   "children": [
     "menu-item#category-apparel-freidora-de-aire-air-fryer",
-    "menu-item#category-apparel-licuadora"
+    "menu-item#category-apparel-licuadora",
+    "menu-item#category-apparel-hogar-universal"
   ]
 },
 // Sub-sub Menu electromenor mobile fin
@@ -750,11 +751,11 @@
   },
   "menu-item#combos-mobile": {
     "props": {
-      "tagTitle": "Combos",
-      "text": "Combos",
+      "tagTitle": "Cyber Outlet",
+      "text": "Cyber Outlet",
       "itemProps": {
         "type": "internal",
-        "href": "/combos",
+        "href": "/cyber-week",
         "noFollow": false
       }
     }

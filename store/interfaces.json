@@ -29,5 +29,9 @@
   "SumasPay": {
     "component": "SumasPay",
     "allowed": "*"
+  },
+  "SchemaHome": {
+    "component": "SchemaHome",
+    "allowed": "*"
   }
 }

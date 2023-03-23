@@ -228,7 +228,8 @@
     },
     "children": [
       "menu-item#category-apparel-freidora-de-aire-air-fryer",
-      "menu-item#category-apparel-licuadora"
+      "menu-item#category-apparel-licuadora",
+      "menu-item#category-apparel-hogar-universal"
     ]
   },
   "menu-item#category-apparel-freidora-de-aire-air-fryer": {
@@ -259,6 +260,22 @@
         "noFollow": false,
         "tagTitle": "Licuadoras",
         "text": "Licuadoras"
+      }
+    }
+  },
+
+  "menu-item#category-apparel-hogar-universal": {
+    "props": {
+      "id": "menu-item-category-apparel-hogar-universal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/electromenor/hogar-universal",
+        "noFollow": false,
+        "tagTitle": "Hogar Universal",
+        "text": "Hogar Universal"
       }
     }
   },
@@ -1156,12 +1173,12 @@
   },
   "menu-item#combos": {
     "props": {
-      "tagTitle": "Combos",
-      "text": "Combos",
+      "tagTitle": "Cyber Outlet",
+      "text": "Cyber Outlet",
       "blockClass": "menu-item-combos",
       "itemProps": {
         "type": "internal",
-        "href": "/combos",
+        "href": "/cyber-week",
         "noFollow": false
       }
     }

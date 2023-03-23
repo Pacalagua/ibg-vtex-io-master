@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "modal-trigger#sumas-info",
       "list-context.image-list#bannerPrincipal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -10,11 +11,33 @@
       // TODO: Desde el site editor puedo cambiar aspectos visualmente
       "WrapperShelf#home"
 
-
       // "info-card#home"
       // "flex-layout.row#newsletter"
 
     ]
+  },
+
+  "modal-trigger#sumas-info": {
+    "props": {
+      "trigger": "load-session"
+    },
+    "children": [
+      "modal-layout#sumas-info"
+    ]
+  },
+  "modal-layout#sumas-info": {
+    "children": [
+      "modal-header",
+      "image#modal-content-sumas-info"
+    ]
+  },
+  "image#modal-content-sumas-info": {
+    "props": {
+      "src": "assets/images/banner-sumas.jpg",
+      "link": {
+        "url": "/formas-de-pago"
+      }
+    }
   },
 
   "WrapperShelf#home": {

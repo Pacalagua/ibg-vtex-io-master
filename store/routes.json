@@ -38,6 +38,9 @@
   "store.custom#combos": {
     "path": "/combos"
   },
+  "store.custom#cyber-week": {
+    "path": "/cyber-week"
+  },
   "store.custom#transparencia-y-etica": {
     "path": "/transparencia-y-etica"
   },

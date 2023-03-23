@@ -1,7 +1,7 @@
 {
   "vendor": "ibgcol",
   "name": "theme-ibgcol",
-  "version": "1.0.46",
+  "version": "1.0.48",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

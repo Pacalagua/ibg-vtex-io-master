@@ -1,0 +1,33 @@
+{
+    "store.custom#cyber-week": {
+        "blocks": [
+            "list-context.image-list#banner-cyber-week",
+            "search-result-layout.customQuery#cyber-week"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "ALL",
+                "simulationBehavior": "default",
+                "maxItemsPerPage": 16
+            }
+        }
+    },
+    "search-result-layout.customQuery#cyber-week": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 12,
+                "queryField": "178",
+                "mapField": "productClusterIds",
+                "facetsBehavior": "dynamic"
+            },
+            "blockClass": "landing-ofertas"
+        },
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }
+}
