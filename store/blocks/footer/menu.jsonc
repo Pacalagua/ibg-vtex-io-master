@@ -138,6 +138,7 @@
       "menu-item#nuestra-empresa",
       "menu-item#fondo-de-empleados",
       "menu-item#mision-y-vision",
+      "menu-item#trabaja-con-nosotros",
       "menu-item#sucursales-y-tiendas",
       "menu-item#transparencia-y-etica",
       "menu-item#politica-de-calidad"
@@ -196,8 +197,24 @@
         "type": "internal",
         "href": "/mision-y-vision",
         "noFollow": false,
-        "tagTitle": "Misión y visión",
-        "text": "Misión y visión"
+        "tagTitle": "Misión y Visión",
+        "text": "Misión y Visión"
+      }
+    }
+  },
+  "menu-item#trabaja-con-nosotros": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://serviciosibg.ibg.com.co/jobs/public/",
+        "noFollow": false,
+        "tagTitle": "Trabaja con Nosotros",
+        "text": "Trabaja con Nosotros"
       }
     }
   },
@@ -275,8 +292,8 @@
         "type": "internal",
         "href": "/fondo-de-empleados",
         "noFollow": false,
-        "tagTitle": "Fondo de empleados",
-        "text": "Fondo de empleados"
+        "tagTitle": "Fondo de Empleados",
+        "text": "Fondo de Empleados"
       }
     }
   },
@@ -291,8 +308,8 @@
         "type": "internal",
         "href": "/nuestra-empresa",
         "noFollow": false,
-        "tagTitle": "Nuestra empresa",
-        "text": "Nuestra empresa"
+        "tagTitle": "Nuestra Empresa",
+        "text": "Nuestra Empresa"
       }
     }
   },
