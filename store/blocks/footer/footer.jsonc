@@ -43,6 +43,7 @@
     "children": [
       "disclosure-layout#contact",
       "disclosure-layout#notificacion",
+      "disclosure-layout#aliados",
       "disclosure-layout#legal",
       "disclosure-layout#ubica-tienda",
       "disclosure-layout#medios-pago"
@@ -80,6 +81,40 @@
       "text": "Contacto notificaciones"
     }
   },
+  // Disclosure Aliados
+  "disclosure-layout#aliados": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#aliados",
+      "disclosure-content#aliados"
+    ]
+  },
+  "disclosure-trigger#aliados": {
+    "props": {
+      "blockClass": "question",
+      "as": "div"
+    },
+    "children": [
+      "rich-text#title-aliados",
+      "disclosure-state-indicator"
+    ]
+  },
+  "disclosure-content#aliados": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "flex-layout.row#info-text-aliados"
+    ]
+  },
+  "rich-text#title-aliados": {
+    "props": {
+      "text": "Empresas Aliadas"
+    }
+  },
+  // Fin Disclosure Aliados
   //
   "disclosure-layout#contact": {
     "props": {

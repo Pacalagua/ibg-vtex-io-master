@@ -22,6 +22,14 @@
       "blockClass": "title-col-footer"
     }
   },
+  // Empresas Aliadas
+  "rich-text#tittle-contacto-aliados": {
+    "props": {
+      "text": "###### Empresas Aliadas",
+      "blockClass": "title-col-footer"
+    }
+  },
+  // Fin Empresas Aliadas
   // "rich-text#contactoFooter": {
   //   "props": {
   //     "text": "+(57) 2 - 5552255 Ext 141 \n Calle 36 No. 134-201 \n  Km 6 Vía Cali - Jamundí \n <contactenos@bellezaexpress.com>  ",
@@ -46,7 +54,10 @@
       "rich-text#contactoFooterFijo",
       "rich-text#contactoFooterCoantact2",
       "rich-text#contactoFooterNit",
-      "rich-text#contactoFooterJuridica"
+      "rich-text#contactoFooterJuridica",
+      "rich-text#tittle-contacto-aliados",
+      "rich-text#aliado-promodescuentos",
+      "rich-text#aliado-fygs"
     ],
     "props": {
       "blockClass": "info-text",
@@ -114,6 +125,30 @@
       "blockClass": "textInfo-contactoFooterCoantact"
     }
   },
+    // Flex Layout Aliados
+    "flex-layout.row#info-text-aliados": {
+      "children": [
+        "rich-text#aliado-promodescuentos",
+        "rich-text#aliado-fygs"
+      ],
+      "props": {
+        "blockClass": "info-text",
+        "fullWidth": true
+      }
+    },
+    "rich-text#aliado-promodescuentos": {
+      "props": {
+        "text": "Promodescuentos",
+        "blockClass": "textInfo-contactoFooterNumber"
+      }
+    },
+    "rich-text#aliado-fygs": {
+      "props": {
+        "text": "FYGS",
+        "blockClass": "textInfo-contactoFooterNumber"
+      }
+    },
+    // Fin Layout Aliados
   "vtex.menu@2.x:menu#Servicio": {
     "props": {
       "orientation": "vertical",
