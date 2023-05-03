@@ -11,25 +11,25 @@
   "store.custom#mision-y-vision": {
     "path": "/mision-y-vision"
   },
-  "store.custom#politicas-de-garantia":{
+  "store.custom#politicas-de-garantia": {
     "path": "/politicas-de-garantia"
   },
-  "store.custom#terminos-y-condiciones":{
+  "store.custom#terminos-y-condiciones": {
     "path": "/terminos-y-condiciones"
   },
-  "store.custom#politicas-de-privacidad":{
+  "store.custom#politicas-de-privacidad": {
     "path": "/politicas-de-privacidad"
   },
-  "store.custom#servicio-tecnico":{
+  "store.custom#servicio-tecnico": {
     "path": "/servicio-tecnico"
   },
-  "store.custom#preguntas-frecuentes":{
+  "store.custom#preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
   },
-  "store.custom#tyc-promos":{
+  "store.custom#tyc-promos": {
     "path": "/tyc-promos"
   },
-  "store.custom#formas-de-pago":{
+  "store.custom#formas-de-pago": {
     "path": "/formas-de-pago"
   },
   "store.custom#ofertas": {
@@ -54,9 +54,12 @@
     "path": "/aviso-de-privacidad"
   },
   "store.custom#bono-hogar-ibg": {
-      "path": "/bono-hogar-ibg"
+    "path": "/bono-hogar-ibg"
   },
   "store.custom#puntos-de-recaudo": {
     "path": "/puntos-de-recaudo"
-}
+  },
+  "store.custom#super-hogares": {
+    "path": "/super-hogares"
+  }
 }

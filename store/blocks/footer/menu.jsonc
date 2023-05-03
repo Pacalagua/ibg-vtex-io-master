@@ -376,6 +376,7 @@
       "menu-item#servicio-tecnico",
       "menu-item#preguntas-frecuentes",
       "menu-item#tyc-promos",
+      "menu-item#super-hogares",
       "menu-item#formas-de-pago",
       "menu-item#puntos-de-recaudo",
       "menu-item#pqrs",
@@ -491,6 +492,22 @@
         "noFollow": false,
         "tagTitle": "Términos y condiciones promociones online",
         "text": "TyC promociones online"
+      }
+    }
+  },
+  "menu-item#super-hogares": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/super-hogares",
+        "noFollow": false,
+        "tagTitle": "Súper Hogares",
+        "text": "Súper Hogares"
       }
     }
   },

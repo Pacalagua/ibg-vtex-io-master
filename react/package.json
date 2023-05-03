@@ -32,6 +32,8 @@
     "react-markdown": "^4.3.1",
     "react-motion": "^0.5.2",
     "react-outside-click-handler": "^1.2.2",
+    "react-pageflip": "^2.0.3",
+    "react-pdf": "^6.2.2",
     "react-resize-detector": "^3.4.0",
     "react-responsive": "^6.1.1",
     "react-responsive-modal": "^4.0.1",

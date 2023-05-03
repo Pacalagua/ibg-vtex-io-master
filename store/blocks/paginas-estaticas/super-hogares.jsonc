@@ -1,0 +1,24 @@
+{
+    "store.custom#super-hogares": {
+        "blocks": [
+            "rich-text#titulo-super-hogares",
+            "iframe.dynamic-src#flipbook"
+        ]
+    },
+    "iframe.dynamic-src#flipbook": {
+        "props": {
+          /* "blockClass": "iframe-map", */
+          "dynamicSrc": "https://heyzine.com/flip-book/73322d3e9f.html",
+          "width": "1080",
+          "height": "480",
+          "title": "",
+          "allow": ""
+        }
+      },
+      "rich-text#titulo-super-hogares": {
+        "props": {
+            "blockClass": "title_tyc",
+            "text": "# **Súper Hogares IBG**\n #### Edición Mayo - Junio - Julio de 2023"
+          }
+      }
+}
