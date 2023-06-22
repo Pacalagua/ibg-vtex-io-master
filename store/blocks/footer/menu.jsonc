@@ -380,6 +380,7 @@
       "menu-item#formas-de-pago",
       "menu-item#puntos-de-recaudo",
       "menu-item#pqrs",
+      "menu-item#tdt",
       "menu-item#sic"
     ]
   },
@@ -556,6 +557,22 @@
         "noFollow": false,
         "tagTitle": "Preguntas, Quejas, Reclamos o Sugerencias",
         "text": "PQRS"
+      }
+    }
+  },
+  "menu-item#tdt": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.tdtparatodos.tv/",
+        "noFollow": false,
+        "tagTitle": "Todo lo que debes saber sobre TDT",
+        "text": "Todo lo que debes saber sobre TDT"
       }
     }
   },
