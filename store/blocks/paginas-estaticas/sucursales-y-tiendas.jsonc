@@ -1,26 +1,1136 @@
 {
   "store.custom#sucursales-y-tiendas": {
     "blocks": [
-      "rich-text#titulo-sucursales-y-tiendas",
+      /* "rich-text#titulo-sucursales-y-tiendas",
       "rich-text#titulo-nuevas-tiendas",
       "flex-layout.row#lista-nuevas-tiendas",
       "rich-text#como-llegar-nuevas-tiendas",
-      "flex-layout.row#mapa-de-tiendas",
-      "rich-text#titulo-sucursales",
-      "rich-text#titulo-eje-cafetero",
+      "flex-layout.row#mapa-de-tiendas", 
+      "rich-text#titulo-sucursales",*/
+/*       "rich-text#titulo-eje-cafetero",
       "flex-layout.row#lista-eje-cafetero",
       "rich-text#titulo-sur-occidente",
       "flex-layout.row#lista-sur-occidente",
       "rich-text#titulo-centro-andina",
       "flex-layout.row#lista-centro-andina",
       "rich-text#titulo-centro-oriente",
-      "flex-layout.row#lista-centro-oriente"
+      "flex-layout.row#lista-centro-oriente" */
+      "flex-layout.row#directorio-sucursales"
     ]
   },
+  "flex-layout.row#directorio-sucursales": {
+    "props": {
+      "blockClass": "faq"
+    },
+    "children": [
+      "flex-layout.col#directorio-sucursales"
+    ]
+  },
+  "flex-layout.col#directorio-sucursales": {
+    "children": [
+      "rich-text#titulo-sucursales-y-tiendas",
+      "rich-text#contexto-directorio-sucursales",
+      "disclosure-layout-group#directorio-sucursales"
+    ]
+  },
+  "disclosure-layout-group#directorio-sucursales": {
+    "children": [
+      "disclosure-layout#sucursal-armenia",
+      "disclosure-layout#sucursal-bucaramanga",
+      "disclosure-layout#sucursal-cali",
+      "disclosure-layout#sucursal-cartago",
+      "disclosure-layout#sucursal-chinchina",
+      "disclosure-layout#sucursal-duitama",
+      "disclosure-layout#sucursal-espinal",
+      "disclosure-layout#sucursal-florencia",
+      "disclosure-layout#sucursal-fusagasuga",
+      "disclosure-layout#sucursal-girardot",
+      "disclosure-layout#sucursal-ibague",
+      "disclosure-layout#sucursal-ladorada",
+      "disclosure-layout#sucursal-manizales1",
+      "disclosure-layout#sucursal-manizales2",
+      "disclosure-layout#sucursal-mocoa",
+      "disclosure-layout#sucursal-neiva",
+      "disclosure-layout#sucursal-palmira",
+      "disclosure-layout#sucursal-pasto",
+      "disclosure-layout#sucursal-pereira",
+      "disclosure-layout#sucursal-pitalito",
+      "disclosure-layout#sucursal-popayan",
+      "disclosure-layout#sucursal-puertotejada",
+      "disclosure-layout#sucursal-santanderdequilichao",
+      "disclosure-layout#sucursal-tunja",
+      "disclosure-layout#sucursal-villavicencio",
+      "disclosure-layout#sucursal-yopal",
+      "disclosure-layout#sucursal-zipaquira"
+    ]
+  },
+
+  /* Disclosure Element - Armenia */
+  "disclosure-layout#sucursal-armenia": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-armenia",
+      "disclosure-content#suc-armenia"
+    ]
+  },
+  "disclosure-trigger#suc-armenia": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-armenia"
+    ]
+  },
+  "disclosure-content#suc-armenia": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-armenia"
+    ]
+  },
+  "rich-text#suc-armenia": {
+    "props": {
+      "text": "ARMENIA"
+    }
+  },
+  "rich-text#dir-suc-armenia": {
+    "props": {
+      "text": "Dirección: Cra 15 # 19 - 51 Centro"
+    }
+  },
+
+  /* Disclosure Element - Bucaramanga */
+  "disclosure-layout#sucursal-bucaramanga": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-bucaramanga",
+      "disclosure-content#suc-bucaramanga"
+    ]
+  },
+  "disclosure-trigger#suc-bucaramanga": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-bucaramanga"
+    ]
+  },
+  "disclosure-content#suc-bucaramanga": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-bucaramanga"
+    ]
+  },
+  "rich-text#suc-bucaramanga": {
+    "props": {
+      "text": "BUCARAMANGA"
+    }
+  },
+  "rich-text#dir-suc-bucaramanga": {
+    "props": {
+      "text": "Dirección: Calle 36 # 22 - 76"
+    }
+  },
+
+  /* Disclosure Element - Cali */
+  "disclosure-layout#sucursal-cali": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-cali",
+      "disclosure-content#suc-cali"
+    ]
+  },
+  "disclosure-trigger#suc-cali": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-cali"
+    ]
+  },
+  "disclosure-content#suc-cali": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-cali"
+    ]
+  },
+  "rich-text#suc-cali": {
+    "props": {
+      "text": "CALI"
+    }
+  },
+  "rich-text#dir-suc-cali": {
+    "props": {
+      "text": "Dirección: Calle 12 # 6 - 36\nTeléfono: [3164466871](tel:+573164466871 \"Teléfono Sucursal Cali\")"
+    }
+  },
+
+  /* Disclosure Element - Cartago */
+  "disclosure-layout#sucursal-cartago": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-cartago",
+      "disclosure-content#suc-cartago"
+    ]
+  },
+  "disclosure-trigger#suc-cartago": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-cartago"
+    ]
+  },
+  "disclosure-content#suc-cartago": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-cartago"
+    ]
+  },
+  "rich-text#suc-cartago": {
+    "props": {
+      "text": "CARTAGO"
+    }
+  },
+  "rich-text#dir-suc-cartago": {
+    "props": {
+      "text": "Dirección: Cra 4 # 12 - 02\nTeléfono: [3168338208](tel:+573168338208 \"Teléfono Sucursal Cartago\")"
+    }
+  },
+
+  /* Disclosure Element - Chinchina */
+  "disclosure-layout#sucursal-chinchina": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-chinchina",
+      "disclosure-content#suc-chinchina"
+    ]
+  },
+  "disclosure-trigger#suc-chinchina": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-chinchina"
+    ]
+  },
+  "disclosure-content#suc-chinchina": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-chinchina"
+    ]
+  },
+  "rich-text#suc-chinchina": {
+    "props": {
+      "text": "CHINCHINÁ"
+    }
+  },
+  "rich-text#dir-suc-chinchina": {
+    "props": {
+      "text": "Dirección: Cra 8 # 9 - 74\nTeléfono: [3158619468](tel:+573158619468 \"Teléfono Sucursal Chinchiná\")"
+    }
+  },
+
+  /* Disclosure Element - Duitama */
+  "disclosure-layout#sucursal-duitama": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-duitama",
+      "disclosure-content#suc-duitama"
+    ]
+  },
+  "disclosure-trigger#suc-duitama": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-duitama"
+    ]
+  },
+  "disclosure-content#suc-duitama": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-duitama"
+    ]
+  },
+  "rich-text#suc-duitama": {
+    "props": {
+      "text": "DUITAMA"
+    }
+  },
+  "rich-text#dir-suc-duitama": {
+    "props": {
+      "text": "Dirección: Cra 18 # 13 - 55\nTeléfono: [3174368988](tel:+573174368988 \"Teléfono Sucursal Duitama\")"
+    }
+  },
+  
+  /* Disclosure Element - Espinal */
+  "disclosure-layout#sucursal-espinal": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-espinal",
+      "disclosure-content#suc-espinal"
+    ]
+  },
+  "disclosure-trigger#suc-espinal": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-espinal"
+    ]
+  },
+  "disclosure-content#suc-espinal": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-espinal"
+    ]
+  },
+  "rich-text#suc-espinal": {
+    "props": {
+      "text": "ESPINAL"
+    }
+  },
+  "rich-text#dir-suc-espinal": {
+    "props": {
+      "text": "Dirección: Calle 9 # 4 - 41\nTeléfono: [3116464634](tel:+573116464634 \"Teléfono Sucursal Espinal\")"
+    }
+  },
+
+  /* Disclosure Element - Florencia */
+  "disclosure-layout#sucursal-florencia": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-florencia",
+      "disclosure-content#suc-florencia"
+    ]
+  },
+  "disclosure-trigger#suc-florencia": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-florencia"
+    ]
+  },
+  "disclosure-content#suc-florencia": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-florencia"
+    ]
+  },
+  "rich-text#suc-florencia": {
+    "props": {
+      "text": "FLORENCIA"
+    }
+  },
+  "rich-text#dir-suc-florencia": {
+    "props": {
+      "text": "Dirección: Cra 11 # 17 - 37\nTeléfono: [3155900005](tel:+573155900005 \"Teléfono Sucursal Florencia\")"
+    }
+  },
+
+  /* Disclosure Element - Fusagasuga */
+  "disclosure-layout#sucursal-fusagasuga": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-fusagasuga",
+      "disclosure-content#suc-fusagasuga"
+    ]
+  },
+  "disclosure-trigger#suc-fusagasuga": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-fusagasuga"
+    ]
+  },
+  "disclosure-content#suc-fusagasuga": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-fusagasuga"
+    ]
+  },
+  "rich-text#suc-fusagasuga": {
+    "props": {
+      "text": "FUSAGASUGÁ"
+    }
+  },
+  "rich-text#dir-suc-fusagasuga": {
+    "props": {
+      "text": "Dirección: Calle 6 # 7 - 14 Centro"
+    }
+  },
+
+  /* Disclosure Element - Girardot */
+  "disclosure-layout#sucursal-girardot": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-girardot",
+      "disclosure-content#suc-girardot"
+    ]
+  },
+  "disclosure-trigger#suc-girardot": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-girardot"
+    ]
+  },
+  "disclosure-content#suc-girardot": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-girardot"
+    ]
+  },
+  "rich-text#suc-girardot": {
+    "props": {
+      "text": "GIRARDOT"
+    }
+  },
+  "rich-text#dir-suc-girardot": {
+    "props": {
+      "text": "Dirección: Calle 16 # 11 - 65\nTeléfono: [3154125320](tel:+573154125320 \"Teléfono Sucursal Girardot\")"
+    }
+  },
+
+  /* Disclosure Element - Ibague */
+  "disclosure-layout#sucursal-ibague": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-ibague",
+      "disclosure-content#suc-ibague"
+    ]
+  },
+  "disclosure-trigger#suc-ibague": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-ibague"
+    ]
+  },
+  "disclosure-content#suc-ibague": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-ibague"
+    ]
+  },
+  "rich-text#suc-ibague": {
+    "props": {
+      "text": "IBAGUÉ"
+    }
+  },
+  "rich-text#dir-suc-ibague": {
+    "props": {
+      "text": "Dirección: Calle 15 # 3 - 62\nTeléfono: [3158619456](tel:+573158619456 \"Teléfono Sucursal Ibagué\")"
+    }
+  },
+
+  /* Disclosure Element - La Dorada */
+  "disclosure-layout#sucursal-ladorada": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-ladorada",
+      "disclosure-content#suc-ladorada"
+    ]
+  },
+  "disclosure-trigger#suc-ladorada": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-ladorada"
+    ]
+  },
+  "disclosure-content#suc-ladorada": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-ladorada"
+    ]
+  },
+  "rich-text#suc-ladorada": {
+    "props": {
+      "text": "LA DORADA"
+    }
+  },
+  "rich-text#dir-suc-ladorada": {
+    "props": {
+      "text": "Dirección: Cra 3 # 12 - 52\nTeléfono: [3225145955](tel:+573225145955 \"Teléfono Sucursal La Dorada\")"
+    }
+  },
+
+  /* Disclosure Element - Manizales 1 */
+  "disclosure-layout#sucursal-manizales1": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-manizales1",
+      "disclosure-content#suc-manizales1"
+    ]
+  },
+  "disclosure-trigger#suc-manizales1": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-manizales1"
+    ]
+  },
+  "disclosure-content#suc-manizales1": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-manizales1"
+    ]
+  },
+  "rich-text#suc-manizales1": {
+    "props": {
+      "text": "MANIZALES 1"
+    }
+  },
+  "rich-text#dir-suc-manizales1": {
+    "props": {
+      "text": "Dirección: Cra 22 # 24 - 25\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")"
+    }
+  },
+
+  /* Disclosure Element - Manizales 2 */
+  "disclosure-layout#sucursal-manizales2": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-manizales2",
+      "disclosure-content#suc-manizales2"
+    ]
+  },
+  "disclosure-trigger#suc-manizales2": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-manizales2"
+    ]
+  },
+  "disclosure-content#suc-manizales2": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-manizales2"
+    ]
+  },
+  "rich-text#suc-manizales2": {
+    "props": {
+      "text": "MANIZALES 2"
+    }
+  },
+  "rich-text#dir-suc-manizales2": {
+    "props": {
+      "text": "Dirección: Cra 21 # 21 - 10\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")"
+    }
+  },
+
+  /* Disclosure Element - Mocoa */
+  "disclosure-layout#sucursal-mocoa": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-mocoa",
+      "disclosure-content#suc-mocoa"
+    ]
+  },
+  "disclosure-trigger#suc-mocoa": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-mocoa"
+    ]
+  },
+  "disclosure-content#suc-mocoa": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-mocoa"
+    ]
+  },
+  "rich-text#suc-mocoa": {
+    "props": {
+      "text": "MOCOA"
+    }
+  },
+  "rich-text#dir-suc-mocoa": {
+    "props": {
+      "text": "Dirección: Av Colombia Cra 9 # 11 - 12\nTeléfono: [3155398035](tel:+573155398035 \"Teléfono Sucursal Mocoa\")"
+    }
+  },
+
+  /* Disclosure Element - Neiva */
+  "disclosure-layout#sucursal-neiva": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-neiva",
+      "disclosure-content#suc-neiva"
+    ]
+  },
+  "disclosure-trigger#suc-neiva": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-neiva"
+    ]
+  },
+  "disclosure-content#suc-neiva": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-neiva"
+    ]
+  },
+  "rich-text#suc-neiva": {
+    "props": {
+      "text": "NEIVA"
+    }
+  },
+  "rich-text#dir-suc-neiva": {
+    "props": {
+      "text": "Dirección: Cra 6 # 7 - 81\nTeléfono: [3164369425](tel:+573164369425 \"Teléfono Sucursal Neiva\")"
+    }
+  },
+
+  /* Disclosure Element - Palmira */
+  "disclosure-layout#sucursal-palmira": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-palmira",
+      "disclosure-content#suc-palmira"
+    ]
+  },
+  "disclosure-trigger#suc-palmira": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-palmira"
+    ]
+  },
+  "disclosure-content#suc-palmira": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-palmira"
+    ]
+  },
+  "rich-text#suc-palmira": {
+    "props": {
+      "text": "PALMIRA"
+    }
+  },
+  "rich-text#dir-suc-palmira": {
+    "props": {
+      "text": "Dirección: Cra 25 # 29 - 59\nTeléfono: [3164820028](tel:+573164820028 \"Teléfono Sucursal Palmira\")"
+    }
+  },
+
+  /* Disclosure Element - Pasto */
+  "disclosure-layout#sucursal-pasto": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-pasto",
+      "disclosure-content#suc-pasto"
+    ]
+  },
+  "disclosure-trigger#suc-pasto": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-pasto"
+    ]
+  },
+  "disclosure-content#suc-pasto": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-pasto"
+    ]
+  },
+  "rich-text#suc-pasto": {
+    "props": {
+      "text": "PASTO"
+    }
+  },
+  "rich-text#dir-suc-pasto": {
+    "props": {
+      "text": "Dirección: Cra 22 # 15 - 41"
+    }
+  },
+
+  /* Disclosure Element - Pereira */
+  "disclosure-layout#sucursal-pereira": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-pereira",
+      "disclosure-content#suc-pereira"
+    ]
+  },
+  "disclosure-trigger#suc-pereira": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-pereira"
+    ]
+  },
+  "disclosure-content#suc-pereira": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-pereira"
+    ]
+  },
+  "rich-text#suc-pereira": {
+    "props": {
+      "text": "PEREIRA"
+    }
+  },
+  "rich-text#dir-suc-pereira": {
+    "props": {
+      "text": "Dirección: Cra 8 # 23 - 32\nTeléfono: [3206320948](tel:+573206320948 \"Teléfono Sucursal Pereira\")"
+    }
+  },
+
+  /* Disclosure Element - Pitalito */
+  "disclosure-layout#sucursal-pitalito": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-pitalito",
+      "disclosure-content#suc-pitalito"
+    ]
+  },
+  "disclosure-trigger#suc-pitalito": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-pitalito"
+    ]
+  },
+  "disclosure-content#suc-pitalito": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-pitalito"
+    ]
+  },
+  "rich-text#suc-pitalito": {
+    "props": {
+      "text": "PITALITO"
+    }
+  },
+  "rich-text#dir-suc-pitalito": {
+    "props": {
+      "text": "Dirección: Cra 4 # 3 - 39\nTeléfono: [3174414188](tel:+573174414188 \"Teléfono Sucursal Pitalito\")"
+    }
+  },
+
+  /* Disclosure Element - Popayan */
+  "disclosure-layout#sucursal-popayan": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-popayan",
+      "disclosure-content#suc-popayan"
+    ]
+  },
+  "disclosure-trigger#suc-popayan": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-popayan"
+    ]
+  },
+  "disclosure-content#suc-popayan": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-popayan"
+    ]
+  },
+  "rich-text#suc-popayan": {
+    "props": {
+      "text": "POPAYÁN"
+    }
+  },
+  "rich-text#dir-suc-popayan": {
+    "props": {
+      "text": "Dirección: Calle 7 # 8 - 31\nTeléfono: [3155398027](tel:+573155398027 \"Teléfono Sucursal Popayán\")"
+    }
+  },
+
+  /* Disclosure Element - Puerto Tejada */
+  "disclosure-layout#sucursal-puertotejada": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-puertotejada",
+      "disclosure-content#suc-puertotejada"
+    ]
+  },
+  "disclosure-trigger#suc-puertotejada": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-puertotejada"
+    ]
+  },
+  "disclosure-content#suc-puertotejada": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-puertotejada"
+    ]
+  },
+  "rich-text#suc-puertotejada": {
+    "props": {
+      "text": "PUERTO TEJADA"
+    }
+  },
+  "rich-text#dir-suc-puertotejada": {
+    "props": {
+      "text": "Dirección: Cra 20 # 17 - 41\nTeléfono: [3155398032](tel:+573155398032 \"Teléfono Sucursal Puerto Tejada\")"
+    }
+  },
+
+  /* Disclosure Element - Santander de Quilichao */
+  "disclosure-layout#sucursal-santanderdequilichao": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-santanderdequilichao",
+      "disclosure-content#suc-santanderdequilichao"
+    ]
+  },
+  "disclosure-trigger#suc-santanderdequilichao": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-santanderdequilichao"
+    ]
+  },
+  "disclosure-content#suc-santanderdequilichao": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-santanderdequilichao"
+    ]
+  },
+  "rich-text#suc-santanderdequilichao": {
+    "props": {
+      "text": "SANTANDER DE QUILICHAO"
+    }
+  },
+  "rich-text#dir-suc-santanderdequilichao": {
+    "props": {
+      "text": "Dirección: Calle 7 # 11 - 39"
+    }
+  },
+
+  /* Disclosure Element - Tunja */
+  "disclosure-layout#sucursal-tunja": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-tunja",
+      "disclosure-content#suc-tunja"
+    ]
+  },
+  "disclosure-trigger#suc-tunja": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-tunja"
+    ]
+  },
+  "disclosure-content#suc-tunja": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-tunja"
+    ]
+  },
+  "rich-text#suc-tunja": {
+    "props": {
+      "text": "TUNJA"
+    }
+  },
+  "rich-text#dir-suc-tunja": {
+    "props": {
+      "text": "Dirección: Cra 9 # 17 - 65\nTeléfono: [3174032878](tel:+573174032878 \"Teléfono Sucursal Tunja\")"
+    }
+  },
+
+  /* Disclosure Element - Villavicencio */
+  "disclosure-layout#sucursal-villavicencio": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-villavicencio",
+      "disclosure-content#suc-villavicencio"
+    ]
+  },
+  "disclosure-trigger#suc-villavicencio": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-villavicencio"
+    ]
+  },
+  "disclosure-content#suc-villavicencio": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-villavicencio"
+    ]
+  },
+  "rich-text#suc-villavicencio": {
+    "props": {
+      "text": "VILLAVICENCIO"
+    }
+  },
+  "rich-text#dir-suc-villavicencio": {
+    "props": {
+      "text": "Dirección: Cra 30 # 35A 23 - 27\nTeléfono: [3156770351](tel:+573156770351 \"Teléfono Sucursal Villavicencio\")"
+    }
+  },
+
+  /* Disclosure Element - Yopal */
+  "disclosure-layout#sucursal-yopal": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-yopal",
+      "disclosure-content#suc-yopal"
+    ]
+  },
+  "disclosure-trigger#suc-yopal": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-yopal"
+    ]
+  },
+  "disclosure-content#suc-yopal": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-yopal"
+    ]
+  },
+  "rich-text#suc-yopal": {
+    "props": {
+      "text": "YOPAL"
+    }
+  },
+  "rich-text#dir-suc-yopal": {
+    "props": {
+      "text": "Dirección: Cra 20 # 16 - 50"
+    }
+  },
+
+  /* Disclosure Element - Zipaquira */
+  "disclosure-layout#sucursal-zipaquira": {
+    "props": {
+      "animated": true
+    },
+    "children": [
+      "disclosure-trigger#suc-zipaquira",
+      "disclosure-content#suc-zipaquira"
+    ]
+  },
+  "disclosure-trigger#suc-zipaquira": {
+    "props": {
+      "blockClass": "question-pdp",
+      "as": "div"
+    },
+    "children": [
+      "disclosure-state-indicator",
+      "rich-text#suc-zipaquira"
+    ]
+  },
+  "disclosure-content#suc-zipaquira": {
+    "props": {
+      "blockClass": "answer"
+    },
+    "children": [
+      "rich-text#dir-suc-zipaquira"
+    ]
+  },
+  "rich-text#suc-zipaquira": {
+    "props": {
+      "text": "ZIPAQUIRÁ"
+    }
+  },
+  "rich-text#dir-suc-zipaquira": {
+    "props": {
+      "text": "Dirección: Cra 10 # 7A - 15\nTeléfono: [3154039154](tel:+573154039154 \"Teléfono Sucursal Zipaquirá\")"
+    }
+  },
+
+
+
+
   "rich-text#titulo-sucursales-y-tiendas": {
     "props": {
       "blockClass": "title_tyc",
-      "text": "### **Conoce nuestras sucursales y puntos de venta**"
+      "text": "# **Visita nuestras sucursales**"
+    }
+  },
+  "rich-text#contexto-directorio-sucursales": {
+    "props": {
+      /* "blockClass": "question", */
+      "text": "Contamos con tiendas en ciudades principales del país en donde encontrarás lo que necesitas para tener el hogar que sueñas."
     }
   },
   // Slider Nuevas Tiendas
