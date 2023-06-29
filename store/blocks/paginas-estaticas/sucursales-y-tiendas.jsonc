@@ -100,7 +100,7 @@
   },
   "rich-text#dir-suc-armenia": {
     "props": {
-      "text": "Dirección: Cra 15 # 19 - 51 Centro"
+      "text": "Dirección: Cra 15 # 19 - 51\n<a href=\"https://wa.me/573113755369\" target=\"_blank\" title=\"IBG Armenia Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -139,7 +139,7 @@
   },
   "rich-text#dir-suc-bucaramanga": {
     "props": {
-      "text": "Dirección: Calle 36 # 22 - 76"
+      "text": "Dirección: Calle 36 # 22 - 76\n<a href=\"https://wa.me/573046450651\" target=\"_blank\" title=\"IBG Bucaramanga Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -178,7 +178,7 @@
   },
   "rich-text#dir-suc-cali": {
     "props": {
-      "text": "Dirección: Calle 12 # 6 - 36\nTeléfono: [3164466871](tel:+573164466871 \"Teléfono Sucursal Cali\")"
+      "text": "Dirección: Calle 12 # 6 - 36\nTeléfono: [3164466871](tel:+573164466871 \"Teléfono Sucursal Cali\")\n<a href=\"https://wa.me/573046508153\" target=\"_blank\" title=\"IBG Cali Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -217,7 +217,7 @@
   },
   "rich-text#dir-suc-cartago": {
     "props": {
-      "text": "Dirección: Cra 4 # 12 - 02\nTeléfono: [3168338208](tel:+573168338208 \"Teléfono Sucursal Cartago\")"
+      "text": "Dirección: Cra 4 # 12 - 02\nTeléfono: [3168338208](tel:+573168338208 \"Teléfono Sucursal Cartago\")\n<a href=\"https://wa.me/573218298588\" target=\"_blank\" title=\"IBG Cartago Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -256,7 +256,7 @@
   },
   "rich-text#dir-suc-chinchina": {
     "props": {
-      "text": "Dirección: Cra 8 # 9 - 74\nTeléfono: [3158619468](tel:+573158619468 \"Teléfono Sucursal Chinchiná\")"
+      "text": "Dirección: Cra 8 # 9 - 74\nTeléfono: [3158619468](tel:+573158619468 \"Teléfono Sucursal Chinchiná\")\n<a href=\"https://wa.me/573156629458\" target=\"_blank\" title=\"IBG Chinchiná Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -295,7 +295,7 @@
   },
   "rich-text#dir-suc-duitama": {
     "props": {
-      "text": "Dirección: Cra 18 # 13 - 55\nTeléfono: [3174368988](tel:+573174368988 \"Teléfono Sucursal Duitama\")"
+      "text": "Dirección: Cra 18 # 13 - 55\nTeléfono: [3174368988](tel:+573174368988 \"Teléfono Sucursal Duitama\")\n<a href=\"https://wa.me/573108832233\" target=\"_blank\" title=\"IBG Duitama Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
   
@@ -334,7 +334,7 @@
   },
   "rich-text#dir-suc-espinal": {
     "props": {
-      "text": "Dirección: Calle 9 # 4 - 41\nTeléfono: [3116464634](tel:+573116464634 \"Teléfono Sucursal Espinal\")"
+      "text": "Dirección: Calle 9 # 4 - 41\nTeléfono: [3116464634](tel:+573116464634 \"Teléfono Sucursal Espinal\")\n<a href=\"https://wa.me/573104566836\" target=\"_blank\" title=\"IBG Espinal Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -373,7 +373,7 @@
   },
   "rich-text#dir-suc-florencia": {
     "props": {
-      "text": "Dirección: Cra 11 # 17 - 37\nTeléfono: [3155900005](tel:+573155900005 \"Teléfono Sucursal Florencia\")"
+      "text": "Dirección: Cra 11 # 17 - 37\nTeléfono: [3155900005](tel:+573155900005 \"Teléfono Sucursal Florencia\")\n<a href=\"https://wa.me/573203452995\" target=\"_blank\" title=\"IBG Florencia Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -412,7 +412,7 @@
   },
   "rich-text#dir-suc-fusagasuga": {
     "props": {
-      "text": "Dirección: Calle 6 # 7 - 14 Centro"
+      "text": "Dirección: Calle 6 # 7 - 14\n<a href=\"https://wa.me/573137492301\" target=\"_blank\" title=\"IBG Fusagasugá Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -451,7 +451,7 @@
   },
   "rich-text#dir-suc-girardot": {
     "props": {
-      "text": "Dirección: Calle 16 # 11 - 65\nTeléfono: [3154125320](tel:+573154125320 \"Teléfono Sucursal Girardot\")"
+      "text": "Dirección: Calle 16 # 11 - 65\nTeléfono: [3154125320](tel:+573154125320 \"Teléfono Sucursal Girardot\")\n<a href=\"https://wa.me/573124542392\" target=\"_blank\" title=\"IBG Girardot Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -490,7 +490,7 @@
   },
   "rich-text#dir-suc-ibague": {
     "props": {
-      "text": "Dirección: Calle 15 # 3 - 62\nTeléfono: [3158619456](tel:+573158619456 \"Teléfono Sucursal Ibagué\")"
+      "text": "Dirección: Calle 15 # 3 - 62\nTeléfono: [3158619456](tel:+573158619456 \"Teléfono Sucursal Ibagué\")\n<a href=\"https://wa.me/573174379281\" target=\"_blank\" title=\"IBG Ibagué Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -529,7 +529,7 @@
   },
   "rich-text#dir-suc-ladorada": {
     "props": {
-      "text": "Dirección: Cra 3 # 12 - 52\nTeléfono: [3225145955](tel:+573225145955 \"Teléfono Sucursal La Dorada\")"
+      "text": "Dirección: Cra 3 # 12 - 52\nTeléfono: [3225145955](tel:+573225145955 \"Teléfono Sucursal La Dorada\")\n<a href=\"https://wa.me/573244312173\" target=\"_blank\" title=\"IBG La Dorada Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -568,7 +568,7 @@
   },
   "rich-text#dir-suc-manizales1": {
     "props": {
-      "text": "Dirección: Cra 22 # 24 - 25\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")"
+      "text": "Dirección: Cra 22 # 24 - 25\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")\n<a href=\"https://wa.me/573113843602\" target=\"_blank\" title=\"IBG Manizales Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -607,7 +607,7 @@
   },
   "rich-text#dir-suc-manizales2": {
     "props": {
-      "text": "Dirección: Cra 21 # 21 - 10\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")"
+      "text": "Dirección: Cra 21 # 21 - 10\nTeléfono: [3206320945](tel:+573206320945 \"Teléfono Sucursal Manizales\")\n<a href=\"https://wa.me/573113843602\" target=\"_blank\" title=\"IBG Manizales Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -646,7 +646,7 @@
   },
   "rich-text#dir-suc-mocoa": {
     "props": {
-      "text": "Dirección: Av Colombia Cra 9 # 11 - 12\nTeléfono: [3155398035](tel:+573155398035 \"Teléfono Sucursal Mocoa\")"
+      "text": "Dirección: Cra 9 # 11 - 12\nTeléfono: [3155398035](tel:+573155398035 \"Teléfono Sucursal Mocoa\")\n<a href=\"https://wa.me/573208204787\" target=\"_blank\" title=\"IBG Mocoa Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -685,7 +685,7 @@
   },
   "rich-text#dir-suc-neiva": {
     "props": {
-      "text": "Dirección: Cra 6 # 7 - 81\nTeléfono: [3164369425](tel:+573164369425 \"Teléfono Sucursal Neiva\")"
+      "text": "Dirección: Cra 6 # 7 - 81\nTeléfono: [3164369425](tel:+573164369425 \"Teléfono Sucursal Neiva\")\n<a href=\"https://wa.me/573212035423\" target=\"_blank\" title=\"IBG Neiva Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -724,7 +724,7 @@
   },
   "rich-text#dir-suc-palmira": {
     "props": {
-      "text": "Dirección: Cra 25 # 29 - 59\nTeléfono: [3164820028](tel:+573164820028 \"Teléfono Sucursal Palmira\")"
+      "text": "Dirección: Cra 25 # 29 - 59\nTeléfono: [3164820028](tel:+573164820028 \"Teléfono Sucursal Palmira\")\n<a href=\"https://wa.me/573125747275\" target=\"_blank\" title=\"IBG Palmira Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -763,7 +763,7 @@
   },
   "rich-text#dir-suc-pasto": {
     "props": {
-      "text": "Dirección: Cra 22 # 15 - 41"
+      "text": "Dirección: Cra 22 # 15 - 41\n<a href=\"https://wa.me/573215855035\" target=\"_blank\" title=\"IBG Pasto Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -802,7 +802,7 @@
   },
   "rich-text#dir-suc-pereira": {
     "props": {
-      "text": "Dirección: Cra 8 # 23 - 32\nTeléfono: [3206320948](tel:+573206320948 \"Teléfono Sucursal Pereira\")"
+      "text": "Dirección: Cra 8 # 23 - 32\nTeléfono: [3206320948](tel:+573206320948 \"Teléfono Sucursal Pereira\")\n<a href=\"https://wa.me/573206836063\" target=\"_blank\" title=\"IBG Pereira Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -841,7 +841,7 @@
   },
   "rich-text#dir-suc-pitalito": {
     "props": {
-      "text": "Dirección: Cra 4 # 3 - 39\nTeléfono: [3174414188](tel:+573174414188 \"Teléfono Sucursal Pitalito\")"
+      "text": "Dirección: Cra 4 # 3 - 39\nTeléfono: [3174414188](tel:+573174414188 \"Teléfono Sucursal Pitalito\")\n<a href=\"https://wa.me/573132110031\" target=\"_blank\" title=\"IBG Pitalito Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -880,7 +880,7 @@
   },
   "rich-text#dir-suc-popayan": {
     "props": {
-      "text": "Dirección: Calle 7 # 8 - 31\nTeléfono: [3155398027](tel:+573155398027 \"Teléfono Sucursal Popayán\")"
+      "text": "Dirección: Calle 7 # 8 - 31\nTeléfono: [3155398027](tel:+573155398027 \"Teléfono Sucursal Popayán\")\n<a href=\"https://wa.me/573155398027\" target=\"_blank\" title=\"IBG Popayán Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -919,7 +919,7 @@
   },
   "rich-text#dir-suc-puertotejada": {
     "props": {
-      "text": "Dirección: Cra 20 # 17 - 41\nTeléfono: [3155398032](tel:+573155398032 \"Teléfono Sucursal Puerto Tejada\")"
+      "text": "Dirección: Cra 20 # 17 - 41\nTeléfono: [3155398032](tel:+573155398032 \"Teléfono Sucursal Puerto Tejada\")\n<a href=\"https://wa.me/573235814395\" target=\"_blank\" title=\"IBG Puerto Tejada Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -958,7 +958,7 @@
   },
   "rich-text#dir-suc-santanderdequilichao": {
     "props": {
-      "text": "Dirección: Calle 7 # 11 - 39"
+      "text": "Dirección: Calle 7 # 11 - 39\n<a href=\"https://wa.me/573137139709\" target=\"_blank\" title=\"IBG Santander de Quilichao Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -997,7 +997,7 @@
   },
   "rich-text#dir-suc-tunja": {
     "props": {
-      "text": "Dirección: Cra 9 # 17 - 65\nTeléfono: [3174032878](tel:+573174032878 \"Teléfono Sucursal Tunja\")"
+      "text": "Dirección: Cra 9 # 17 - 65\nTeléfono: [3174032878](tel:+573174032878 \"Teléfono Sucursal Tunja\")\n<a href=\"https://wa.me/573133551934\" target=\"_blank\" title=\"IBG Tunja Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -1036,7 +1036,7 @@
   },
   "rich-text#dir-suc-villavicencio": {
     "props": {
-      "text": "Dirección: Cra 30 # 35A 23 - 27\nTeléfono: [3156770351](tel:+573156770351 \"Teléfono Sucursal Villavicencio\")"
+      "text": "Dirección: Cra 30 # 35A 23 - 27\nTeléfono: [3156770351](tel:+573156770351 \"Teléfono Sucursal Villavicencio\")\n<a href=\"https://wa.me/573132612016\" target=\"_blank\" title=\"IBG Villavicencio Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -1075,7 +1075,7 @@
   },
   "rich-text#dir-suc-yopal": {
     "props": {
-      "text": "Dirección: Cra 20 # 16 - 50"
+      "text": "Dirección: Cra 20 # 16 - 50\n<a href=\"https://wa.me/573194106754\" target=\"_blank\" title=\"IBG Yopal Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
@@ -1114,7 +1114,7 @@
   },
   "rich-text#dir-suc-zipaquira": {
     "props": {
-      "text": "Dirección: Cra 10 # 7A - 15\nTeléfono: [3154039154](tel:+573154039154 \"Teléfono Sucursal Zipaquirá\")"
+      "text": "Dirección: Cra 10 # 7A - 15\nTeléfono: [3154039154](tel:+573154039154 \"Teléfono Sucursal Zipaquirá\")\n<a href=\"https://wa.me/573214571338\" target=\"_blank\" title=\"IBG Zipaquirá Ventas\">![](assets/images/wpp-ventas.svg)</a>"
     }
   },
 
