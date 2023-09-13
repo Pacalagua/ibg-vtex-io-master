@@ -555,7 +555,21 @@
   display: contents;
 }
 
+.flexRowContent--sdv-row {
+  max-width: 800px;
+  margin: auto;
+}
+
 @media (max-width: 680px) {
+
+  .flexRowContent--sdv-row {
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
   .flexRow--faq-formas-de-pago {
     width: 90%;
   }

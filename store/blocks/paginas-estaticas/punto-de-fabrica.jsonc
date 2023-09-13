@@ -1,0 +1,53 @@
+{
+    "store.custom#punto-de-fabrica": {
+        "blocks": [
+            "rich-text#titulo-punto-de-fabrica",
+            "list-context.image-list#banner-punto-de-fabrica",
+            "rich-text#contexto-punto-de-fabrica",
+            "flex-layout.row#contacto-punto-de-fabrica"
+        ]
+    },
+    "rich-text#titulo-punto-de-fabrica": {
+        "props": {
+            "text": "# ¡Abrimos un mundo de estilo y confort!",
+            "blockClass": "title_tyc"
+        }
+    },
+    "rich-text#contexto-punto-de-fabrica": {
+        "props": {
+            "text": "Te invitamos a conocer la nueva sala de ventas de IBG Iván Botero Gómez, en la fábrica ubicados en el km 4.5 vía al Caimo diagonal a la estación de servicio la mía.  eL próximo 29 de julio damos apertura, tendremos muchas sorpresas y obsequios para nuestros visitantes. \nHay precios especiales en muebles y electrodomésticos. con atención personalizada y facilidades de pago a través de nuestros aliados en crédito Promodescuentos, Brilla, Sistecrédito y Banco de Bogotá.",
+            "blockClass": "svd-txt"
+        }
+    },
+    "flex-layout.row#contacto-punto-de-fabrica": {
+        "props": {
+            "blockClass": "sdv-row"
+          },
+        "children": [
+            "flex-layout.col#contacto-punto-de-fabrica-1",
+            "flex-layout.col#contacto-punto-de-fabrica-2"
+          ]
+    },
+    "flex-layout.col#contacto-punto-de-fabrica-1": {
+        "children": [
+            "rich-text#contacto-punto-de-fabrica-1"
+          ]
+    },
+    "rich-text#contacto-punto-de-fabrica-1": {
+        "props": {
+            "text": "Recibe asesoría\n<a href=\"https://wa.me/573234353130\" target=\"_blank\" title=\"IBG Armenia Ventas\">![](assets/images/wpp-ventas.svg)</a>",
+            "blockClass": "svd-txt-div"
+          }
+    },
+    "flex-layout.col#contacto-punto-de-fabrica-2": {
+        "children": [
+            "rich-text#contacto-punto-de-fabrica-2"
+          ]
+    },
+    "rich-text#contacto-punto-de-fabrica-2": {
+        "props": {
+            "text": "Km 4.5 vía El Caimo\n<a href=\"https://goo.gl/maps/Gjs9Au6Lf3dbqf458\" target=\"_blank\" title=\"Sala de Ventas Punto de Fábrica\">![](assets/images/como-llegar.svg)</a>",
+            "blockClass": "svd-txt-div"
+          }
+    }
+}

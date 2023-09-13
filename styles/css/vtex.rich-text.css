@@ -95,6 +95,26 @@
   text-align: justify;
 }
 
+.container--svd-txt {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000;
+  font-size: 18px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: justify;
+}
+
+.container--svd-txt-div {
+  font-family: "NN Forever Grotesk STD";
+  color: #000000;
+  font-size: 18px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
 .container--texto-r {
   font-family: "NN Forever Grotesk STD";
   color: #000000 !important;

@@ -42,6 +42,28 @@
         "infinite": true,
         "blockClass": "slider-home"
       }
+    },
+    "list-context.image-list#banner-punto-de-fabrica": {
+      "children": ["slider-layout#banner-punto-de-fabrica"],
+      "props": {
+        "height": 720,
+        "images": [{
+            "image": "assets/images/banner-punto-de-fabrica.jpg",
+            "mobileImage": "assets/images/banner-punto-de-fabrica.jpg"
+          }
+        ]
+      }
+    },
+    "slider-layout#banner-punto-de-fabrica": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "blockClass": "slider-home"
+      }
     }
   }
   

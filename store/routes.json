@@ -61,5 +61,8 @@
   },
   "store.custom#super-hogares": {
     "path": "/super-hogares"
+  },
+  "store.custom#punto-de-fabrica": {
+    "path": "/punto-de-fabrica"
   }
 }

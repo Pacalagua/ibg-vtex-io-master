@@ -42,10 +42,10 @@
 
   "WrapperShelf#home": {
     "children":[
-      "flex-layout.row#spesific-category",
-      "__fold__.experimentalLazyAssets",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
+      "flex-layout.row#spesific-category",
+      "__fold__.experimentalLazyAssets",
       "rich-text#list-all-category-text",
       "flex-layout.row#all-category",
       "list-context.image-list#bannerSecundario",
