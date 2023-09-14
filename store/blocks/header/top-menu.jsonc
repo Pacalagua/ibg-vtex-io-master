@@ -2,6 +2,7 @@
   "vtex.menu@2.x:menu#websites": {
     "children": [
       "SchemaHome",
+      "BtnWhatsapp",
       "responsive-layout.desktop#top-menu",
       "responsive-layout.mobile#top-menu"
     ]

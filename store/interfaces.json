@@ -33,5 +33,9 @@
   "SchemaHome": {
     "component": "SchemaHome",
     "allowed": "*"
+  },
+  "BtnWhatsapp": {
+    "component": "BtnWhatsapp",
+    "allowed": "*"
   }
 }
