@@ -139,7 +139,7 @@
     "rich-text#aliado-promodescuentos": {
       "props": {
         "text": "Promodescuentos",
-        "blockClass": "textInfo-contactoFooterNumber"
+        "blockClass": "textInfo-contactoFooterCoantact"
       }
     },
     "rich-text#aliado-fygs": {

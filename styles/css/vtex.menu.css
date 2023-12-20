@@ -109,15 +109,15 @@
 }
 
 .menuItem--menu-item-combos .styledLinkContent--menu-item-combos {
-  color: #fdfdfd;
+  color: #122d80;
 }
 .menuItem--menu-item-combos:hover .styledLinkContent--menu-item-combos {
-  color: rgb(236, 236, 236) !important;
+  color: #122d80 !important;
 }
 
 .menuItem--menu-item-combos :global(.vtex-menu-2-x-styledLinkContainer--menu-item-combos) {
   padding: 3px 20px;
-  background-color: #19838b;
+  background-color: #e9ca4d;
   margin-top: 6px;
   border-radius: 5px;
 }

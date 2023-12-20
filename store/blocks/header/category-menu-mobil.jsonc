@@ -751,8 +751,8 @@
   },
   "menu-item#combos-mobile": {
     "props": {
-      "tagTitle": "Cyber Outlet",
-      "text": "Cyber Outlet",
+      "tagTitle": "Sale",
+      "text": "Sale",
       "itemProps": {
         "type": "internal",
         "href": "/cyber-week",

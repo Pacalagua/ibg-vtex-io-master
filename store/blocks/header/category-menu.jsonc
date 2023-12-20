@@ -1173,8 +1173,8 @@
   },
   "menu-item#combos": {
     "props": {
-      "tagTitle": "Cyber Outlet",
-      "text": "Cyber Outlet",
+      "tagTitle": "Sale",
+      "text": "  Sale  ",
       "blockClass": "menu-item-combos",
       "itemProps": {
         "type": "internal",
