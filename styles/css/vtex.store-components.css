@@ -477,3 +477,24 @@
     min-width: max-content;
   } */
 }
+
+.specificationsTitle--specifications, .specificationsTablePropertyHeading--specifications, .specificationsTableSpecificationHeading--specifications {
+  display: none;
+}
+
+.specificationsTable--specifications {
+  background-color: transparent;
+}
+
+.specificationsItemProperty--specifications {
+  font-weight: 700;
+}
+
+.specificationItemSpecifications--specifications {
+  font-family: 'NN Forever Grotesk STD';
+}
+
+.specificationItemProperty--specifications {
+  font-family: 'NN Forever Grotesk STD';
+  font-weight: bold;
+}

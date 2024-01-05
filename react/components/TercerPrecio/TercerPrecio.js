@@ -32,7 +32,7 @@ export const TercerPrecio = () => {
             {
                 (specifications) ? 
                 specifications.length == 1 && (
-                    <div>${formatter.format(specifications[0].values[0])}  <span>Financiado</span></div>
+                    <div>${formatter.format(specifications[0].values[0])} <span>Otros Medios</span></div>
                 ) : null 
             }
 

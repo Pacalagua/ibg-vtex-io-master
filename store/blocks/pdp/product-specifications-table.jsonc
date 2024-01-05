@@ -1,4 +1,13 @@
 {
+  "product-specifications": {
+    "props": {
+      "message": "",
+      "shoudCollapseOnTabChange": false,
+      "collapsible": "never",
+      "hiddenSpecifications": ["Financiamiento, Dto"],
+      "blockClass": "specifications"
+    }
+  },
   "product-specification-group#table": {
     "children": ["flex-layout.row#spec-group"]
   },

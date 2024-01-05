@@ -9,6 +9,7 @@
     },
     "children": [
       "product-selling-price#pdp",
+      "TercerPrecio",
       "product-list-price#pdp"
       /* "product-price-savings" */
 
@@ -33,12 +34,12 @@
 
   "product-list-price#pdp":{
     "props":{
-      "message": "{listPriceValue}"
+      "message": "{listPriceValue} Normal"
     }
   },
   "product-selling-price#pdp":{
     "props":{
-      "message": "{sellingPriceValue}"
+      "message": "{sellingPriceValue} \n Aliados Crédito"
     }
   },
   // "product-price-savings":{

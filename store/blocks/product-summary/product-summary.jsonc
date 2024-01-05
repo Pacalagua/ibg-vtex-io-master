@@ -74,7 +74,7 @@
       "blockClass": "summary"
     }
   },
-  "flex-layout.row#selling-price-savings": {
+/*   "flex-layout.row#selling-price-savings": {
     "props": {
       "colGap": 2,
       "preserveLayoutOnMobile": true,
@@ -90,11 +90,11 @@
     "props": {
       "blockClass": "summary"
     }
-  },
+  }, */
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{sellingPriceValue} Hoy"
+      "message": "{sellingPriceValue} \n Aliados Crédito"
     }
   },
   "product-price-savings#summary": {
@@ -110,8 +110,8 @@
       "blockClass": "product-price"
     },
     "children": [
+      "flex-layout.col#tercer-precio",
       "product-selling-price#summary",
-      //"flex-layout.col#tercer-precio",
       "product-list-price#summary"
     ]
   },
@@ -120,8 +120,8 @@
       "blockClass": "product-price-pdp"
     },
     "children": [
+      "flex-layout.col#tercer-precio-pdp",
       "product-selling-price#summary",
-      //"flex-layout.col#tercer-precio-pdp",
       "product-list-price#summary"
     ]
   },
@@ -139,7 +139,7 @@
     },
     // "blockClass": "pdpFlag",
     "children": [
-      "DiscountCategory"
+      /* "DiscountCategory" */
     ]
   },
   "flex-layout.col#tercer-precio-pdp": {

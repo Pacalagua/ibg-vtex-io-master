@@ -39,7 +39,7 @@
       "blockClass": "answer-pdp"
     },
     "children": [
-      "product-specification-group#table"
+      "product-specifications"
     ]
   },
   "rich-text#question": {
@@ -49,14 +49,14 @@
   },
   "responsive-layout.mobile#especificacionespdp": {
     "children": [
-      "product-specification-group#table"
+      "product-specifications"
     ]
   },
-  "flex-layout.row#specifications-title": {
+/*   "flex-layout.row#specifications-title": {
     "children": [
       "rich-text#specifications"
     ]
-  },
+  }, */
   "rich-text#specifications": {
     "props": {
       "text": "##### Product Specifications"
@@ -93,12 +93,12 @@
       "flex-layout.col#right-col"
     ]
   },
-  "product-price-savings#summaryPercentagePdp": {
+/*   "product-price-savings#summaryPercentagePdp": {
     "props": {
       "message": "- {savingsPercentage}",
       "blockClass": "pdpFlag"
     }
-  },
+  }, */
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -127,8 +127,8 @@
     "props": {
       "blockClass": "product-image",
       "thumbnailAspectRatio": "5:4",
-      "thumbnailMaxHeight": "600px",
-      "maxHeight": "600px",
+      "thumbnailMaxHeight": 600,
+      "maxHeight": 600,
       "zoomMode": "in-place-hover",
       "zoomFactor": 2,
       "arrowSize": 20,
@@ -168,7 +168,7 @@
     },
     // "blockClass": "pdpFlag",
     "children": [
-      "DiscountCategory"
+      /* "DiscountCategory" */
     ]
   },
 
@@ -204,7 +204,7 @@
       "product-gifts",
       "flex-layout.row#buy-button",
       "SumasPay",
-      "AddiCol",
+      /* "AddiCol", */
       "BancoBogotaPDP",
       "availability-subscriber", // TODO QUITAR
       // "shipping-simulator", // TODO QUITAR
@@ -242,7 +242,7 @@
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true,
-      "maxItems": "200",
+      "maxItems": 200,
       "displayMode": "select"
     }
   },
