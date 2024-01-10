@@ -611,6 +611,15 @@
   .flexColChild--col-recaudos {
     width: 280px !important;
   }
+  .flexRow--row-principal-calidad {
+    width: 330px !important;
+  }
+  .flexCol--col-principal-calidad, .flexRowContent--row-content-calidad, .flexColChild--col-child-calidad-content, .flexColChild--col-child-calidad-img {
+    width: 320px !important;
+  }
+  .flexColChild--col-principal-calidad-1:first-child {
+    margin-bottom: 0% !important;
+  }
 }
 
 .flexRow--productSpecificationGroup:nth-child(2n) .flexRow--productSpecificationGroupName {
@@ -678,4 +687,39 @@
   border-radius: 15px;
   border-spacing: 10px;
   border: solid #ededed;
+}
+
+.flexRow--row-principal-calidad {
+  margin: auto;
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+}
+.flexRowContent--row-content-calidad {
+  margin: 0px;
+  width: 580px;
+}
+
+.flexCol--col-principal-calidad-1 {
+  margin: 0px;
+  width: 580px;
+  align-items: center;
+}
+
+.flexCol--col-principal-calidad-2 {
+  margin: 0px;
+  width: 580px;
+  align-items: center;
+}
+
+.flexColChild--col-child-calidad-content {
+  width: 285px;
+  margin: 5px;
+}
+.flexColChild--col-child-calidad-img {
+  width: 290px;
+  margin-top: 2rem;
+}
+.flexColChild--col-principal-calidad-1:first-child {
+  margin-bottom: -25%;
 }

@@ -50,6 +50,35 @@
   margin: 5px auto;
 }
 
+.container--title_calidad {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 18px;
+  max-width: 100vmax;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #f2cd00;
+  height: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.container--title_calidad_2 {
+  font-family: "NN Forever Grotesk STD";
+  color: #f2cd00;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 18px;
+  max-width: 100vmax;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #122d80;
+  height: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
 .heading--title_tyc {
   font-family: "NN Forever Grotesk STD";
   margin: 20px 0 0 0;
@@ -93,6 +122,25 @@
   max-width: 1000px;
   margin: auto;
   text-align: justify;
+}
+.container--txt_parrafo {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 18px;
+  padding: 18px;
+  max-width: 100vmax;
+  margin: auto;
+  text-align: justify;
+}
+.container--txt_centrado {
+  font-family: "NN Forever Grotesk STD";
+  color: #122d80;
+  font-size: 18px;
+  padding: 18px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .container--svd-txt {
@@ -188,6 +236,25 @@
     max-width: 1000px;
     margin: auto;
     text-align: justify;
+  }
+  .container--txt_parrafo {
+    font-family: "NN Forever Grotesk STD";
+    color: #122d80;
+    font-size: 18px;
+    padding: 18px;
+    max-width: 100vmax;
+    margin: auto;
+    text-align: justify;
+  }
+  .container--txt_centrado {
+    font-family: "NN Forever Grotesk STD";
+    color: #122d80;
+    font-size: 18px;
+    padding: 18px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
   }
   .wrapper--envios-ventas .strong--envios-ventas {
     font-family: "NN Forever Grotesk STD";
@@ -481,6 +548,27 @@
     max-width: 1000px;
     margin: auto;
     text-align: justify;
+    margin-bottom: 3em;
+  }
+  .container--txt_parrafo {
+    font-family: "NN Forever Grotesk STD";
+    color: #122d80;
+    font-size: 14px;
+    padding: 10px;
+    max-width: 100vmax;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 3em;
+  }
+  .container--txt_centrado {
+    font-family: "NN Forever Grotesk STD";
+    color: #122d80;
+    font-size: 18px;
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 3em;
   }
   .container--about {

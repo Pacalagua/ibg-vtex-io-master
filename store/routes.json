@@ -35,11 +35,11 @@
   "store.custom#ofertas": {
     "path": "/ofertas"
   },
-  "store.custom#combos": {
-    "path": "/combos"
+  "store.custom#nueva-coleccion": {
+    "path": "/nueva-coleccion"
   },
-  "store.custom#cyber-week": {
-    "path": "/cyber-week"
+  "store.custom#sale": {
+    "path": "/sale"
   },
   "store.custom#transparencia-y-etica": {
     "path": "/transparencia-y-etica"
@@ -64,5 +64,8 @@
   },
   "store.custom#punto-de-fabrica": {
     "path": "/punto-de-fabrica"
+  },
+  "store.custom#responsabilidad-social": {
+    "path": "/responsabilidad-social"
   }
 }

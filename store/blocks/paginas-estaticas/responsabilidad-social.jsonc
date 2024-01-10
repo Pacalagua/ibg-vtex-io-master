@@ -1,0 +1,135 @@
+{
+    "store.custom#responsabilidad-social": {
+        "blocks": [
+            "rich-text#h1-responsabilidad-social",
+            "flex-layout.row#row-contenido-responsabilidad",
+            "flex-layout.row#row-galeria-img-responsabilidad"
+        ]
+    },
+    "rich-text#h1-responsabilidad-social": {
+        "props": {
+            "blockClass": "title_tyc",
+            "text": "# Responsabilidad Social"
+        }
+    },
+    "flex-layout.row#row-contenido-responsabilidad": {
+        "props": {
+            "blockClass": "row-principal-calidad"
+        },
+        "children": [
+            "flex-layout.col#col-img-responsabilidad",
+            "flex-layout.col#col-contenido-responsabilidad"
+        ]
+    },
+    "flex-layout.col#col-img-responsabilidad": {
+        "props": {},
+        "children": [
+            "image#img-contenido-responsabilidad"
+        ]
+    },
+    "image#img-contenido-responsabilidad": {
+        "props": {
+            "height": 300,
+            "src": "assets/images/img-responsabilidad.svg"
+        }
+    },
+    "flex-layout.col#col-contenido-responsabilidad": {
+        "props": {},
+        "children": [
+            "flex-layout.row#row-logos-responsabilidad",
+            "flex-layout.row#row-txt-responsabilidad"
+        ]
+    },
+    "flex-layout.row#row-logos-responsabilidad": {
+        "props": {},
+        "children": [
+            "image#logo-ibg-responsabilidad",
+            "image#logo-treeoma-responsabilidad"
+        ]
+    },
+    "image#logo-ibg-responsabilidad": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo-ibg-responsabilidad.svg"
+        }
+    },
+    "image#logo-treeoma-responsabilidad": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo-treeoma-responsabilidad.svg"
+        }
+    },
+    "flex-layout.row#row-txt-responsabilidad": {
+        "props": {},
+        "children": [
+            "rich-text#txt-contenido-responsabilidad"
+        ]
+    },
+    "rich-text#txt-contenido-responsabilidad": {
+        "props": {
+            "blockClass": "txt_centrado",
+            "text": "## **Tod@s merecen el planeta que sueñan** \n IBG está comprometido con el medio ambiente por eso con TREEOMA hemos sembrado más de 2400 árboles nativos en el eje cafetero para mitigar la huella de carbono."
+        }
+    },
+    "flex-layout.row#row-galeria-img-responsabilidad": {
+        "props": {
+          "blockClass": "spesific-category",
+          "fullWidth": false
+        },
+        "children": [
+          "list-context.image-list#lista-img-galeria-responsabilidad"
+        ]
+      },
+
+    "list-context.image-list#lista-img-galeria-responsabilidad": {
+        "props": {
+          "width": "100%",
+          "images": [
+            {
+                "image": "assets/images/responsabilidad social-01.jpg"
+            },
+            {
+                "image": "assets/images/responsabilidad social-02.jpg"
+            },
+            {
+                "image": "assets/images/responsabilidad social-03.jpg"
+            },
+            {
+                "image": "assets/images/responsabilidad social-04.jpg"
+            },
+            {
+                "image": "assets/images/responsabilidad social-05.jpg"
+            },
+            {
+                "image": "assets/images/responsabilidad social-06.jpg"
+            }
+          ],
+          "blockClass": "product-summary.shelf"
+        },
+        "children": [
+          "slider-layout#spesific-category"
+        ]
+      },
+      "slider-layout#spesific-category": {
+        "props": {
+          "centerMode": {
+            "desktop": "disabled",
+            "tablet": "disabled",
+            "phone": "center"
+          },
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": true
+          },
+          "fullWidth": true,
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "bannersDeal-carousel-all"
+        }
+      }
+}

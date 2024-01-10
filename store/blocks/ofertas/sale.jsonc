@@ -1,5 +1,5 @@
 {
-    "store.custom#cyber-week": {
+    "store.custom#sale": {
         "blocks": [
             "list-context.image-list#banner-cyber-week",
             "search-result-layout.customQuery#cyber-week"

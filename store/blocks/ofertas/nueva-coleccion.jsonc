@@ -1,7 +1,7 @@
 {
-    "store.custom#combos": {
+    "store.custom#nueva-coleccion": {
         "blocks": [
-            "search-result-layout.customQuery#combos"
+            "search-result-layout.customQuery#nueva-coleccion"
         ],
         "props": {
             "context": {
@@ -11,13 +11,13 @@
             }
         }
     },
-    "search-result-layout.customQuery#combos": {
+    "search-result-layout.customQuery#nueva-coleccion": {
         "props": {
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 12,
-                "queryField": "176",
+                "queryField": "180",
                 "mapField": "productClusterIds",
                 "facetsBehavior": "dynamic"
             },

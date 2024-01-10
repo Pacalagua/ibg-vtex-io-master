@@ -177,7 +177,8 @@
       "menu-item#sucursales-y-tiendas",
       "menu-item#punto-de-fabrica",
       "menu-item#transparencia-y-etica",
-      "menu-item#politica-de-calidad"
+      "menu-item#politica-de-calidad",
+      "menu-item#responsabilidad-social"
     ]
   },
   // "rich-text#contacto-notificacion": {
@@ -318,6 +319,22 @@
       }
     }
   },
+  "menu-item#responsabilidad-social": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/responsabilidad-social",
+        "noFollow": false,
+        "tagTitle": "Responsabilidad Social",
+        "text": "Responsabilidad Social"
+      }
+    }
+  },
   "menu-item#tyc": {
     "props": {
       "id": "menu-item-black-friday",
@@ -388,7 +405,7 @@
     "children": [
       "menu-item#politicas-de-garantia",
       "menu-item#terminos-y-condiciones",
-      "menu-item#tyc-bono-hogar-ibg",
+      /* "menu-item#tyc-bono-hogar-ibg", */
       "menu-item#aviso-de-privacidad",
       "menu-item#servicio-tecnico",
       "menu-item#preguntas-frecuentes",
