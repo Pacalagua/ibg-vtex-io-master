@@ -4,6 +4,7 @@
             "rich-text#title-formas-de-pago",
             "rich-text#medios-de-pago-texto",
             "flex-layout.row#imagenes-medios-pago",
+            /* "flex-layout.row#row-sistecredito", */
             "flex-layout.row#faq-medios-pago",
             "flex-layout.row#boton-venta-asistida",
             "flex-layout.row#oferta-mes",
@@ -14,6 +15,206 @@
             "flex-layout.row#info-recaudo-texto"
         ]
     },
+
+    // Infografía SisteCrédito
+
+/*     "flex-layout.row#row-sistecredito": {
+        "props": {
+            "blockClass": "faq"
+        },
+        "children": [
+            "rich-text#txt-titulo-sistecredito",
+            "flex-layout.row#row1-logo_sistecredito_slogan",
+            "flex-layout.row#row2-infografia-sistecredito",
+            "flex-layout.row#row3-infografia-sistecredito",
+            "flex-layout.row#row4-infografia-sistecredito"
+        ]
+    }, */
+    "rich-text#txt-titulo-sistecredito": {
+        "props": {
+            "text": "## ¡Nuevo Aliado SisteCrédito!"
+        }
+    },
+    "flex-layout.row#row1-logo_sistecredito_slogan": {
+        "props": {
+            "maxHeight": 50,
+            "blockClass": "imgs-estatica-tarjetas"
+        },
+        "children": [
+            "image#logo_sistecredito_slogan"
+        ]
+    },
+    "image#logo_sistecredito_slogan": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_sistecredito_slogan.svg"
+        }
+    },
+    "flex-layout.row#row2-infografia-sistecredito": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#col1-info-sistecredito",
+            "flex-layout.col#col2-info-sistecredito",
+            "flex-layout.col#col3-info-sistecredito"
+        ]
+    },
+    "flex-layout.col#col1-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img1-info-sistecredito",
+            "rich-text#txt1-info-sistecredito"
+        ]
+    },
+    "image#img1-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_1.png"
+        }
+      },
+      "rich-text#txt1-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Agrega los productos al carrito de compras"
+        }
+      },
+      "flex-layout.col#col2-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img2-info-sistecredito",
+            "rich-text#txt2-info-sistecredito"
+        ]
+    },
+    "image#img2-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_2.png"
+        }
+      },
+      "rich-text#txt2-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Elige SisteCrédito como medio de pago"
+        }
+      },
+      "flex-layout.col#col3-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img3-info-sistecredito",
+            "rich-text#txt3-info-sistecredito"
+        ]
+    },
+    "image#img3-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_3.png"
+        }
+      },
+      "rich-text#txt3-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Confirma tu cédula"
+        }
+      },
+      "flex-layout.row#row3-infografia-sistecredito": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#col4-info-sistecredito",
+            "flex-layout.col#col5-info-sistecredito",
+            "flex-layout.col#col6-info-sistecredito"
+        ]
+    },
+    "flex-layout.col#col4-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img4-info-sistecredito",
+            "rich-text#txt4-info-sistecredito"
+        ]
+    },
+    "image#img4-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_4.png"
+        }
+      },
+      "rich-text#txt4-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Elige la cantidad de cuotas"
+        }
+      },
+      "flex-layout.col#col5-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img5-info-sistecredito",
+            "rich-text#txt5-info-sistecredito"
+        ]
+    },
+    "image#img5-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_5.png"
+        }
+      },
+      "rich-text#txt5-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Confirma el crédito con el código de verificación"
+        }
+      },
+      "flex-layout.col#col6-info-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "image#img6-info-sistecredito",
+            "rich-text#txt6-info-sistecredito"
+        ]
+    },
+    "image#img6-info-sistecredito": {
+        "props": {
+            "src": "assets/images/info_sistecredito_6.png"
+        }
+      },
+      "rich-text#txt6-info-sistecredito": {
+        "props": {
+            "blockClass": "texto-sumas-info",
+            "text": "Y listo, en pocos días llegará tu pedido a tu domicilio"
+        }
+      },
+      "flex-layout.row#row4-infografia-sistecredito": {
+        "props": {
+            "blockClass": "faq-formas-de-pago"
+        },
+        "children": [
+            "flex-layout.col#col7-legal-sistecredito"
+        ]
+    },
+    "flex-layout.col#col7-legal-sistecredito": {
+        "props": {
+            "blockClass": "sumas-info"
+        },
+        "children": [
+            "rich-text#txt-info-legal-sistecredito"
+        ]
+    },
+    "rich-text#txt-info-legal-sistecredito": {
+        "props": {
+            "text": "Información legal:\n<a href=\"https://www.sistecredito.com/informacion-legal/\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.sistecredito.com/informacion-legal/</a>",
+            "blockClass": "texto-sumas-info"
+        }
+    },
+
+    // Fin Infografía SisteCrédito
+
     "rich-text#title-formas-de-pago": {
         "props": {
             "text": "# Medios de Pago para Comprar Online en IBG",
@@ -32,15 +233,22 @@
             "blockClass": "imgs-estatica-tarjetas"
         },
         "children": [
+            "image#logo_sistecredito",
             "image#logo_sumas",
             "image#logo_addi",
             "image#logo_mastercard",
             "image#logo_visa",
-            "image#logo_amex",
+            /* "image#logo_amex", */
             "image#logo_bancolombia",
             "image#logo_pse",
             "image#logo_efecty"
         ]
+    },
+    "image#logo_sistecredito": {
+        "props": {
+            "height": 80,
+            "src": "assets/images/logo_sistecredito.svg"
+        }
     },
     "image#logo_sumas": {
         "props": {
@@ -125,14 +333,19 @@
     
       "flex-layout.col#faq-medios-pago": {
         "children": [
-          "rich-text#compra-sumas-titulo",
-          "flex-layout.row#compra-sumas-1-1",
-          "flex-layout.row#compra-sumas-1-2",
-          "flex-layout.row#compra-sumas-1-3",
-          "rich-text#compra-addi-titulo",
-          "flex-layout.row#compra-addi-1-1",
-          /* "flex-layout.row#compra-addi-1-2", */
-          "flex-layout.row#compra-addi-1-3"
+            "rich-text#txt-titulo-sistecredito",
+            "flex-layout.row#row1-logo_sistecredito_slogan",
+            "flex-layout.row#row2-infografia-sistecredito",
+            "flex-layout.row#row3-infografia-sistecredito",
+            "flex-layout.row#row4-infografia-sistecredito",
+            "rich-text#compra-sumas-titulo",
+            "flex-layout.row#compra-sumas-1-1",
+            "flex-layout.row#compra-sumas-1-2",
+            "flex-layout.row#compra-sumas-1-3",
+            "rich-text#compra-addi-titulo",
+            "flex-layout.row#compra-addi-1-1",
+            /* "flex-layout.row#compra-addi-1-2", */
+            "flex-layout.row#compra-addi-1-3"
         ]
       },
       "rich-text#compra-sumas-titulo": {
@@ -295,7 +508,7 @@
             "src": "assets/images/addi_banner.png"
         }
       },
-      "flex-layout.row#compra-addi-1-2": {
+/*       "flex-layout.row#compra-addi-1-2": {
         "props": {
             "blockClass": "faq-formas-de-pago"
         },
@@ -304,7 +517,7 @@
             "flex-layout.col#info-addi-2",
             "flex-layout.col#info-addi-3"
         ]
-      },
+      }, */
       "flex-layout.col#info-addi-1": {
         "props": {
             "blockClass": "sumas-info"
@@ -461,8 +674,8 @@
         },
         "children": [
             "image#logo_mastercard",
-            "image#logo_visa",
-            "image#logo_amex"
+            "image#logo_visa"
+            /* "image#logo_amex" */
         ]
     },
     "rich-text#tarjetas-texto": {

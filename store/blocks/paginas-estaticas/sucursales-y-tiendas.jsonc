@@ -1,20 +1,8 @@
 {
   "store.custom#sucursales-y-tiendas": {
     "blocks": [
-      /* "rich-text#titulo-sucursales-y-tiendas",
-      "rich-text#titulo-nuevas-tiendas",
-      "flex-layout.row#lista-nuevas-tiendas",
-      "rich-text#como-llegar-nuevas-tiendas",
-      "flex-layout.row#mapa-de-tiendas", 
-      "rich-text#titulo-sucursales",*/
-/*       "rich-text#titulo-eje-cafetero",
-      "flex-layout.row#lista-eje-cafetero",
-      "rich-text#titulo-sur-occidente",
-      "flex-layout.row#lista-sur-occidente",
-      "rich-text#titulo-centro-andina",
-      "flex-layout.row#lista-centro-andina",
-      "rich-text#titulo-centro-oriente",
-      "flex-layout.row#lista-centro-oriente" */
+      /* "rich-text#como-llegar-nuevas-tiendas",
+      "flex-layout.row#mapa-de-tiendas", */
       "flex-layout.row#directorio-sucursales"
     ]
   },
@@ -36,7 +24,7 @@
   "disclosure-layout-group#directorio-sucursales": {
     "children": [
       "disclosure-layout#sucursal-armenia",
-      "disclosure-layout#sucursal-bucaramanga",
+      /* "disclosure-layout#sucursal-bucaramanga", */
       "disclosure-layout#sucursal-cali",
       "disclosure-layout#sucursal-cartago",
       "disclosure-layout#sucursal-chinchina",
@@ -49,10 +37,10 @@
       "disclosure-layout#sucursal-ladorada",
       "disclosure-layout#sucursal-manizales1",
       "disclosure-layout#sucursal-manizales2",
-      "disclosure-layout#sucursal-mocoa",
+      /* "disclosure-layout#sucursal-mocoa", */
       "disclosure-layout#sucursal-neiva",
       "disclosure-layout#sucursal-palmira",
-      "disclosure-layout#sucursal-pasto",
+      /* "disclosure-layout#sucursal-pasto", */
       "disclosure-layout#sucursal-pereira",
       "disclosure-layout#sucursal-pitalito",
       "disclosure-layout#sucursal-popayan",
@@ -1132,9 +1120,9 @@
       /* "blockClass": "question", */
       "text": "Contamos con tiendas en ciudades principales del país en donde encontrarás lo que necesitas para tener el hogar que sueñas."
     }
-  },
+  }
   // Mapa de Sucursales y Tiendas
-  "rich-text#como-llegar-nuevas-tiendas": {
+/*   "rich-text#como-llegar-nuevas-tiendas": {
     "props": {
       "blockClass": "tyc",
       "text": "#### **¿Cómo llegar?**"
@@ -1154,6 +1142,6 @@
       "title": "Mapa de Sucursales y Puntos de Venta",
       "allow": "geolocation"
     }
-  }
+  } */
   // Mapa de Sucursales y Tiendas Fin
 }
