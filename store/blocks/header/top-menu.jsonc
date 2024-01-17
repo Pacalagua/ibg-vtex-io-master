@@ -24,7 +24,7 @@
     "children": [
       "rich-text#pp",
       "rich-text#pp-2",
-      "rich-text#pp-3",
+      /* "rich-text#pp-3", */
       "rich-text#pp-4"
     ],
     "props": {

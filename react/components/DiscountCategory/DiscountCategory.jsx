@@ -37,9 +37,7 @@ export const DiscountCategory = () => {
     <>
       {ofertas ?
 
-        <span className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} >
-          -{percent}%
-        </span> : null
+        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} /> : null
       }
     </>
   )

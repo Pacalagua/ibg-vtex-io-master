@@ -247,8 +247,8 @@
   },
   "children": [
     "menu-item#category-apparel-freidora-de-aire-air-fryer",
-    "menu-item#category-apparel-licuadora",
-    "menu-item#category-apparel-hogar-universal"
+    "menu-item#category-apparel-licuadora"
+    /* "menu-item#category-apparel-hogar-universal" */
   ]
 },
 // Sub-sub Menu electromenor mobile fin

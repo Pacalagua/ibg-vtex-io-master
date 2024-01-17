@@ -139,7 +139,7 @@
     },
     // "blockClass": "pdpFlag",
     "children": [
-      /* "DiscountCategory" */
+      "DiscountCategory"
     ]
   },
   "flex-layout.col#tercer-precio-pdp": {

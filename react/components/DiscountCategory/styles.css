@@ -9,7 +9,32 @@ body{
 }  
 
 .CategoryDiscountPLP {
-    color: #000000;
+    background: none;
+    height: 55px;
+    padding: 5px 10px;
+    
+    /* color: #000000;
+    background: #f2cd00;
+    padding: 5px 10px;
+    border-radius: 13.5px;
+    font-family: "NN Forever Grotesk STD";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    z-index: 9; */
+}
+
+.CategoryDiscount {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 30%;
+    margin-left: -50px;
+    background-position: top;
+
+    /* color: #000000;
     background: #f2cd00;
     padding: 5px 10px;
     border-radius: 13.5px;
@@ -19,24 +44,17 @@ body{
     font-size: 12px;
     line-height: 18px;
     z-index: 9;
-}
-
-.CategoryDiscount {
-    color: #000000;
-    background: #f2cd00;
-    padding: 5px 10px;
-    border-radius: 13.5px;
-    font-family: "NN Forever Grotesk STD";
-    font-style: normal;
-    font-weight: normal;
-    /* font-size: 12px; */
-    line-height: 18px;
-    z-index: 9;
-
     top: 15px;
     font-size: 15px;
     position: absolute;
     left: 26%;
-    transform: scale(1.5);
+    transform: scale(1.5); */
+}
+
+@media (max-width: 680px) {
+    .CategoryDiscount {
+        margin-left: -30%;
+        z-index: 9;
+    }
 }
   
