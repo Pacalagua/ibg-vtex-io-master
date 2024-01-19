@@ -37,5 +37,9 @@
   "BtnWhatsapp": {
     "component": "BtnWhatsapp",
     "allowed": "*"
+  },
+  "CuentaAtras": {
+    "component": "CuentaAtras",
+    "allowed": "*"
   }
 }

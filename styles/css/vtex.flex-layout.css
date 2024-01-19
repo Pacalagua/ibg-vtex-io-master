@@ -211,6 +211,13 @@
   background-color: #122d80;
 }
 
+.flexRow--cuenta-regresiva-mobile {
+  background-color: #122d80;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   font-family: "NN Forever Grotesk STD";
   color: #ffffff;

@@ -23,6 +23,7 @@
     "children": [
       "flex-layout.row#1-desktop",
       "flex-layout.row#3-desktop",
+      "flex-layout.row#cuenta-regresiva",
       "flex-layout.row#4-desktop"
     ]
   },
@@ -174,6 +175,7 @@
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#1-mobile",
+      "flex-layout.row#cuenta-regresiva",
       "flex-layout.row#2-mobile"
     ]
   },
@@ -205,6 +207,17 @@
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
+  },
+  "flex-layout.row#cuenta-regresiva": {
+    "props": {
+      "blockClass": "cuenta-regresiva-mobile",
+      // "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    },
+    "children": [
+      "CuentaAtras"
+    ]
   },
   "drawer": {
     "props": {
