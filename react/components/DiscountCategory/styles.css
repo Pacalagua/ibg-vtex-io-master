@@ -8,6 +8,12 @@ body{
     background: black;
 }  
 
+.Exclusivo-plp {
+    width: 100px;
+    height: 100px;
+    background: black;
+}  
+
 .CategoryDiscountPLP {
     background: none;
     height: 55px;
@@ -23,6 +29,12 @@ body{
     font-size: 12px;
     line-height: 18px;
     z-index: 9; */
+}
+
+.ExclusivoPLP {
+    background: none;
+    height: 30px;
+    padding: 10px 15px;
 }
 
 .CategoryDiscount {
@@ -51,8 +63,22 @@ body{
     transform: scale(1.5); */
 }
 
+.Exclusivo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    left: 33%;
+    margin-left: -50px;
+    background-position: top;
+}
+
 @media (max-width: 680px) {
     .CategoryDiscount {
+        margin-left: -30%;
+        z-index: 9;
+    }
+    .Exclusivo {
         margin-left: -30%;
         z-index: 9;
     }

@@ -99,7 +99,7 @@
   color: #122d80;
   font-family: "NN Forever Grotesk STD";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
@@ -242,7 +242,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--price) .sellingPriceValue {
   font-family: "NN Forever Grotesk STD";
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 25px;
 }
 

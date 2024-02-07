@@ -10,7 +10,6 @@ export const TercerPrecio = () => {
     );
     const specifications = especificacionesTexto[0]?.specifications?.filter(
         (item) => item.name === "Financiamiento"
-            // console.log("itemssssss", item.name)
     );
 
     const formatter = new Intl.NumberFormat('es-CO', {
@@ -20,15 +19,8 @@ export const TercerPrecio = () => {
 
     });
 
-    console.log("Especificaciones-Texto", especificacionesTexto)
-    // console.log("specifications", specifications)
-    console.log("product", product)
-
-
     return (
         <div className={`${style.wraperPrice}`}>
-            {/* <span>Hola Mundo</span> */}
-
             {
                 (specifications) ? 
                 specifications.length == 1 && (

@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      /* "modal-trigger#sumas-info", */
+      "modal-trigger#sumas-info",
       "list-context.image-list#bannerPrincipal",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */

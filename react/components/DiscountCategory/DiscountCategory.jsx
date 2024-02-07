@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { useProduct, ProductContext } from 'vtex.product-context'
+import { ProductContext } from 'vtex.product-context'
 import { useQuery } from 'react-apollo'
 import GET_PRODUCTS from './getProductsByIdentifier.gql'
 import styles from './styles.css'
@@ -8,12 +8,9 @@ export const DiscountCategory = () => {
 
   const selectedProduct = useContext(ProductContext);
   const [ofertas, setOfertas] = useState(false);
-  const [percent, setPercent] = useState(0);
+  const [exclusivo, setExclusivo] = useState(false);
 
   const clusters = selectedProduct.product.productClusters;
-
-  const ListPrice = selectedProduct.selectedItem.sellers[0].commertialOffer.ListPrice
-  const Price = selectedProduct.selectedItem.sellers[0].commertialOffer.Price
 
   const { data: dataProduct } = useQuery(GET_PRODUCTS, {
     fetchPolicy: 'network-only',
@@ -25,20 +22,23 @@ export const DiscountCategory = () => {
   useEffect(() => {
     for (let cluster of clusters) {
       let idCluster = cluster.id
-      console.log('clusters', cluster)
-      if (idCluster == '138') {
-        setOfertas(true);
-        setPercent(Math.round(((ListPrice - Price) / ListPrice) * 100));
-      }
+      if (idCluster == '181') setExclusivo(true);
+      if (idCluster == '182') setOfertas(true);
     }
   }, [dataProduct]);
 
-  return (
-    <>
-      {ofertas ?
-
-        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} /> : null
-      }
-    </>
-  )
+  if (exclusivo == true) {
+    return (
+      <>
+        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158998/highlight-exclusivo.svg" className={`${plpStyles ? styles.ExclusivoPLP : styles.Exclusivo}`} />
+      </>
+    )
+  } else {
+    if (ofertas == true) return (
+      <>
+        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} />
+      </>
+    )
+  }
+  return (<></>)
 }

@@ -8,8 +8,8 @@
       "blockClass": "price"
     },
     "children": [
-      "product-selling-price#pdp",
       "TercerPrecio",
+      "product-selling-price#pdp",
       "product-list-price#pdp"
       /* "product-price-savings" */
 
@@ -39,7 +39,7 @@
   },
   "product-selling-price#pdp":{
     "props":{
-      "message": "{sellingPriceValue} \n Aliados Crédito"
+      "message": "{sellingPriceValue} Aliados Crédito"
     }
   },
   // "product-price-savings":{
