@@ -49,7 +49,8 @@
             
             "flex-layout.col#challenger",
             "flex-layout.col#haceb",
-            "flex-layout.col#lenovo"
+            "flex-layout.col#lenovo",
+            "flex-layout.col#mabe"
         ],
         "props":{
             "blockClass":"fila-de-servicios"
@@ -71,6 +72,12 @@
         "children": [
             "image#servicio-lenovo",
             "rich-text#number-lenovo"
+        ]
+    },
+    "flex-layout.col#mabe":{
+        "children": [
+            "image#servicio-mabe",
+            "rich-text#number-mabe"
         ]
     },
     /* "flex-layout.row#empresas-text":{
@@ -202,6 +209,21 @@
     "rich-text#number-lenovo": {
         "props": {
             "text": "01800 917 0541",
+            "textAlignment": "Center",
+            "blockClass": "number-info"
+        }
+    },
+    "image#servicio-mabe": {
+        "props": {
+            "title": "01800 917 0541",
+            "src": "assets/images/mabe.png",
+            /* "maxHeight": 24, */
+            "blockClass": "tyc--imgs"
+        }
+    },
+    "rich-text#number-mabe": {
+        "props": {
+            "text": "01800 518 3227",
             "textAlignment": "Center",
             "blockClass": "number-info"
         }
