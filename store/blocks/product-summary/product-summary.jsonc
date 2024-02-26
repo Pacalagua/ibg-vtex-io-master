@@ -70,7 +70,13 @@
   },
   "product-list-price#summary": {
     "props": {
-      "message": "{listPriceValue} Normal",
+      "message": "{listPriceValue}",
+      "blockClass": "summary"
+    }
+  },
+  "product-list-price#summary-pdp": {
+    "props": {
+      "message": "{listPriceValue}",
       "blockClass": "summary"
     }
   },
@@ -94,7 +100,7 @@
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{sellingPriceValue} \n Aliados Crédito"
+      "message": "{sellingPriceValue} Crédito"
     }
   },
   "product-price-savings#summary": {
@@ -111,7 +117,8 @@
     },
     "children": [
       "flex-layout.col#tercer-precio",
-      "product-selling-price#summary",
+      "flex-layout.col#precio-aliado",
+      /* "product-selling-price#summary", */
       "product-list-price#summary"
     ]
   },
@@ -121,8 +128,9 @@
     },
     "children": [
       "flex-layout.col#tercer-precio-pdp",
-      "product-selling-price#summary",
-      "product-list-price#summary"
+      "flex-layout.col#precio-aliado-pdp",
+      /* "product-selling-price#summary", */
+      "product-list-price#summary-pdp"
     ]
   },
   "flex-layout.col#tercer-precio": {
@@ -131,6 +139,14 @@
     },
     "children": [
       "TercerPrecio"
+    ]
+  },
+  "flex-layout.col#precio-aliado": {
+    "props": {
+      "blockClass": "tercer-precio-vitrinas"
+    },
+    "children": [
+      "PrecioAliado"
     ]
   },
   "flex-layout.col#category-discount-plp": {
@@ -147,7 +163,15 @@
       "blockClass": "tercer-precio-vitrinas-pdp"
     },
     "children": [
-      "TercerPrecio"
+      "TercerPrecioPdp"
+    ]
+  },
+  "flex-layout.col#precio-aliado-pdp": {
+    "props": {
+      "blockClass": "tercer-precio-vitrinas-pdp"
+    },
+    "children": [
+      "PrecioAliado"
     ]
   }
 }

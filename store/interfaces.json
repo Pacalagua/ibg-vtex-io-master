@@ -41,5 +41,13 @@
   "CuentaAtras": {
     "component": "CuentaAtras",
     "allowed": "*"
+  },
+  "PrecioAliado": {
+    "component": "PrecioAliado",
+    "allowed": "*"
+  },
+  "TercerPrecioPdp":{
+    "component":"TercerPrecioPdp",
+    "allowed":"*"
   }
 }

@@ -30,15 +30,23 @@ export const DiscountCategory = () => {
   if (exclusivo == true) {
     return (
       <>
-        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158998/highlight-exclusivo.svg" className={`${plpStyles ? styles.ExclusivoPLP : styles.Exclusivo}`} />
+        <div id='modal-root'>
+          <img src="https://ibgcol.vtexassets.com/arquivos/ids/158998/highlight-exclusivo.svg" className={`${plpStyles ? styles.ExclusivoPLP : styles.Exclusivo}`} />
+        </div>
       </>
     )
   } else {
     if (ofertas == true) return (
       <>
-        <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} />
+        <div id='modal-root'>
+          <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} />
+        </div>
       </>
     )
   }
-  return (<></>)
+  return (<>
+    <div id='modal-root'><img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" height='0px' />
+    </div>
+  </>
+  )
 }

@@ -125,7 +125,8 @@
   },
   "flex-layout.col#priceSummaryListDesktop": {
     "children": [
-      "product-selling-price#summary",
+      /* "product-selling-price#summary", */
+      "flex-layout.col#precio-aliado",
       "product-list-price#summary"
     ]
   },

@@ -1,0 +1,33 @@
+.precio-aliado-pdp {
+    width: 100px;
+    height: 100px;
+}
+
+.precioAliado {
+    color: #122d80;
+    font-family: "NN Forever Grotesk STD" !important;
+    font-size: 16px;
+}
+
+.precioAliadoPdp {
+    color: #122d80;
+    font-family: "NN Forever Grotesk STD" !important;
+    font-size: 18px;
+}
+
+.precioAliadoImg {
+    height: 12px;
+}
+
+.precioAliadoImgPdp {
+    height: 13px;
+}
+
+@media (max-width: 680px) {
+    .precioAliado {
+        font-size: 13px;
+    }
+    .precioAliadoImg {
+        height: 6px;
+    }
+}

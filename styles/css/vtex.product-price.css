@@ -113,9 +113,10 @@
   font-family: "NN Forever Grotesk STD";
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 18px;
-  color: #00859b;
+  /* color: #00859b; */
+  color: #a1a1a1;
   margin-right: 5px;
 }
 
@@ -138,9 +139,10 @@
   flex-direction: initial;
   justify-content: center;
   align-items: center;
-  font-size: 15px;
+  font-size: 13px;
   line-height: 18px;
-  color: #00859b;
+  /* color: #00859b; */
+  color: #a1a1a1;
   font-family: "NN Forever Grotesk STD";
   /* color: #BDBDBD; */
 }

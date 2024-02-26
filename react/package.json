@@ -30,6 +30,7 @@
     "react-input-mask": "^2.0.4",
     "react-intl": "3.9.1",
     "react-markdown": "^4.3.1",
+    "react-modal": "^3.16.1",
     "react-motion": "^0.5.2",
     "react-outside-click-handler": "^1.2.2",
     "react-pageflip": "^2.0.3",
