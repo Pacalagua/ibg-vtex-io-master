@@ -350,7 +350,7 @@
       },
       "rich-text#compra-sumas-titulo": {
         "props": {
-          "text": "## Compra a crédito con Su+Pay"
+          "text": "## Compra a Crédito con Sumas Pay"
         }
       },
 
@@ -416,7 +416,7 @@
       "rich-text#info-sumas-2": {
         "props": {
             "blockClass": "texto-sumas-info",
-            "text": "Selecciona Crédito Su+Pay como medio de pago y da clic en \"Comprar Ahora\""
+            "text": "Selecciona Crédito Sumas Pay como medio de pago y da clic en \"Comprar Ahora\""
         }
       },
       "flex-layout.col#info-sumas-3": {
@@ -436,7 +436,7 @@
       "rich-text#info-sumas-3": {
         "props": {
             "blockClass": "texto-sumas-info",
-            "text": "Serás redirigido a la página de Su+Pay para que selecciones el número de cuotas que deseas pagar y confirmas tu crédito ingresando el código de verificación que te llega por SMS o WhatsApp"
+            "text": "Serás redirigido a la página de Crédito Sumas Pay para que selecciones el número de cuotas que deseas pagar y confirmas tu crédito ingresando el código de verificación que te llega por SMS o WhatsApp"
         }
       },
       "flex-layout.row#compra-sumas-1-3": {
@@ -477,7 +477,7 @@
       "rich-text#politicas-sumas": {
         "props": {
             "blockClass": "texto-sumas-info",
-            "text": "Consulta las políticas de Su+Pay aquí: \n <a href=\"https://www.mundosumas.com/nuestraspoliticas\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.mundosumas.com/nuestraspoliticas</a>"
+            "text": "Consulta las políticas de Crédito Sumas Pay aquí: \n <a href=\"https://www.mundosumas.com/nuestraspoliticas\" target=\"_blank\" rel=\"noopener noreferrer\">https://www.mundosumas.com/nuestraspoliticas</a>"
         }
       },
       /* fin faq sumas */
