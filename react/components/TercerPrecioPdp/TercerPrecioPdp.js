@@ -44,7 +44,7 @@ export const TercerPrecioPdp = () => {
                 (specifications) ?
                     specifications.length == 1 && (
                         <div>${formatter.format(specifications[0].values[0])} <span><img src='https://ibgcol.vtexassets.com/arquivos/ids/159076/tarjetas-icon.svg' height='14px'/> <img src='https://ibgcol.vteximg.com.br/arquivos/ids/159075/pse-logo.svg' height='14px'/> <img src='https://ibgcol.vteximg.com.br/arquivos/ids/159082/logo_banco.svg
-                        ' height='14px'/> <img src='https://ibgcol.vteximg.com.br/arquivos/ids/159080/logo-efecty.svg' height='14px'/> <button className={`${style.btnpopup}`} onClick={openModal}><img src='https://ibgcol.vteximg.com.br/arquivos/ids/159077/info-icon.svg' height='16px'/></button></span></div>
+                        ' height='14px'/> <img src='https://ibgcol.vteximg.com.br/arquivos/ids/159080/logo-efecty.svg' height='14px'/> <button className={`${style.btnpopup}`} onClick={openModal}><img src='https://ibgcol.vteximg.com.br/arquivos/ids/159077/info-icon.svg' height='18px'/></button> <a href="/tyc-promos"><img src='https://ibgcol.vteximg.com.br/arquivos/ids/159107/tyc_-_icon.svg' height='18px'/></a></span></div>
                     ) : null
             }
             {modalIsOpen && ReactDOM.createPortal(
