@@ -81,7 +81,7 @@
     },
     "rich-text#txt-p-familia-beneficios": {
         "props": {
-            "text": "### Beneficios\n1. Facilidad en tu compra, para la entrega del producto.\n2. Tasa preferenciales por ser plan familia IBG.\n3. Obtienes un descuento adicional por compras a pago único.\n4. Obtienes un descuento especial por cada cuota que pagues al día o anticipado por cualquier medio de pago.\n5. Acceso a un proceso de aprobación ágil: sin papelería, sin condeudor, sin inspección ocular.\n6. Durante el mes de tu cumpleaños recibe descuentos tanto en pago único, como a plazos.\n7. Obtienes plazos para pagos diseñados exclusivamente para ti.",
+            "text": "### Beneficios\n1. Facilidad en tu compra, para la entrega del producto.\n2. Tasas preferenciales por ser plan familia IBG.\n3. Obtienes un descuento adicional por compras a pago único.\n4. Obtienes un descuento especial por cada cuota que pagues al día o anticipado por cualquier medio de pago.\n5. Acceso a un proceso de aprobación ágil: sin papelería, sin condeudor, sin inspección ocular.\n6. Durante el mes de tu cumpleaños recibe descuentos tanto en pago único, como a plazos.\n7. Obtienes plazos para pagos diseñados exclusivamente para ti.",
             "blockClass": "txt_parrafo"
         }
     },

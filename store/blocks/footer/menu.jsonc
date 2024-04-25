@@ -411,6 +411,7 @@
       "menu-item#preguntas-frecuentes",
       "menu-item#tyc-promos",
       "menu-item#super-hogares",
+      "menu-item#plan-fidelizate",
       "menu-item#formas-de-pago",
       "menu-item#puntos-de-recaudo",
       "menu-item#pqrs",
@@ -543,6 +544,22 @@
         "noFollow": false,
         "tagTitle": "Súper Hogares",
         "text": "Súper Hogares"
+      }
+    }
+  },
+  "menu-item#plan-fidelizate": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/plan-fidelizate",
+        "noFollow": false,
+        "tagTitle": "Plan Fidelizate",
+        "text": "Plan Fidelizate"
       }
     }
   },
