@@ -1,0 +1,143 @@
+{
+    "store.custom#plan-fidelizate": {
+        "blocks": [
+            "rich-text#h1-plan-fidelizate",
+            "list-context.image-list#banner-fidelizate",
+            "flex-layout.row#row-contenido-fidelizate",
+            "flex-layout.row#subtitulo-fidelizate-fin",
+            "rich-text#parrafo-final-fidelizate"
+        ]
+    },
+    "rich-text#h1-plan-fidelizate": {
+        "props": {
+            "blockClass": "title_tyc",
+            "text": "Plan Fidelízate IBG"
+        }
+    },
+    "list-context.image-list#banner-fidelizate": {
+        "children": [
+            "slider-layout#banner-fidelizate-images"
+        ],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "assets/images/banner-fidelizate.jpg",
+                    "mobileImage": "assets/images/banner-fidelizate-mobile.jpg"
+                }
+            ]
+        }
+    },
+    "slider-layout#banner-fidelizate-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "slider-landing"
+        }
+    },
+    "flex-layout.row#row-contenido-fidelizate": {
+        "props": {
+            "blockClass": "row-principal-calidad"
+        },
+        "children": [
+            "flex-layout.col#col-familia",
+            "flex-layout.col#col-amigos"
+        ]
+    },
+    "flex-layout.col#col-familia": {
+        "props": {
+            "blockClass": ""
+        },
+        "children": [
+            "flex-layout.row#row-txt-h2-familia",
+            "flex-layout.row#row-familia-beneficios"
+        ]
+    },
+    "flex-layout.row#row-txt-h2-familia": {
+        "props": {
+            "blockClass": "row-content-calidad"
+        },
+        "children": [
+            "rich-text#txt-h2-familia"
+        ]
+    },
+    "rich-text#txt-h2-familia": {
+        "props": {
+            "text": "## Nivel I: PLAN FAMILIA IBG",
+            "blockClass": "title_calidad"
+        }
+    },
+    "flex-layout.row#row-familia-beneficios": {
+        "props": {
+            "blockClass": "row-content-calidad"
+        },
+        "children": [
+            "rich-text#txt-p-familia-beneficios"
+        ]
+    },
+    "rich-text#txt-p-familia-beneficios": {
+        "props": {
+            "text": "### Beneficios\n1. Facilidad en tu compra, para la entrega del producto.\n2. Tasa preferenciales por ser plan familia IBG.\n3. Obtienes un descuento adicional por compras a pago único.\n4. Obtienes un descuento especial por cada cuota que pagues al día o anticipado por cualquier medio de pago.\n5. Acceso a un proceso de aprobación ágil: sin papelería, sin condeudor, sin inspección ocular.\n6. Durante el mes de tu cumpleaños recibe descuentos tanto en pago único, como a plazos.\n7. Obtienes plazos para pagos diseñados exclusivamente para ti.",
+            "blockClass": "txt_parrafo"
+        }
+    },
+    "flex-layout.col#col-amigos": {
+        "props": {
+            "blockClass": ""
+        },
+        "children": [
+            "flex-layout.row#row-txt-h2-amigos",
+            "flex-layout.row#row-amigos-beneficios"
+        ]
+    },
+    "flex-layout.row#row-txt-h2-amigos": {
+        "props": {
+            "blockClass": "row-content-calidad"
+        },
+        "children": [
+            "rich-text#txt-h2-amigos"
+        ]
+    },
+    "rich-text#txt-h2-amigos": {
+        "props": {
+            "text": "## Nivel II: PLAN AMIGOS IBG",
+            "blockClass": "title_calidad"
+        }
+    },
+    "flex-layout.row#row-amigos-beneficios": {
+        "props": {},
+        "children": [
+            "rich-text#txt-p-amigos-beneficios"
+        ]
+    },
+    "rich-text#txt-p-amigos-beneficios": {
+        "props": {
+            "text": "### Beneficios\n1. Facilidad en tu compra, para la entrega del producto.\n2. Acceso a un proceso de aprobación ágil y con más facilidades.\n3. Tasa preferencial por ser plan Amigos IBG.\n4. Obtienes un descuento especial por cada cuota que pagues al día o anticipado por cualquier medio de pago.\n5. Obtienes plazos para pagos diseñados exclusivamente para ti.\n‎ \n‎ \n‎ \n‎ ",
+            "blockClass": "txt_parrafo"
+        }
+    },
+    "flex-layout.row#subtitulo-fidelizate-fin": {
+        "props": {
+          "blockClass": "row-principal-calidad"
+        },
+        "children": [
+            "rich-text#txt-h2-fidelizate-fin"
+        ]
+      },
+      "rich-text#txt-h2-fidelizate-fin": {
+        "props": {
+            "text": "## Contacta a tu asesor de confianza para acceder a estos beneficios",
+            "blockClass": "txt_centrado"
+        }
+      },
+      "rich-text#parrafo-final-fidelizate": {
+        "props": {
+            "text": "### ¡Activa tu **Cupo IBG** ahora!\nAplican términos y condiciones",
+            "blockClass": "txt_centrado"
+        }
+      }   
+}

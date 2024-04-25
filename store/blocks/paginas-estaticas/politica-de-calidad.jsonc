@@ -33,7 +33,7 @@
             "phone": 1
           },
           "infinite": true,
-          "blockClass": "slider-home"
+          "blockClass": "slider-landing"
         }
       },
       "flex-layout.row#row-contenido-calidad": {

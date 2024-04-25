@@ -83,6 +83,15 @@
 
 /* Slider */
 
+.imageElementLink--slider-landing {
+  display: block;
+  width: 80% !important;
+}
+
+.imageElement--slider-landing {
+  width: 80% !important;
+}
+
 .imageElementLink--slider-home {
   display: block;
   width: 100%;

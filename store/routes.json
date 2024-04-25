@@ -67,5 +67,8 @@
   },
   "store.custom#responsabilidad-social": {
     "path": "/responsabilidad-social"
+  },
+  "store.custom#plan-fidelizate": {
+    "path": "/plan-fidelizate"
   }
 }
