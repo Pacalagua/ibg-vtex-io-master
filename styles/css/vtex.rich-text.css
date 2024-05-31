@@ -207,6 +207,25 @@
   font-size: 14px;
 }
 
+.paragraph--texto-info-2 {
+  font-family: NN Forever Grotesk STD;
+  color: #122d80!important;
+  font-size: 14px;
+}
+
+.strong--texto-info-2 {
+  background-color: #f2cd00 !important;
+  border: solid #f2cd00;
+  border-radius: 3px;
+}
+
+.container--texto-info-recaudo {
+  font-family: NN Forever Grotesk STD;
+  color: #122d80!important;
+  font-size: 16px;
+  text-align: center;
+}
+
 .container--texto-sumas-info {
   text-align: center;
 }
@@ -293,6 +312,14 @@
     text-align: center;
   }
 
+}
+
+.image--texto-info {
+  max-width: 70%;
+}
+
+.image--texto-info-2 {
+  max-width: 80%;
 }
 
 .container--text-info {
@@ -937,7 +964,4 @@
 .wrapper--1-contenido-politica-de-privacidad .headingLevel3--1-contenido-politica-de-privacidad:first-child {
   text-align: center;
 }
-
-
-
 /* paginas legales end */
