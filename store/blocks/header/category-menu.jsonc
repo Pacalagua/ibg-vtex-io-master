@@ -227,11 +227,29 @@
       "blockClass": "submain-submenu"
     },
     "children": [
+      "menu-item#category-apparel-barriles-ahumadores",
       "menu-item#category-apparel-freidora-de-aire-air-fryer",
       "menu-item#category-apparel-licuadora"
       /* "menu-item#category-apparel-hogar-universal" */
     ]
   },
+
+  "menu-item#category-apparel-barriles-ahumadores": {
+    "props": {
+      "id": "menu-item-category-apparel-barriles-ahumadores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/electromenor/barriles-ahumadores",
+        "noFollow": false,
+        "tagTitle": "Barriles Ahumadores",
+        "text": "Barriles Ahumadores"
+      }
+    }
+  },
+
   "menu-item#category-apparel-freidora-de-aire-air-fryer": {
     "props": {
       "id": "menu-item-category-apparel-freidora-de-aire-air-fryer",
@@ -1219,7 +1237,7 @@
       "blockClass": "main-submenu"
     },
     "children": [
-      "menu-item#patinetas-y-scooter",
+      /* "menu-item#patinetas-y-scooter", */
       "menu-item#bicicletas"
     ]
   },

@@ -246,6 +246,7 @@
     "blockClass": "submain-submenu"
   },
   "children": [
+    "menu-item#category-apparel-barriles-ahumadores",
     "menu-item#category-apparel-freidora-de-aire-air-fryer",
     "menu-item#category-apparel-licuadora"
     /* "menu-item#category-apparel-hogar-universal" */
@@ -694,7 +695,7 @@
       "blockClass": "main-submenu"
     },
     "children": [
-      "menu-item#patinetas-y-scoote-mobile",
+      /* "menu-item#patinetas-y-scoote-mobile", */
       "menu-item#bicicletas-mobile"
     ]
   },
