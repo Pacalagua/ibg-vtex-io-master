@@ -178,7 +178,8 @@
       /* "menu-item#punto-de-fabrica", */
       "menu-item#transparencia-y-etica",
       "menu-item#politica-de-calidad",
-      "menu-item#responsabilidad-social"
+      "menu-item#responsabilidad-social",
+      "menu-item#comunicado-canales-oficiales"
     ]
   },
   // "rich-text#contacto-notificacion": {
@@ -332,6 +333,22 @@
         "noFollow": false,
         "tagTitle": "Responsabilidad Social",
         "text": "Responsabilidad Social"
+      }
+    }
+  },
+  "menu-item#comunicado-canales-oficiales": {
+    "props": {
+      "blockClass": "menu-footer",
+      "id": "menu-item-black-friday",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comunicado-canales-oficiales",
+        "noFollow": false,
+        "tagTitle": "Comunicado Canales Oficiales",
+        "text": "Comunicado Canales Oficiales"
       }
     }
   },

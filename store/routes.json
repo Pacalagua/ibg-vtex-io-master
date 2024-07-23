@@ -70,5 +70,8 @@
   },
   "store.custom#plan-fidelizate": {
     "path": "/plan-fidelizate"
+  },
+  "store.custom#comunicado-canales-oficiales": {
+    "path": "/comunicado-canales-oficiales"
   }
 }

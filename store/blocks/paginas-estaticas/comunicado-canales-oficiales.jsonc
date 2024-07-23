@@ -1,0 +1,126 @@
+{
+    "store.custom#comunicado-canales-oficiales": {
+        "blocks": [
+            "flex-layout.row#comunicado-1"
+        ]
+    },
+    "flex-layout.row#comunicado-1": {
+        "children": [
+            "flex-layout.col#comunicado-1"
+        ],
+        "props": {
+            "blockClass": "row-comunicado"
+        }
+    },
+    "flex-layout.col#comunicado-1": {
+        "children": [
+            "rich-text#titulo-1-comunicado",
+            "rich-text#paragraph-1-comunicado",
+            "image#img-1-comunicado",
+            "rich-text#titulo-2-comunicado",
+            "rich-text#paragraph-21-comunicado",
+            "image#img-21-comunicado",
+            "rich-text#paragraph-22-comunicado",
+            "image#img-22-comunicado",
+            "rich-text#paragraph-23-comunicado",
+            "flex-layout.row#comunicado-22",
+            "rich-text#paragraph-24-comunicado",
+            "image#img-23-comunicado",
+            "rich-text#paragraph-25-comunicado",
+            "image#img-24-comunicado"
+        ]
+    },
+    "rich-text#titulo-1-comunicado": {
+        "props": {
+            "text": "# ¿Qué son las Redes Fraudulentas?",
+            "blockClass": "h1-comunicado"
+        }
+    },
+    "rich-text#paragraph-1-comunicado": {
+        "props": {
+            "text": "Son páginas de facebook, perfiles de facebook,Instagram, whatsapp, marketplace y dirección web que copian el diseño de  marcas como IBG para que des información personal o compres un producto que no recibirás."
+        }
+    },
+    "image#img-1-comunicado": {
+        "props": {
+            "src": "assets/images/img-1-comunicado.png"
+        }
+    },
+    "rich-text#titulo-2-comunicado": {
+        "props": {
+            "text": "# ¿Cómo saber si es una página de IBG?",
+            "blockClass": "h1-comunicado"
+        }
+    },
+    "rich-text#paragraph-21-comunicado": {
+        "props": {
+            "text": "- Comprueba que la dirección web de la página sea **www.ibg.com.co**"
+        }
+    },
+    "image#img-21-comunicado": {
+        "props": {
+            "src": "assets/images/img-21-comunicado.png"
+        }
+    },
+    "rich-text#paragraph-22-comunicado": {
+        "props": {
+            "text": "- Comprueba que la dirección de la página de Instagram sea **@hogaresibg**"
+        }
+    },
+    "image#img-22-comunicado": {
+        "props": {
+            "src": "assets/images/img-22-comunicado.png"
+        }
+    },
+    "rich-text#paragraph-23-comunicado": {
+        "props": {
+            "text": "- Comprueba que la dirección de la página de facebook sea **@hogaresibg** y nuestro perfil de facebook **hogaresibg**"
+        }
+    },
+    "flex-layout.row#comunicado-22": {
+        "children": [
+            "flex-layout.col#comunicado-221",
+            "flex-layout.col#comunicado-222"
+        ]
+    },
+    "flex-layout.col#comunicado-221": {
+        "children": [
+            "image#img-221-comunicado"
+        ]
+    },
+    "image#img-221-comunicado": {
+        "props": {
+            "src": "assets/images/img-221-comunicado.png"
+        }
+    },
+    "flex-layout.col#comunicado-222": {
+        "children": [
+            "image#img-222-comunicado"
+        ]
+    },
+    "image#img-222-comunicado": {
+        "props": {
+            "src": "assets/images/img-222-comunicado.png"
+        }
+    },
+    "rich-text#paragraph-24-comunicado": {
+        "props": {
+            "text": "- Verifica los precios de las productos, usualmente las páginas fraudulentas utilizan precios extremadamente bajos para persuadir a los usuarios.\n- Contamos con múltiples medios de pago, las páginas fraudulentas te exigen pagar únicamente con tarjeta."
+        }
+    },
+    "image#img-23-comunicado": {
+        "props": {
+            "src": "assets/images/img-23-comunicado.png"
+        }
+    },
+    "rich-text#paragraph-25-comunicado": {
+        "props": {
+            "text": "- Ninguna de nuestras páginas tiene métodos de nequi, ahorro a la mano y daviplata.\n- Verifica que los botones de redes sociales te redireccionen a nuestras páginas oficiales.\n- Todos nuestros procesos de contratación son gestionados internamente, y no utilizamos intermediarios.\n- Si recibes algún tipo de comunicación sospechosa en la que te soliciten dinero o información personal, te invitamos a comunicarte directamente con nosotros a través de nuestro canal de servicio al cliente."
+        }
+    },
+    "image#img-24-comunicado": {
+        "props": {
+            "src": "assets/images/img-24-comunicado.png"
+        }
+    }
+}

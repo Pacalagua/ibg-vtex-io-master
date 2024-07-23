@@ -230,6 +230,11 @@
   text-align: center;
 }
 
+.heading--h1-comunicado {
+  color: #122d80;
+  background-color: #efca28;
+}
+
 @media (max-width: 680px) {
   .container--number-info {
     justify-content: center !important;
