@@ -30,22 +30,15 @@
         },
         "children": [
             "flex-layout.col#col-recaudo-practipagos-pse-txt",
-            "flex-layout.row#row-recaudo-efecty"
+            "flex-layout.col#col-recaudo-efecty-sgiros-gaval",
+            "flex-layout.col#col-recaudo-bancolombia"
         ]
     },
-    "flex-layout.row#row-recaudo-efecty": {
-        "children": [
-            "flex-layout.col#col-recaudo-efecty-1",
-            "flex-layout.col#col-recaudo-efecty-2"
-        ]
-    },
-
     "flex-layout.row#row-recaudo-2": {
         "props": {
             "blockClass": "row-recaudos"
         },
         "children": [
-            "flex-layout.col#col-recaudo-bancolombia",
             "flex-layout.col#col-recaudo-davivienda",
             "flex-layout.col#col-recaudo-banco-bogota",
             "flex-layout.col#col-recaudo-banco-agrario"
@@ -68,20 +61,12 @@
         ]
     },
     // Columnas
-    "flex-layout.col#col-recaudo-efecty-1": {
+    "flex-layout.col#col-recaudo-efecty-sgiros-gaval": {
         "props": {
             "blockClass": "col-recaudos"
         },
         "children": [
-            "rich-text#text-recaudo-efecty-1"
-        ]
-    },
-    "flex-layout.col#col-recaudo-efecty-2": {
-        "props": {
-            "blockClass": "col-recaudos"
-        },
-        "children": [
-            "rich-text#text-recaudo-efecty-2"
+            "rich-text#text-recaudo-efecty-sgiros-gaval"
         ]
     },
     "flex-layout.col#col-recaudo-practipagos-pse-txt": {
@@ -132,15 +117,9 @@
             "blockClass": "texto-info-recaudo"
         }
     },
-    "rich-text#text-recaudo-efecty-1": {
+    "rich-text#text-recaudo-efecty-sgiros-gaval": {
         "props": {
-            "text": "![Efecty](assets/images/logo-efecty.svg)\n**PAGO ÚNICO**\nConvenio: 111822 \n Identificación: C.C. Cliente \n No. Obligación: 1010",
-            "blockClass": "texto-info-2"
-        }
-    },
-    "rich-text#text-recaudo-efecty-2": {
-        "props": {
-            "text": " **PAGO INICIAL** \n Convenio: 111822 \n Identificación: C.C. Cliente \n No. Obligación: 2020 \n\n **PAGOS A CARTERA** \n  Convenio: 111822 \n Identificación: C.C. Cliente",
+            "text": "![Efecty](assets/images/logo-efecty.svg)\n![Grupo Aval](assets/images/logo-super-giros.svg)\n![Super Giros](assets/images/logo-grupo-aval.svg)\n**PAGOS A CARTERA**\nConvenio: 6181\nIdentificación: C.C. Cliente",
             "blockClass": "texto-info-2"
         }
     },
@@ -154,7 +133,7 @@
     },
     "rich-text#text-recaudo-bancolombia": {
         "props": {
-            "text": "![Bancolombia](assets/images/logo-bancolombia.svg) \n **Cuenta:** 58229527770 \n  **Tipo:** Cuenta Corriente \n  **Convenio:** 49949 \n  **Referencia:** No. CC. Cliente",
+            "text": "![Bancolombia](assets/images/logo-bancolombia.svg) \n **Cuenta:** 75600058049 \n  **Tipo:** Cuenta Corriente \n  **Convenio:** 49949 \n  **Referencia:** No. CC. Cliente",
             "blockClass": "texto-info"
         }
     },
