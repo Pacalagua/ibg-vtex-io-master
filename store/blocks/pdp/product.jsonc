@@ -203,9 +203,9 @@
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
-      "SumasPay",
-      /* "AddiCol", */
-      "BancoBogotaPDP",
+      /* "SumasPay", */
+      "AddiCol",
+      /* "BancoBogotaPDP", */
       "availability-subscriber", // TODO QUITAR
       // "shipping-simulator", // TODO QUITAR
       // "share#default"

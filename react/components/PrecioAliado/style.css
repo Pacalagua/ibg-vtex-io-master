@@ -20,7 +20,7 @@
 }
 
 .precioAliadoImgPdp {
-    height: 13px;
+    height: 20px;
 }
 
 @media (max-width: 680px) {
@@ -28,6 +28,6 @@
         font-size: 13px;
     }
     .precioAliadoImg {
-        height: 6px;
+        height: 12px;
     }
 }

@@ -17,7 +17,7 @@ export const PrecioAliado = () => {
     return (
         <>
             <div className={`${style.precioAliado}`}>
-                <span>${formatter.format(Price)} <img className={`${style.precioAliadoImg}`} src='https://ibgcol.vtexassets.com/arquivos/ids/158967/logo-sistecredito.svg' /> <img className={`${style.precioAliadoImg}`} src='https://ibgcol.vtexassets.com/arquivos/ids/159074/logo-sumas.svg' /></span>
+                <span>${formatter.format(Price)} <img className={`${style.precioAliadoImg}`} src='https://ibgcol.vtexassets.com/arquivos/ids/159231/logo-addi.svg' /> | <img className={`${style.precioAliadoImg}`} src='https://ibgcol.vtexassets.com/arquivos/ids/158967/logo-sistecredito.svg' /> | <img className={`${style.precioAliadoImg}`} src='https://ibgcol.vtexassets.com/arquivos/ids/159074/logo-sumas.svg' /></span>
             </div>
         </>
     )
