@@ -8,8 +8,9 @@
       "blockClass": "price"
     },
     "children": [
-      "TercerPrecioPdp",
-      "PrecioAliado",
+      /* "TercerPrecioPdp",
+      "PrecioAliado", */
+      "product-selling-price#pdp",
       "product-list-price#pdp"
       /* "product-price-savings" */
 
@@ -39,7 +40,7 @@
   },
   "product-selling-price#pdp":{
     "props":{
-      "message": "{sellingPriceValue}"
+      "message": "{sellingPriceValue} Hoy"
     }
   },
   // "product-price-savings":{

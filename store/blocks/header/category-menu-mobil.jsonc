@@ -11,8 +11,8 @@
       "menu-item#electrodomesticos-mobile",
       "menu-item#tecnologia-mobile",
       "menu-item#movilidad-mobile",
-      "menu-item#ofertas-mobile",
-      "menu-item#combos-mobile"
+      "menu-item#ofertas-mobile"/* ,
+      "menu-item#combos-mobile" */
       // "menu-item#practipagos-mobile"
       /* "menu-item#accesorios-mobile",
       "menu-item#cuidado-capilar-mobile",

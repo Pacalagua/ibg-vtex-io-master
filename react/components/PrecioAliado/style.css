@@ -6,28 +6,26 @@
 .precioAliado {
     color: #122d80;
     font-family: "NN Forever Grotesk STD" !important;
-    font-size: 16px;
-}
-
-.precioAliadoPdp {
-    color: #122d80;
-    font-family: "NN Forever Grotesk STD" !important;
     font-size: 18px;
+    font-weight: 700;
 }
 
-.precioAliadoImg {
-    height: 12px;
+.precioAliadoImgPLP {
+    height: 10px;
+    margin-right: 3px;
 }
 
-.precioAliadoImgPdp {
-    height: 20px;
+.precioAliadoImgPDP {
+    height: 14px;
+    margin-right: 10px;
 }
 
 @media (max-width: 680px) {
-    .precioAliado {
-        font-size: 13px;
-    }
-    .precioAliadoImg {
+    .precioAliadoImgPLP {
         height: 12px;
+        margin-right: 6px;
+    }
+    .precioAliadoImgPDP {
+        height: 14px;
     }
 }

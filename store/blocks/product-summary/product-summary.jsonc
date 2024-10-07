@@ -70,13 +70,13 @@
   },
   "product-list-price#summary": {
     "props": {
-      "message": "{listPriceValue}",
+      "message": "{listPriceValue} Normal",
       "blockClass": "summary"
     }
   },
   "product-list-price#summary-pdp": {
     "props": {
-      "message": "{listPriceValue}",
+      "message": "{listPriceValue} Normal",
       "blockClass": "summary"
     }
   },
@@ -100,7 +100,7 @@
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary",
-      "message": "{sellingPriceValue} Crédito"
+      "message": "{sellingPriceValue} Hoy"
     }
   },
   "product-price-savings#summary": {
@@ -116,7 +116,7 @@
       "blockClass": "product-price"
     },
     "children": [
-      "flex-layout.col#tercer-precio",
+      /* "flex-layout.col#tercer-precio", */
       "flex-layout.col#precio-aliado",
       /* "product-selling-price#summary", */
       "product-list-price#summary"
@@ -127,7 +127,7 @@
       "blockClass": "product-price-pdp"
     },
     "children": [
-      "flex-layout.col#tercer-precio-pdp",
+      /* "flex-layout.col#tercer-precio-pdp", */
       "flex-layout.col#precio-aliado-pdp",
       /* "product-selling-price#summary", */
       "product-list-price#summary-pdp"
@@ -168,7 +168,7 @@
   },
   "flex-layout.col#precio-aliado-pdp": {
     "props": {
-      "blockClass": "tercer-precio-vitrinas-pdp"
+      "blockClass": "precio-aliado-pdp" // "blockClass": "pdpFlag",
     },
     "children": [
       "PrecioAliado"

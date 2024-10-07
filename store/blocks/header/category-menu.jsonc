@@ -9,8 +9,8 @@
       "menu-item#electrodomesticos",
       "menu-item#tecnologia",
       "menu-item#movilidad",
-      "menu-item#ofertas",
-      "menu-item#combos"
+      "menu-item#ofertas"/* ,
+      "menu-item#combos" */
       // "menu-item#practipagos"
       /* "menu-item#accesorios",
       "menu-item#cuidado-capilar",
@@ -636,9 +636,9 @@
     "children": [
       "menu-item#category-apparel-camas-y-base-camas",
       "menu-item#category-apparel-colchones",
-      "menu-item#category-apparel-juegos-de-alcoba",
+      /* "menu-item#category-apparel-juegos-de-alcoba", */
       "menu-item#category-apparel-camas-infantiles",
-      "menu-item#category-apparel-juegos-de-alcoba-para-niños",
+      /* "menu-item#category-apparel-juegos-de-alcoba-para-niños", */
       "menu-item#category-apparel-camarote-y-cama-tarima",
       "menu-item#category-apparel-closets",
       "menu-item#category-apparel-mesas-de-noche",
@@ -1139,7 +1139,7 @@
       "blockClass": "submain-submenu"
     },
     "children": [
-      "menu-item#category-apparel-minicomponentes",
+      /* "menu-item#category-apparel-minicomponentes", */
       "menu-item#category-apparel-torres-y-cabinas"
     ]
   },

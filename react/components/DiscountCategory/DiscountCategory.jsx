@@ -7,10 +7,15 @@ import styles from './styles.css'
 export const DiscountCategory = () => {
 
   const selectedProduct = useContext(ProductContext);
-  const [ofertas, setOfertas] = useState(false);
-  const [exclusivo, setExclusivo] = useState(false);
+  const [discountState, setDiscountState] = useState({
+    ofertas: false,
+    exclusivo: false,
+    percent: 0,
+  });
 
-  const clusters = selectedProduct.product.productClusters;
+  const clusters = selectedProduct?.product?.productClusters ?? [];
+  const ListPrice = selectedProduct?.selectedItem?.sellers?.[0]?.commertialOffer?.ListPrice ?? 0;
+  const Price = selectedProduct?.selectedItem?.sellers?.[0]?.commertialOffer?.Price ?? 0;
 
   const { data: dataProduct } = useQuery(GET_PRODUCTS, {
     fetchPolicy: 'network-only',
@@ -20,33 +25,50 @@ export const DiscountCategory = () => {
   const plpStyles = document.querySelector('.vtex-flex-layout-0-x-flexColChild--CategoryDiscount-plp');
 
   useEffect(() => {
-    for (let cluster of clusters) {
-      let idCluster = cluster.id
-      if (idCluster == '181') setExclusivo(true);
-      if (idCluster == '182') setOfertas(true);
-    }
-  }, [dataProduct]);
+    if (ListPrice > 0) {
+      const descuento = Math.round(((ListPrice - Price) / ListPrice) * 100);
+      if (descuento > 0) {
+        let newState = { percent: descuento, ofertas: false, exclusivo: false };
 
-  if (exclusivo == true) {
+        for (let cluster of clusters) {
+          const idCluster = cluster.id;
+          if (idCluster === '181') {
+            newState.exclusivo = true;
+          }
+          if (idCluster === '182') {
+            newState.ofertas = true;
+          }
+        }
+
+        setDiscountState(newState);
+      }
+    }
+  }, [dataProduct, ListPrice]);
+
+  if (discountState.exclusivo) {
     return (
-      <>
-        <div id='modal-root'>
-          <img src="https://ibgcol.vtexassets.com/arquivos/ids/158998/highlight-exclusivo.svg" className={`${plpStyles ? styles.ExclusivoPLP : styles.Exclusivo}`} />
-        </div>
-      </>
-    )
-  } else {
-    if (ofertas == true) return (
-      <>
-        <div id='modal-root'>
-          <img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" className={`${plpStyles ? styles.CategoryDiscountPLP : styles.CategoryDiscount}`} />
-        </div>
-      </>
-    )
+      <span className={`${plpStyles ? styles.CategoryDiscountPLPExclusivo : styles.CategoryDiscountExclusivo}`}>
+        -{discountState.percent}% Exclusivo Online
+      </span>
+    );
   }
-  return (<>
-    <div id='modal-root'><img src="https://ibgcol.vtexassets.com/arquivos/ids/158972/highlight-oferta.svg" height='0px' />
-    </div>
-  </>
-  )
+
+  if (discountState.ofertas) {
+    return (
+      <span className={`${plpStyles ? styles.CategoryDiscountPLPOferta : styles.CategoryDiscountOferta}`}>
+        -{discountState.percent}%
+      </span>
+    );
+  }
+
+  if (discountState.percent > 0) {
+    return (
+      <span className={`${plpStyles ? styles.CategoryDiscountPLPNormal : styles.CategoryDiscountNormal}`}>
+        -{discountState.percent}%
+      </span>
+    );
+  }
+
+  return null;
+
 }
