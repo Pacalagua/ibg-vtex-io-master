@@ -25,8 +25,8 @@
     "children": [
       "disclosure-layout#sucursal-armenia",
       /* "disclosure-layout#sucursal-bucaramanga", */
-      "disclosure-layout#sucursal-cali",
-      "disclosure-layout#sucursal-cartago",
+      /* "disclosure-layout#sucursal-cali", */
+      /* "disclosure-layout#sucursal-cartago", */
       "disclosure-layout#sucursal-chinchina",
       "disclosure-layout#sucursal-duitama",
       "disclosure-layout#sucursal-espinal",
@@ -36,7 +36,7 @@
       "disclosure-layout#sucursal-ibague",
       "disclosure-layout#sucursal-ladorada",
       "disclosure-layout#sucursal-manizales1",
-      "disclosure-layout#sucursal-manizales2",
+      /* "disclosure-layout#sucursal-manizales2", */
       /* "disclosure-layout#sucursal-mocoa", */
       "disclosure-layout#sucursal-neiva",
       "disclosure-layout#sucursal-palmira",
@@ -551,7 +551,7 @@
   },
   "rich-text#suc-manizales1": {
     "props": {
-      "text": "MANIZALES 1"
+      "text": "MANIZALES"
     }
   },
   "rich-text#dir-suc-manizales1": {
