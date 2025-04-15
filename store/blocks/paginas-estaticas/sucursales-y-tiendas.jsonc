@@ -38,17 +38,17 @@
       "disclosure-layout#sucursal-manizales1",
       /* "disclosure-layout#sucursal-manizales2", */
       /* "disclosure-layout#sucursal-mocoa", */
-      "disclosure-layout#sucursal-neiva",
-      "disclosure-layout#sucursal-palmira",
+      /* "disclosure-layout#sucursal-neiva", */
+      /* "disclosure-layout#sucursal-palmira", */
       /* "disclosure-layout#sucursal-pasto", */
       "disclosure-layout#sucursal-pereira",
-      "disclosure-layout#sucursal-pitalito",
+      /* "disclosure-layout#sucursal-pitalito", */
       "disclosure-layout#sucursal-popayan",
       "disclosure-layout#sucursal-puertotejada",
-      "disclosure-layout#sucursal-santanderdequilichao",
-      "disclosure-layout#sucursal-tunja",
+      /* "disclosure-layout#sucursal-santanderdequilichao", */
+      /* "disclosure-layout#sucursal-tunja", */
       "disclosure-layout#sucursal-villavicencio",
-      "disclosure-layout#sucursal-yopal",
+      /* "disclosure-layout#sucursal-yopal", */
       "disclosure-layout#sucursal-zipaquira"
     ]
   },

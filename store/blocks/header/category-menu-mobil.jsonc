@@ -10,7 +10,7 @@
       "menu-item#muebles-mobile",
       "menu-item#electrodomesticos-mobile",
       "menu-item#tecnologia-mobile",
-      "menu-item#movilidad-mobile",
+      /* "menu-item#movilidad-mobile", */
       "menu-item#ofertas-mobile"/* ,
       "menu-item#combos-mobile" */
       // "menu-item#practipagos-mobile"
@@ -112,7 +112,7 @@
     "children": [
       "menu-item#refrigeracion-mobile",
       "menu-item#lavadoras-y-secadoras-mobile",
-      "menu-item#cocina-mobile",
+      /* "menu-item#cocina-mobile", */
       "menu-item#electromenor-mobile"
     ]
   },
@@ -150,8 +150,8 @@
     },
     "children": [
       "menu-item#category-apparel-neveras",
-      "menu-item#category-apparel-refrigeradores-y-congeladores",
-      "menu-item#category-apparel-minibares-y-cavas-de-vino"
+      "menu-item#category-apparel-refrigeradores-y-congeladores"/* ,
+      "menu-item#category-apparel-minibares-y-cavas-de-vino" */
     ]
   },
   // Sub-sub Menu Lavadoras y Secadoras Fin
@@ -247,8 +247,8 @@
   },
   "children": [
     "menu-item#category-apparel-barriles-ahumadores",
-    "menu-item#category-apparel-freidora-de-aire-air-fryer",
-    "menu-item#category-apparel-licuadora"
+    "menu-item#category-apparel-freidora-de-aire-air-fryer"/* ,
+    "menu-item#category-apparel-licuadora" */
     /* "menu-item#category-apparel-hogar-universal" */
   ]
 },
@@ -521,9 +521,9 @@
       "blockClass": "main-submenu"
     },
     "children": [
-      "menu-item#telefonos-celulares-mobile",
+      /* "menu-item#telefonos-celulares-mobile", */
       "menu-item#tv-y-video-mobile",
-      "menu-item#computadores-y-accesorios-mobile",
+      /* "menu-item#computadores-y-accesorios-mobile", */
       "menu-item#audio-mobile"
     ]
   },

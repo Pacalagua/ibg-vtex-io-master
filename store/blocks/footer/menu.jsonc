@@ -173,12 +173,12 @@
       "menu-item#nuestra-empresa",
       "menu-item#fondo-de-empleados",
       "menu-item#mision-y-vision",
-      "menu-item#trabaja-con-nosotros",
+      /* "menu-item#trabaja-con-nosotros", */
       "menu-item#sucursales-y-tiendas",
       /* "menu-item#punto-de-fabrica", */
       "menu-item#transparencia-y-etica",
       "menu-item#politica-de-calidad",
-      "menu-item#responsabilidad-social",
+      /* "menu-item#responsabilidad-social", */
       "menu-item#comunicado-canales-oficiales"
     ]
   },
@@ -428,7 +428,7 @@
       "menu-item#preguntas-frecuentes",
       "menu-item#tyc-promos",
       "menu-item#super-hogares",
-      "menu-item#plan-fidelizate",
+      /* "menu-item#plan-fidelizate", */
       "menu-item#formas-de-pago",
       "menu-item#puntos-de-recaudo",
       "menu-item#pqrs",

@@ -8,8 +8,8 @@
       "menu-item#muebles",
       "menu-item#electrodomesticos",
       "menu-item#tecnologia",
-      "menu-item#movilidad",
-      "menu-item#ofertas"/* ,
+      /* "menu-item#movilidad", */
+      "menu-item#ofertas" /* ,
       "menu-item#combos" */
       // "menu-item#practipagos"
       /* "menu-item#accesorios",
@@ -49,7 +49,7 @@
     "children": [
       "menu-item#refrigeracion",
       "menu-item#lavadoras-y-secadoras",
-      "menu-item#cocina",
+      /* "menu-item#cocina", */
       "menu-item#electromenor"
     ]
   },
@@ -88,8 +88,8 @@
     },
     "children": [
       "menu-item#category-apparel-neveras",
-      "menu-item#category-apparel-refrigeradores-y-congeladores",
-      "menu-item#category-apparel-minibares-y-cavas-de-vino"
+      "menu-item#category-apparel-refrigeradores-y-congeladores"/* ,
+      "menu-item#category-apparel-minibares-y-cavas-de-vino" */
     ]
   },
   "menu-item#category-apparel-neveras": {
@@ -191,7 +191,6 @@
     }
   },
   // Sub-sub Menu Lavadoras y Secadoras Fin
-
   // Sub-sub Menu electromenor
   "menu-item#electromenor": {
     "props": {
@@ -211,7 +210,6 @@
       "vtex.menu@2.x:submenu#category-apparel-sub-electromenor"
     ]
   },
-  
   "vtex.menu@2.x:submenu#category-apparel-sub-electromenor": {
     "props": {
       "orientation": "vertical",
@@ -228,12 +226,11 @@
     },
     "children": [
       "menu-item#category-apparel-barriles-ahumadores",
-      "menu-item#category-apparel-freidora-de-aire-air-fryer",
-      "menu-item#category-apparel-licuadora"
+      "menu-item#category-apparel-freidora-de-aire-air-fryer"/* ,
+      "menu-item#category-apparel-licuadora" */
       /* "menu-item#category-apparel-hogar-universal" */
     ]
   },
-
   "menu-item#category-apparel-barriles-ahumadores": {
     "props": {
       "id": "menu-item-category-apparel-barriles-ahumadores",
@@ -249,7 +246,6 @@
       }
     }
   },
-
   "menu-item#category-apparel-freidora-de-aire-air-fryer": {
     "props": {
       "id": "menu-item-category-apparel-freidora-de-aire-air-fryer",
@@ -265,7 +261,6 @@
       }
     }
   },
-
   "menu-item#category-apparel-licuadora": {
     "props": {
       "id": "menu-item-category-apparel-licuadora",
@@ -281,7 +276,6 @@
       }
     }
   },
-
   "menu-item#category-apparel-hogar-universal": {
     "props": {
       "id": "menu-item-category-apparel-hogar-universal",
@@ -298,62 +292,60 @@
     }
   },
   // Sub-sub Menu electromenor fin
-
-    // Sub-sub Menu Lavadoras y Secadoras Fin
-    "menu-item#cocina": {
-      "props": {
-        "id": "menu-item-category-cocina",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/electrodomesticos/cocina",
-          "noFollow": false,
-          "tagTitle": "Cocina",
-          "text": "Cocina"
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-apparel-sub-cocina"
-      ]
-    },
-    // Sub-sub Menu cocina
-    "vtex.menu@2.x:submenu#category-apparel-sub-cocina": {
-      "props": {
-        "orientation": "vertical",
-        "blockClass": "main-submenu"
-      },
-      "children": [
-        "vtex.menu@2.x:menu#category-apparel-sub-cocina"
-      ]
-    },
-    "vtex.menu@2.x:menu#category-apparel-sub-cocina": {
-      "props": {
-        "orientation": "vertical",
-        "blockClass": "submain-submenu"
-      },
-      "children": [
-        "menu-item#category-apparel-estufas-y-cubiertas-de-empotar"
-      ]
-    },
-    "menu-item#category-apparel-estufas-y-cubiertas-de-empotar": {
-      "props": {
-        "id": "menu-item-category-apparel-estufas-y-cubiertas-de-empotar",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/electrodomesticos/cocina/estufas-y-cubiertas-de-empotar",
-          "noFollow": false,
-          "tagTitle": "Estufas y cubiertas de empotar",
-          "text": "Estufas y cubiertas de empotar"
-        }
+  // Sub-sub Menu Lavadoras y Secadoras Fin
+  "menu-item#cocina": {
+    "props": {
+      "id": "menu-item-category-cocina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/cocina",
+        "noFollow": false,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
       }
     },
-    // Sub-sub Menu electromenor fin
-
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel-sub-cocina"
+    ]
+  },
+  // Sub-sub Menu cocina
+  "vtex.menu@2.x:submenu#category-apparel-sub-cocina": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "main-submenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel-sub-cocina"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel-sub-cocina": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "submain-submenu"
+    },
+    "children": [
+      "menu-item#category-apparel-estufas-y-cubiertas-de-empotar"
+    ]
+  },
+  "menu-item#category-apparel-estufas-y-cubiertas-de-empotar": {
+    "props": {
+      "id": "menu-item-category-apparel-estufas-y-cubiertas-de-empotar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electrodomesticos/cocina/estufas-y-cubiertas-de-empotar",
+        "noFollow": false,
+        "tagTitle": "Estufas y cubiertas de empotar",
+        "text": "Estufas y cubiertas de empotar"
+      }
+    }
+  },
+  // Sub-sub Menu electromenor fin
   // Menu electrodomésticos FIN
   // Menu muebles
   "menu-item#muebles": {
@@ -834,9 +826,7 @@
     }
   },
   //Sub-sub Menu Muebles de oficina y estudio fin
-
   //Sub-sub Menu Mascotas
-
   "menu-item#muebles-mascota": {
     "props": {
       "id": "menu-item-category-muebles-mascota",
@@ -889,10 +879,7 @@
       }
     }
   },
-
   //Sub-sub Menu Mascotas FIN
-
-
   // Menu muebles FIN
   // Menu Tecnología - INICIO
   "menu-item#tecnologia": {
@@ -924,9 +911,9 @@
       "blockClass": "main-submenu"
     },
     "children": [
-      "menu-item#telefonos-celulares",
+      /* "menu-item#telefonos-celulares", */
       "menu-item#tv-y-video",
-      "menu-item#computadores-y-accesorios",
+      /* "menu-item#computadores-y-accesorios", */
       "menu-item#audio"
     ]
   },
@@ -1017,7 +1004,7 @@
       "blockClass": "submain-submenu"
     },
     "children": [
-      "menu-item#category-apparel-accesorios-tv",
+      /* "menu-item#category-apparel-accesorios-tv", */
       "menu-item#category-apparel-televisores"
     ]
   },
@@ -1241,7 +1228,6 @@
       "menu-item#bicicletas"
     ]
   },
-
   // Sub-sub Menu Scooter eléctrica
   "menu-item#patinetas-y-scooter": {
     "props": {
@@ -1259,7 +1245,6 @@
     }
   },
   // Sub-sub Menu Scooter eléctrica Fin
-
   // Sub-sub Menu Bicicletas
   "menu-item#bicicletas": {
     "props": {
@@ -1277,9 +1262,7 @@
     }
   },
   // Sub-sub Menu Bicicletas Fin
-
   // Sub-sub Menu movilidad fin
-
   // Menu accesorios
   "menu-item#accesorios": {
     "props": {
